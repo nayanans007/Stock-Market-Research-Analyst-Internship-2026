@@ -1,0 +1,368 @@
+# Market Analysis and Research Design
+
+**A Research Plan for Analysing the Information Technology Sector**
+
+Stock Market Research Analyst Internship, Week 1 Deliverable
+
+| Item | Detail |
+|---|---|
+| Prepared by | Nayana Sheelavant |
+| Programme | Stock Market Research Analyst Internship |
+| Chosen sector | Information Technology (GICS), US-listed, benchmarked to the S&P 500 |
+| Document date | 16 October 2026 |
+
+*This document is an academic research plan prepared for a training exercise. It is not investment advice and does not recommend buying or selling any security.*
+
+---
+
+## 1. Executive Summary
+
+This plan sets out how I will analyse the **Information Technology (IT) sector** of the US equity market, using the S&P 500 as the benchmark. IT was chosen because it is the largest and most influential sector by market value, it is highly sensitive to interest rates and earnings expectations, and it is currently driven by a single dominant theme, the build-out of artificial intelligence (AI) infrastructure. These features make it an ideal subject for learning how research methods are applied to real market questions.
+
+The plan uses a **hybrid, top-down then bottom-up design**. Macroeconomic and sector indicators set the context, fundamental and valuation analysis tests whether prices are supported by earnings, technical analysis reads trend and momentum, and a scenario framework turns the evidence into a forward-looking view. Eight indicators are specified, of which three (forward P/E, EPS growth and revisions, and the 10-year Treasury yield) form the core set. All data comes from free, verifiable public sources such as SEC EDGAR, FRED, S&P Dow Jones Indices and FactSet Earnings Insight.
+
+> **Plan at a glance**
+>
+> - **Sector:** Information Technology (semiconductors, software and services, hardware).
+> - **Methods:** top-down macro, bottom-up fundamental, technical, quantitative (correlation and regression), sentiment, and scenario analysis.
+> - **Core indicators:** forward P/E, EPS growth and revisions, 10-year Treasury yield, plus five supporting indicators.
+> - **Timeline:** seven working days, 32 hours, eight analytical steps.
+> - **Output:** an indicator scorecard and bull, base and bear scenarios that feed Weeks 2 to 6.
+
+### Requirement checklist
+
+| Task requirement | Where addressed |
+|---|---|
+| Conduct initial research on a chosen sector using public resources | Section 3 (sector overview and current trends); Section 7 (sources) |
+| Identify and list at least three key market indicators | Section 5 (eight indicators, three core) |
+| Clear explanation of research methodologies selected | Section 6 (six methods with rationale and limitations) |
+| Structured plan with analysis methods and timelines | Sections 8 and 9 (eight steps; seven-day schedule) |
+| Step-by-step approach to analysing market trends | Section 8 |
+| Potential challenges and proposed solutions | Section 11 |
+
+---
+
+## 2. Research Objectives, Scope and Hypotheses
+
+### 2.1 Objective
+
+To design a rigorous, repeatable plan for analysing the current condition and likely direction of the IT sector, and to define the methods, data and indicators that will be used to do so.
+
+### 2.2 Research questions
+
+1. **RQ1 (Trend):** Is the IT sector in an uptrend, downtrend or consolidation relative to the broad market, and how durable is that trend?
+2. **RQ2 (Drivers):** Which macroeconomic and sector-specific factors explain most of the sector's recent price movements?
+3. **RQ3 (Valuation):** Are current valuations supported by earnings growth and the direction of analyst estimates?
+4. **RQ4 (Scenarios):** What developments could change the trend over the next 6 to 12 months, and which indicators would give early warning?
+
+### 2.3 Testable hypotheses
+
+Hypotheses give the analysis a clear pass or fail structure. They are propositions to be tested, not conclusions.
+
+| Hypothesis | Test | Data |
+|---|---|---|
+| **H1:** IT sector returns are negatively sensitive to rising long-term real yields. | Rolling 36-month correlation and regression of monthly sector returns on changes in the 10-year real yield. | Sector ETF prices; FRED series DFII10 |
+| **H2:** Rising earnings-estimate revisions precede relative outperformance over the following 1 to 3 quarters. | Compare net revision breadth with subsequent 3-month relative return versus the S&P 500. | FactSet Earnings Insight; price data |
+| **H3:** Growth in hyperscaler capital expenditure supports semiconductor and hardware earnings; a slowdown is an early warning for those industries. | Track quarterly capex guidance against semiconductor index performance and industry sales. | Company filings; SIA/WSTS sales; SOX index |
+
+*Table 1. Hypotheses to be tested.*
+
+### 2.4 Scope and exclusions
+
+- **In scope:** US-listed IT sector companies (S&P 500 constituents and the sector ETF XLK as a tradable proxy), a 10-year history for valuation and trend work, and a 6 to 12 month forward view.
+- **Out of scope this week:** recommendations on individual stocks (Week 6), full company valuation models (Week 2), and non-equity assets.
+
+---
+
+## 3. Sector Selection and Initial Research
+
+### 3.1 Why Information Technology
+
+- **Size and influence:** IT is among the largest sectors in the S&P 500, so its movements materially affect index returns and portfolios.
+- **Rich data:** companies report quarterly in detail, with abundant public filings, analyst estimates and industry statistics.
+- **Analytical variety:** the sector blends cyclical areas (semiconductors) with recurring-revenue areas (software), allowing several methods to be compared.
+- **Relevance:** it is central to current market debates on AI spending, valuation and concentration.
+
+### 3.2 Sector structure
+
+Under the Global Industry Classification Standard (GICS), the IT sector has three industry groups. The companies named are illustrative examples only.
+
+| Industry group | Illustrative companies | Main earnings drivers |
+|---|---|---|
+| Semiconductors and Semiconductor Equipment | Nvidia, Broadcom, AMD, Micron, Applied Materials, Lam Research | AI accelerator and memory demand, inventory cycles, customer capital spending, export controls, foundry capacity |
+| Software and Services | Microsoft, Oracle, Salesforce, ServiceNow, Adobe, Accenture | Subscription and cloud growth, net revenue retention, enterprise IT budgets, AI product monetisation, pricing power |
+| Technology Hardware and Equipment | Apple, Cisco, Dell, Arista Networks | Product cycles, data-centre networking and servers, supply chain, tariffs, consumer demand |
+
+*Table 2. Structure of the IT sector under GICS.*
+
+**A classification caveat.** Popular discussion of "tech stocks" spans more than one GICS sector. Alphabet and Meta Platforms sit in Communication Services and Amazon sits in Consumer Discretionary, while payment networks such as Visa and Mastercard were moved from IT to Financials in the 2023 GICS revision. The research will therefore use the GICS IT sector as its formal definition and treat these companies as a separate "related demand" group, particularly when tracking AI-related capital expenditure.
+
+### 3.3 Current market themes
+
+The themes below reflect a review of publicly available brokerage commentary, financial media and company disclosures in October 2026. Specific index levels, multiples and growth rates are deliberately not fixed in this plan because they change daily; they will be retrieved and time-stamped on the day of analysis (Section 8, Step 1).
+
+- **AI as the dominant narrative.** Spending on data centres, accelerators, memory, networking and power has been the main driver of earnings expectations and valuations across semiconductors and hardware, and increasingly software.
+- **Debate over the payoff.** Public commentary is divided. Some institutions describe the long-term outlook as strong and driven by durable AI demand, while others warn of bubble-like conditions or argue that the market now needs proof of AI-driven profit growth.
+- **Concentration and breadth.** A small number of very large companies account for a large share of sector and index performance, so sector averages can mask wide differences between stocks. Market commentary has also discussed rotation toward other sectors.
+- **Interest rates and valuation.** Because much of the sector's value lies in future earnings, expectations for central bank policy and long-term yields remain an important valuation driver.
+- **Policy and geopolitics.** Export controls on advanced chips, tariffs and the concentration of advanced chip manufacturing in Taiwan create event risk for the supply chain.
+- **Physical constraints.** Electricity supply, cooling and availability of high-bandwidth memory can limit the pace of AI infrastructure expansion.
+
+---
+
+## 4. Key Factors Affecting Stock Market Movements
+
+Stock prices reflect expectations about future cash flows and the rate used to discount them. The factors below are grouped by how they reach IT sector prices. Understanding the transmission mechanism is what allows an analyst to choose the right indicator for each factor.
+
+| Category | Factor | How it affects IT stocks |
+|---|---|---|
+| Macroeconomic | Interest rates and monetary policy | Higher discount rates reduce the present value of distant earnings, which hits long-duration growth stocks hardest. Policy surprises can move the sector sharply. |
+| Macroeconomic | Inflation and economic growth | Inflation shapes the rate path. Growth influences corporate IT budgets and consumer device demand. |
+| Macroeconomic | US dollar | Many IT firms earn a large share of revenue abroad. A stronger dollar reduces reported foreign revenue. |
+| Sector | AI and cloud capital expenditure | Spending by large cloud providers is revenue for chip, server and networking suppliers. Changes in spending guidance move supplier stocks. |
+| Sector | Semiconductor cycle | Chip demand and inventory swing between shortage and glut, creating earnings volatility. |
+| Sector | Competition and technology shifts | New products or business models can rapidly change market share and pricing power. |
+| Policy and geopolitical | Trade controls, tariffs, regulation | Export limits, tariffs and antitrust or data rules can restrict markets or raise costs. |
+| Company | Earnings, guidance and margins | Results versus expectations, and management outlook, are the most direct short-term price drivers. |
+| Market behaviour | Sentiment, flows and positioning | Crowded positioning and index fund flows can amplify moves in both directions, independent of fundamentals. |
+
+*Table 3. Factors and transmission mechanisms.*
+
+---
+
+## 5. Key Market Indicators
+
+The task requires at least three indicators. This plan specifies eight, in two tiers. The **core tier** is the minimum set that must be analysed in full. The **supporting tier** adds cross-checks so that no conclusion rests on a single measure.
+
+| # | Indicator | What it measures | Why it matters for IT | Source and frequency |
+|---|---|---|---|---|
+| 1 (Core) | Forward P/E of the IT sector versus the S&P 500 and its own 10-year average | Price paid per dollar of expected earnings over the next 12 months | Shows whether the sector is expensive or cheap relative to history and the market | FactSet Earnings Insight (weekly); ETF issuer pages |
+| 2 (Core) | EPS growth and estimate revisions (including share of companies beating estimates) | Direction and strength of earnings and of analyst expectations | Earnings and revisions are the main fundamental support for prices | FactSet Earnings Insight (weekly); SEC EDGAR 10-Q and 8-K (quarterly) |
+| 3 (Core) | 10-year US Treasury yield and 10-year real yield | Market-implied cost of long-term money | Higher real yields lower the value of long-dated growth cash flows | FRED series DGS10 and DFII10 (daily) |
+| 4 (Supporting) | Hyperscaler capital expenditure | Spending by the largest cloud and AI customers | Leading indicator for semiconductor, server and networking demand | Company earnings releases and filings (quarterly) |
+| 5 (Supporting) | Semiconductor cycle: PHLX Semiconductor Index (SOX) and global chip sales | Market pricing and actual industry sales of chips | Confirms whether the hardware side of the AI trade is real and broad | Nasdaq (daily); SIA/WSTS sales data (monthly) |
+| 6 (Supporting) | Relative strength (sector ETF divided by S&P 500) and breadth (% of stocks above 200-day average) | Trend leadership and how many stocks participate | Separates a broad advance from one driven by a few large names | TradingView or StockCharts (daily) |
+| 7 (Supporting) | ISM Manufacturing PMI (new orders) | Direction of business activity and demand | Context for the cyclical parts of the sector | ISM (monthly) |
+| 8 (Supporting) | VIX and investor sentiment survey | Expected volatility and investor mood | Highlights fear or complacency that can precede reversals | FRED VIXCLS (daily); AAII survey (weekly) |
+
+*Table 4. Indicator set. Series codes are the identifiers used on the FRED database.*
+
+### 5.1 Interpretation guide
+
+- **Valuation:** a forward P/E in the top decile of its 10-year range implies less margin for error, but is not a timing signal by itself. It must be read alongside earnings growth.
+- **Earnings:** rising estimates with a high share of positive surprises supports the trend. Falling estimates while prices rise signals a valuation-driven rally that is more fragile.
+- **Rates:** a sustained rise in the real yield is a headwind. A falling real yield is supportive but may reflect weaker growth, so it is checked against the PMI.
+- **Confirmation rule:** a conclusion is only considered robust when at least three of the five scorecard categories (Appendix A) agree.
+
+---
+
+## 6. Research Methodologies and Rationale
+
+No single method answers all four research questions. The plan therefore combines complementary methods and uses each for the question it is best suited to.
+
+| Method | How it will be applied | Why it was selected | Known limitation |
+|---|---|---|---|
+| Top-down macro analysis | Start with growth, inflation, rates, dollar and policy; trace their effect to the sector (Table 3). | Answers RQ2. Sector moves are heavily influenced by macro conditions, especially rates. | Macro relationships change over time and are rarely stable. |
+| Bottom-up fundamental analysis | Review revenue, margins, EPS growth, cash flow and revisions for the sector and its largest companies; compare valuation with history. | Answers RQ3. Earnings are the ultimate source of long-term returns. | Depends on estimates, which can be wrong or revised sharply. |
+| Technical analysis | Moving averages, relative strength, momentum and drawdown to classify the trend state. | Answers RQ1. Captures what investors are actually doing, not just what models imply. | Backward-looking and subjective if patterns are loosely defined. |
+| Quantitative analysis | Rolling correlations and a simple regression of sector returns on market returns and yield changes (H1). | Gives objective, testable evidence for or against hypotheses. | Correlation is not causation; results are sensitive to the sample period. |
+| Sentiment and positioning | Track volatility, investor surveys and breadth. | Detects crowded trades and extremes in optimism or fear. | Short-term signal with many false alarms. |
+| Scenario analysis | Define bull, base and bear cases with triggers linked to the indicators. | Answers RQ4. Handles uncertainty better than a single point forecast. | Scenarios are judgement-based and probabilities are approximate. |
+
+*Table 5. Methods, rationale and limitations.*
+
+### 6.1 How the methods fit together
+
+The analysis flows as a funnel. **Macro analysis** sets the environment. **Fundamental analysis** tests whether prices are justified. **Technical and sentiment analysis** show how the market is behaving right now. **Quantitative tests** check the relationships assumed above. Finally, **scenario analysis** combines the evidence into a view with explicit triggers. Using several methods reduces the risk of confirmation bias, because a conclusion has to survive evidence from different angles.
+
+---
+
+## 7. Data Sources and Data Quality
+
+| Data needed | Primary source | Secondary or cross-check | Reliability note |
+|---|---|---|---|
+| Company financials and filings | SEC EDGAR (10-K, 10-Q, 8-K); company investor relations pages | Yahoo Finance; Nasdaq company pages | Primary filings are the authoritative record. Aggregators may adjust or restate. |
+| Sector valuation and earnings aggregates | FactSet Earnings Insight (free weekly report) | S&P Dow Jones Indices; ETF issuer fact sheets | Check each source's definition of "forward" and index membership. |
+| Interest rates, inflation, growth | FRED (Federal Reserve Bank of St. Louis) | US Treasury; BLS; BEA; Federal Reserve statements | Official data, but later revised. Record the release date. |
+| Prices and technical indicators | TradingView or StockCharts; Yahoo Finance (adjusted close) | ETF issuer price history | Use dividend-adjusted prices for return calculations. |
+| Semiconductor industry data | Semiconductor Industry Association (SIA) and WSTS monthly sales | Company results; SEMI equipment data | Monthly figures are published with a lag. |
+| Business activity | ISM Manufacturing PMI | S&P Global PMI | Survey-based; treat as directional. |
+| Sentiment | Cboe VIX via FRED; AAII Investor Sentiment Survey | Fund flow summaries from ETF providers | Noisy; use only to confirm other evidence. |
+| Qualitative context | Federal Reserve statements; company earnings call transcripts and presentations | Reputable financial media; brokerage research summaries | Opinions vary. Prefer primary documents and note any conflict of interest. |
+
+*Table 6. Data sources.*
+
+### 7.1 Data quality protocol
+
+- Verify every key figure against at least two independent sources, or against the primary filing.
+- Record the retrieval date, source, metric definition and series code in a data log for every dataset.
+- Use consistent date ranges and dividend-adjusted prices across all calculations.
+- Save a raw snapshot of each dataset before any cleaning so that results can be reproduced.
+- Distinguish clearly between facts, estimates and opinions in the final write-up.
+
+---
+
+## 8. Step-by-Step Approach to Analysing Market Trends
+
+The following eight steps will be executed in order. Each step names the method used, the output produced and the research question answered.
+
+### Step 1: Define the universe and capture the baseline
+
+Define the sector as the S&P 500 IT sector, using the XLK ETF and the SOX index for the semiconductor industry. Record the current index level, sector weight, forward P/E and one-year and five-year returns, each with a date stamp.
+
+**Output: baseline data table.**
+
+### Step 2: Classify the trend (RQ1)
+
+Calculate the price relative to the 50-day and 200-day moving averages, 3-, 6- and 12-month returns, the relative strength ratio (XLK divided by the S&P 500), and the current drawdown from the 52-week high. Classify the sector as uptrend, downtrend or consolidation using stated rules, for example price above both averages with the 50-day above the 200-day.
+
+**Output: trend classification with supporting chart.**
+
+### Step 3: Assess valuation (RQ3)
+
+Compare the sector forward P/E with its own 10-year range (percentile rank) and with the S&P 500 (premium or discount). Add PEG ratio and free cash flow yield as cross-checks, and compare the semiconductors and software industry groups separately.
+
+**Output: valuation percentile table.**
+
+### Step 4: Analyse earnings and fundamentals (RQ3)
+
+Collect revenue growth, operating margin, EPS growth and the direction of estimate revisions. Review the latest quarterly filings of the largest companies and record capital expenditure guidance from the major cloud providers.
+
+**Output: fundamentals summary and capex tracker.**
+
+### Step 5: Link to the macro environment (RQ2)
+
+Run the H1 test: regress monthly sector returns on market returns and on changes in the 10-year real yield over a rolling 36-month window. Review the ISM PMI and dollar trend. Record whether the sensitivity to rates is stable or changing.
+
+**Output: correlation and regression table; macro summary.**
+
+### Step 6: Measure sentiment and breadth
+
+Record VIX level, AAII survey readings and the share of sector stocks above their 200-day average. Compare the performance of the top five holdings with the rest of the sector to measure concentration.
+
+**Output: sentiment and breadth panel.**
+
+### Step 7: Build the indicator scorecard
+
+Score each of five categories (valuation, earnings, rates and macro, trend, sentiment) as -1, 0 or +1 using pre-set thresholds, apply the weights in Appendix A and compute a composite reading.
+
+**Output: completed scorecard.**
+
+### Step 8: Develop scenarios and a monitoring plan (RQ4)
+
+Define bull, base and bear scenarios (Section 10) with triggers tied to the indicators. Set a review schedule: weekly for prices, yields and sentiment, monthly for industry sales and PMI, quarterly for earnings and capex.
+
+**Output: scenario table and monitoring calendar.**
+
+---
+
+## 9. Timeline and Resource Plan
+
+The work is scheduled over seven days for a total of 32 hours, inside the 30 to 35 hour allocation. A buffer of up to three hours is available for data problems or re-work.
+
+| Phase | D1 | D2 | D3 | D4 | D5 | D6 | D7 | Hours |
+|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| 1. Scoping, sector selection, research questions | ■ | | | | | | | 3 |
+| 2. Initial sector research (reports, ETF fact sheets, filings, news) | ■ | ■ | | | | | | 6 |
+| 3. Indicator selection and data collection | | ■ | ■ | | | | | 6 |
+| 4. Data cleaning and analysis (trend, valuation, correlation) | | | ■ | ■ | ■ | | | 7 |
+| 5. Scenario building, challenges and mitigation | | | | | ■ | ■ | | 3 |
+| 6. Drafting, charts, tables, internal review | | | | | | ■ | ■ | 5 |
+| 7. Quality assurance, citation check, final formatting | | | | | | | ■ | 2 |
+| **Total effort** | | | | | | | | **32** |
+
+*Table 7. Seven-day schedule. D1 to D7 are consecutive working days; ■ marks active days.*
+
+**Tools:** spreadsheet software (Excel or Google Sheets) for data handling and regression; TradingView or StockCharts for charts; a reference manager or simple log for sources; word processor for the final document.
+
+---
+
+## 10. Scenario Framework
+
+Scenarios turn the analysis into a view of the next 6 to 12 months. The triggers below are the conditions that the monitoring plan will watch. They are a framework for reasoning and not a forecast or a statement of probability.
+
+| Scenario | Narrative | Indicator conditions that would support it | What it would imply for the sector |
+|---|---|---|---|
+| Bull | AI spending continues to convert into earnings; rates stable or easing; breadth widens. | Positive and rising EPS revisions; capex guidance maintained or raised; real yields flat or falling; more stocks above 200-day average. | Trend continuation; valuation supported by earnings growth. |
+| Base | Growth continues but at a slower pace; valuation absorbs news without large re-rating. | Revisions flat to mildly positive; capex growth moderating; yields range-bound; leadership narrow. | Choppy, range-bound performance with wide dispersion between stocks. |
+| Bear | AI spending slows or fails to earn adequate returns; rates rise or policy shock occurs. | Falling revisions; cuts in capex guidance; real yields rising; weakening breadth; VIX spike. | Valuation compression and drawdown, most severe in the most expensive and most AI-exposed names. |
+
+*Table 8. Scenario framework.*
+
+---
+
+## 11. Potential Challenges and Proposed Solutions
+
+| Challenge | Why it matters | Proposed solution |
+|---|---|---|
+| Information overload and conflicting opinions | Large volumes of commentary with opposing views can lead to cherry-picking. | Anchor on primary data. Pre-define indicators and thresholds before reading commentary. Log opposing views and explain why they are accepted or rejected. |
+| Hype and narrative bias | AI is a dominant story, which may bias both sources and the analyst. | Apply the confirmation rule (three of five categories must agree). Explicitly search for evidence that contradicts the working view. |
+| Concentration distorts averages | A few mega-cap stocks can make the sector look stronger or weaker than the typical stock. | Report both cap-weighted and equal-weighted results; track breadth and the top-five versus rest comparison. |
+| Data revisions and publication lags | Economic data is revised and industry data is delayed, so a snapshot can mislead. | Time-stamp all data. Use the release date, not the period date, when relating data to prices. Note when figures are preliminary. |
+| Limits of free data | Free sources may lack estimates history or constituent-level detail. | Use the free FactSet weekly report, ETF issuer data and company filings. Where history is unavailable, state the limitation and use a shorter window. |
+| Unstable statistical relationships | Correlations between rates and tech stocks change across market regimes. | Use rolling windows rather than a single full-sample figure; report ranges and avoid over-precise claims. |
+| Accounting differences across companies | Adjusted earnings and stock-based compensation can make profits look different across firms. | Compare both GAAP and adjusted measures; use free cash flow as a cross-check. |
+| Time constraint | The scope is broad for 32 hours. | Follow the phase budget in Section 9; prioritise the core indicators first; use the three-hour buffer only for the highest-priority gaps. |
+| Unexpected events | Policy or geopolitical shocks can invalidate a view quickly. | Maintain the scenario triggers and monitoring calendar; revise the base case when a trigger is hit. |
+
+*Table 9. Challenges and mitigation.*
+
+---
+
+## 12. Expected Outputs, Limitations and Ethics
+
+### 12.1 Expected outputs
+
+- A time-stamped baseline of sector data and a trend classification.
+- A valuation and earnings assessment with percentile rankings.
+- Results of the hypothesis tests (H1 to H3).
+- A completed indicator scorecard and three scenarios with triggers.
+- A monitoring calendar that carries forward into Weeks 2 to 6, where a company will be valued (Week 2), charts studied in detail (Week 3), risks and diversification assessed (Week 4), and economic indicators examined at greater depth (Week 5).
+
+### 12.2 Limitations
+
+The plan relies on public data and simple tools, so it cannot match the depth of institutional research. Statistical tests use limited samples, scenario judgements are subjective, and markets can move on information that is not in any indicator. Findings should be read as a structured assessment under uncertainty.
+
+### 12.3 Ethics and disclosure
+
+The work uses only public information. No non-public information is used, sources are credited, and the document does not constitute investment advice. Any positions held by the author in relevant securities would be disclosed.
+
+---
+
+## 13. Conclusion
+
+The Information Technology sector offers a rich and timely subject for a first research plan. By combining top-down macro analysis, bottom-up fundamentals, technical and sentiment evidence, quantitative testing and scenarios, this plan avoids over-reliance on any single view and gives each research question a defined method, data source and output. Eight indicators, three of them core, provide a measurable basis for judging the sector, and the explicit challenge and mitigation section shows how the main risks to the research itself will be managed. The result is a plan that can be executed within the available time and that forms the foundation for the company-level, technical, risk and macro work in the following weeks.
+
+---
+
+## Appendix A: Indicator Scorecard Template
+
+Each category is scored -1 (negative), 0 (neutral) or +1 (positive) against thresholds fixed before the data is examined. The composite is the weighted sum, ranging from -1 to +1. The weights are initial judgements and are shown so that they can be challenged and tested for sensitivity.
+
+| Category | Indicators used | Weight | Example threshold for +1 / -1 | Score |
+|---|---|:-:|---|---|
+| Valuation | Forward P/E percentile; premium to S&P 500 | 20% | +1: below 40th percentile of 10-year range. -1: above 85th percentile. | To be completed |
+| Earnings | EPS growth; revision breadth; capex guidance | 25% | +1: revisions positive and rising. -1: revisions negative. | To be completed |
+| Rates and macro | 10-year real yield trend; PMI; dollar | 20% | +1: real yield falling with PMI above 50. -1: real yield rising sharply. | To be completed |
+| Trend and momentum | Moving averages; relative strength; breadth | 20% | +1: price above 50- and 200-day averages with improving breadth. -1: below both. | To be completed |
+| Sentiment | VIX; AAII survey | 15% | +1: elevated fear with stabilising prices. -1: extreme complacency. | To be completed |
+
+*Table A1. Scorecard template. Weights total 100%.*
+
+---
+
+## References and Data Sources
+
+1. U.S. Securities and Exchange Commission, EDGAR company filings: https://www.sec.gov/edgar
+2. Federal Reserve Bank of St. Louis, FRED Economic Data: https://fred.stlouisfed.org
+3. FactSet, Earnings Insight (weekly report): https://insight.factset.com
+4. S&P Dow Jones Indices, S&P 500 sector indices: https://www.spglobal.com/spdji
+5. Select Sector SPDR Funds, Technology Select Sector SPDR (XLK): https://www.ssga.com
+6. Semiconductor Industry Association, global sales data: https://www.semiconductors.org
+7. World Semiconductor Trade Statistics (WSTS): https://www.wsts.org
+8. Institute for Supply Management, Manufacturing PMI: https://www.ismworld.org
+9. Cboe Global Markets, VIX index: https://www.cboe.com/tradable_products/vix
+10. AAII Investor Sentiment Survey: https://www.aaii.com/sentimentsurvey
+11. U.S. Bureau of Labor Statistics: https://www.bls.gov; U.S. Bureau of Economic Analysis: https://www.bea.gov
+12. MSCI and S&P Global, Global Industry Classification Standard (GICS) structure and 2023 revision notes
+13. Brokerage market outlooks and financial media coverage of the technology sector, reviewed October 2026 (cited for themes only; no figures are taken from them)
