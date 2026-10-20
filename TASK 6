@@ -1,0 +1,350 @@
+# Week 6 Report: Investment Recommendation and Comprehensive Report
+
+**Companies:** Microsoft Corporation (MSFT) and JPMorgan Chase & Co. (JPM)
+
+**Prepared by:** Nayana Sheelavant        **Date:** 19th October, 2026
+
+## 1. Executive Summary
+
+This is the final report of the internship. It pulls together the market research, financial statement review, technical analysis, risk assessment and economic analysis from the previous five weeks and turns them into a recommendation for two companies: Microsoft and JPMorgan Chase.
+
+**Microsoft is a business I admire at a price I cannot justify.** Revenue grew 18% to $332 billion, operating margin is 46.8% and Azure has passed $100 billion in annual sales. But capital spending has swallowed the extra profit, so free cash flow fell to $67 billion, and the share price of $529.05 sits above even the base case of my valuation (about $406 at a 9.9% discount rate, and about $390 using today's higher yields). The price is close to my bull case and to a resistance zone of $540 to $555 that has stopped it before. My recommendation is **Hold**: keep what you own, and add new money only in stages at lower prices.
+
+**JPMorgan is a strong bank at a fair price, with a chart that is resting on support.** Third-quarter net income was $15.3 billion, net interest income rose 13% and return on tangible equity was 20%. At about $336 the shares trade at 13.9 times 2026 earnings estimates and 3.0 times tangible book value, which is close to my fair value of about $328 and to Morningstar's $330. The price has pulled back about 11% from its August record to the 200-day average. My recommendation is **Accumulate on weakness**: buy in stages near $316 to $326, or after a close above $351.55.
+
+|  | Microsoft (MSFT) | JPMorgan Chase (JPM) |
+| --- | --- | --- |
+| Recommendation | Hold. No new money above about $505 | Accumulate on weakness |
+| Price used | $529.05 (16 Oct 2026 close) | About $336 (13 Oct 2026) |
+| My fair value range | $247 to $538; base about $390 to $406 | About $282 to $360; central about $328 |
+| Why | Excellent business, thin cash flow, price needs the bull case | Strong earnings, reasonable price, support nearby |
+| Main risk | AI spending that does not earn its return; a higher discount rate | Rising credit costs and slower capital markets income |
+| Where I would add | $480 to $505, then $435 to $456 | $316 to $326, or above $351.55 |
+| Where I would rethink | Weekly close below $435 | Close below $315.70 |
+
+*Table 1. Recommendation summary.*
+
+Both recommendations sit inside the diversified framework from Week 4. Neither company should be more than about 5% of a portfolio, and the plan tells you what I would do if the economic backdrop from Week 5 turns worse.
+
+## 2. How the Six Weeks Fit Together
+
+| Week | Question asked | Main finding carried into this report |
+| --- | --- | --- |
+| 1. Market analysis and research design | How should a sector be studied? | A hybrid method: macro first, then fundamentals, technicals, sentiment and scenarios. Technology was the sector. |
+| 2. Financial statements and valuation | What is Microsoft worth? | Excellent profitability, falling free cash flow and a DCF value below the share price. |
+| 3. Technical analysis | What is price doing? | Microsoft extended at resistance; JPMorgan correcting into support. |
+| 4. Risk and diversification | What can go wrong and how do we spread the risk? | A diversified portfolio cut risk by about 40% to 50% for a small cost in expected return. |
+| 5. Economic indicators | What does the economy say about markets? | Rates and inflation are the main pressure; a base case of range-bound markets. |
+
+*Table 2. Summary of the earlier weeks.*
+
+I chose two companies because these are the two I could study through every lens across the weeks. They also behave differently: Microsoft is a growth company whose value depends on profits far in the future, and JPMorgan is a bank whose profits respond to rates and credit. A third holding would have meant new work in every section, and I preferred depth to breadth. I cover the rest of the portfolio at asset-class level in Section 8.
+
+## 3. The Backdrop: Sector and Economy
+
+### 3.1 Technology sector
+
+In Week 1, I identified the main drivers of technology stocks: the AI spending cycle, interest rates, the concentration of index performance in a few large companies, and policy and supply risks. October 2026 data fits that picture. The S&P 500 and Nasdaq reached record highs in early October, with the Nasdaq Composite up 17.7% for the year, and market commentary put the AI chip group at the centre of the rally. At the same time the Dow was still about 5% below its August record in early October, and a major bank ETF was about 12% below its mid-August high, so leadership is narrow.
+
+### 3.2 The economy (Week 5)
+
+The economy is growing steadily but with warning lights. US GDP rose 2.2% in the second quarter, September payrolls rose only 29,000 and inflation reached 3.7% as gasoline prices rose 34% over the year. The Federal Reserve raised rates on 16 September to 3.75% to 4.00%, and the 10-year Treasury yield reached about 5.24% on 9 October, the highest in more than two decades. My base case is range-bound markets (about 50%), with a soft landing (about 25%) and a stagflation scare (about 25%) as the alternatives.
+
+The main message for stock selection is that valuation matters more than usual. When a risk-free asset pays more than 5%, the price paid for each dollar of profit has less room to be generous. That favours businesses valued reasonably against their earnings, which is one reason the two recommendations differ.
+
+## 4. Company One: Microsoft
+
+### 4.1 Financial review
+
+Microsoft's numbers, from the earnings release of 29 July 2026 and the earlier annual reports, are in Table 3.
+
+| ($ billion unless stated) | FY2024 | FY2025 | FY2026 |
+| --- | ---: | ---: | ---: |
+| Revenue | 245.1 | 281.7 | 331.8 |
+| Operating income | 109.4 | 128.5 | 155.2 |
+| Operating margin | 44.6% | 45.6% | 46.8% |
+| Net income | 88.1 | 101.8 | 133.7 |
+| Diluted EPS ($) | 11.80 | 13.64 | 17.95 |
+| Operating cash flow | 118.5 | 136.2 | 182.9 |
+| Capital spending | 44.5 | 64.6 | 115.9 |
+| Free cash flow | 74.1 | 71.6 | 67.0 |
+| Return on equity | n/a | 33.3% | 34.0% |
+| Net cash (cash less debt) | 30.6 | 51.4 | 36.5 |
+
+*Table 3. Microsoft financial summary.*
+
+The business is extraordinary on every measure except one. Revenue growth of 18%, an operating margin near 47%, return on equity of 34% and a net cash balance all point to a company at the top of its game. The exception is free cash flow, which has gone down each year while profit has gone up. Capital spending reached 35% of revenue in FY2026, against 18% two years earlier. Net income was also helped by investment gains of about $10.7 billion in other income, so the operating story is a little less strong than the 31% headline growth suggests.
+
+### 4.2 Valuation
+
+| Scenario | At a 9.9% discount rate | At 10.1% (10-year yield at 5.24%) | Versus $529.05 (second column) |
+| --- | ---: | ---: | ---: |
+| Bear | $257 | $247 | -51% / -53% |
+| Base | $406 | $390 | -23% / -26% |
+| Bull | $538 | $516 | +2% / -3% |
+| Weighted (25/50/25) | $402 | $386 | -24% / -27% |
+
+*Table 4. Microsoft DCF values per share. The third column rebuilds the discount rate using the 10-year yield of 5.24% reported on 9 October; operating assumptions are unchanged from Week 2.*
+
+This table updates Week 2. I used a 5.0% risk-free rate there, based on mid-September yields. By 9 October the 10-year yield was 5.24%, so I reran the model, and every scenario fell by about 4%. The ordering of the conclusions does not change. At the current price, Microsoft is valued at roughly the bull case of my model.
+
+Analysts are more optimistic, with price targets averaging about $599 and ranging from $440 to $870. Their numbers can be right if growth runs ahead of my base case or if yields fall. My model does not rule that out. It says the current price already assumes it, so the cushion for disappointment is small. Other measures agree: 29.5 times earnings, 59 times free cash flow and a free cash flow yield of 1.7%, against a risk-free yield above 5%.
+
+### 4.3 Technical picture
+
+The chart shows a sharp recovery of about 51% from the 24 June low of $349.20 to $529.05, with price above rising 50-day ($503.91) and 200-day ($434.78) averages and positive MACD momentum. The stock has run into a resistance zone of $540 to $555 for what looks like the third time. A close above about $555 on strong volume would be a bullish breakout. A close below the 50-day average near $504 would suggest the ceiling has held. It is constructive, but extended.
+
+### 4.4 Risks
+
+| Risk | Why it matters | What would show it is happening |
+| --- | --- | --- |
+| AI spending without returns | Capital spending is about a third of revenue and depreciation is rising | Capex guidance up while Azure growth slows; free cash flow falling further |
+| Higher discount rates | A growth company is sensitive to the 10-year yield | Yield sustained above about 5.5% |
+| Event risk | Earnings and the Fed decision both land on 28 October | A large gap down or up through $504 or $555 |
+| Concentration of the AI trade | The rally is led by a small number of stocks | Narrowing market breadth |
+| Investment gains reverse | OpenAI and Anthropic stakes add volatility to reported profit | Large investment losses in other income |
+
+*Table 5. Microsoft risks.*
+
+### 4.5 Conclusion on Microsoft: Hold
+
+The business deserves a place in a long-term portfolio. The price today does not give a margin of safety. If you own it, keep it, and if it has grown past about 5% of the portfolio, trim it back. If you do not own it, I would not buy at this level. I would build a position in stages on a pullback: a first third in the $480 to $505 zone around the 50-day averages, and a second third in the $435 to $456 zone around the 200-day averages. I would reassess after the 28 October results, where capital spending guidance matters most.
+
+## 5. Company Two: JPMorgan Chase
+
+### 5.1 Financial review
+
+JPMorgan reported third-quarter results on 13 October 2026. Banks are different from technology companies. Revenue comes mostly from net interest income (the gap between what it earns on loans and pays on deposits) and from fee and trading businesses, and the key risks are credit losses and capital strength.
+
+| Item | Q3 2026 | Comment |
+| --- | --- | --- |
+| Net income | $15.3 billion, up 6% | $15.8 billion excluding a $658 million securities loss |
+| Diluted EPS | $5.57, up 10% (from $5.07) | $5.75 excluding the loss; estimates were roughly $5.9 |
+| Net revenue | $50.9 billion, up 8% | Net interest income $27.1 billion, up 13%; fee revenue $23.8 billion, up 3% |
+| Expenses | $27.3 billion, up 12% | Hiring, wages and revenue-linked pay |
+| Credit costs | $2.7 billion | $2.2 billion net charge-offs and a $539 million reserve build |
+| Return on tangible equity | 20% (21% excluding the loss) | Very high for a bank |
+| Book value / tangible book value per share | $132.30 / $112.64 | Up 6% and 7% over the year |
+| Capital | CET1 ratio 13.9% | Well above regulatory minimums |
+| Shareholder returns | Dividend $1.65 per share; $664 million net buybacks | Buybacks reduced to prioritise lending growth |
+| Outlook | Fourth-quarter net interest income about $28 billion | Management more selective on credit |
+
+*Table 6. JPMorgan third-quarter 2026 highlights. Source: JPMorgan Chase earnings release (Form 8-K) and earnings call.*
+
+Earnings were good but not perfect: earnings per share missed expectations, the first miss since late 2023, because of an investment securities loss. Underneath, the results were strong. The Corporate and Investment Bank earned $8.2 billion (up 20%), consumer banking $5.7 billion (up 13%) and asset and wealth management $1.8 billion (up 11%). The weaker points are costs, which are growing faster than revenue, and credit, where management said it is becoming more selective and is watching risks from high interest rates, AI-related financing and market volatility. Morningstar noted that markets revenue, though 15% higher than a year ago, fell 15% from the second quarter, so the exceptional pace of the first half is fading.
+
+### 5.2 Valuation
+
+Banks are usually valued against tangible book value. A common approach ties the right multiple to profitability: fair price to tangible book equals (return on tangible equity minus growth) divided by (cost of equity minus growth). I assumed growth of 4%, a return on tangible equity between 17% and 21%, and a cost of equity between 9% and 11%. JPMorgan's tangible book value per share is $112.64.
+
+| Cost of equity \ ROTCE | 17% | 18% | 19% | 20% | 21% |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| 9% | $293 | $315 | $338 | $360 | $383 |
+| 10% | $244 | $263 | $282 | $300 | $319 |
+| 11% | $209 | $225 | $241 | $257 | $274 |
+
+*Table 7. Value per share from tangible book value, growth of 4%.*
+
+My central case uses a 20% return (the reported level), a 9.5% cost of equity and 4% growth. That gives a multiple of 2.91 times tangible book, or about $328 a share. The grid shows how sensitive this is: the price of $336 needs roughly a 9% cost of equity with a 19% return, or a 20% return with a cost of equity around 9.3%. A cross-check on earnings gives a similar answer. At 12 to 16 times the 2026 estimate of $24.13 (a consensus figure from before the results), the range is $290 to $386, and the shares trade at 13.9 times. Morningstar's fair value is $330 and the pre-earnings consensus target is $372. The shares also yield about 2.0% in dividends.
+
+Put together, JPMorgan looks fairly valued: not cheap, but priced for continued strong profitability, not for perfection.
+
+### 5.3 Technical picture
+
+JPMorgan has been in an ascending channel since the April 2025 low of $202.16. It hit a record of $366.50 on 13 August, then pulled back about 11% to $325.87 on 1 October, stalling at the 200-day average (about $322 to $325) and a 61.8% Fibonacci retracement. RSI of about 60 and a slightly positive MACD are neutral to firm. Short-term averages ($337 to $352) still sit above the price. A close above $351.55 would confirm that buyers are back; a close below about $321 would break the channel and point to $315.70.
+
+### 5.4 Risks
+
+| Risk | Why it matters | What would show it is happening |
+| --- | --- | --- |
+| Rising credit costs | Higher rates and inflation strain borrowers; credit costs were already $2.7 billion | Net charge-offs and reserve builds above Q3 levels for two quarters |
+| Capital markets slowdown | Markets and investment banking revenue were unusually strong early in 2026 | Further quarter-on-quarter declines in markets revenue and fees |
+| Cost growth | Expenses are up 12%, ahead of 8% revenue growth | Margin and return on tangible equity falling below 18% |
+| AI-related financing | Management flagged it as a risk to monitor | Losses or stress in lending tied to data centres and AI |
+| Rate path | Higher rates help interest income but can hurt credit and securities values | Yields rising sharply; the September securities loss recurring |
+
+*Table 8. JPMorgan risks.*
+
+### 5.5 Conclusion on JPMorgan: Accumulate on weakness
+
+This is a high-quality franchise that is reasonably priced. The chart and the valuation both say the best entry is on weakness, not on strength. I would buy a first half of the intended position in the $316 to $326 zone (the 200-day averages and the pivot support), and the second half after a close above the 50-day average at $351.55 shows that the correction is over. If the stock closes below $315.70, I would stop and reassess.
+
+## 6. Putting the Two Side by Side
+
+|  | Microsoft | JPMorgan |
+| --- | --- | --- |
+| Business quality | Very strong: operating margin 46.8%, ROE 34% | Very strong: ROTCE 20%, CET1 13.9% |
+| Growth | Strong: revenue +18%, Azure +41% | Solid: revenue +8%, net interest income +13% |
+| Cash and capital | Weakening: free cash flow down 6.5% on heavy capex | Sound, but buybacks cut and costs rising |
+| Valuation | Stretched: 29.5x earnings; DCF base below price | Fair: 13.9x 2026 estimates; about 3.0x tangible book |
+| Technical | Constructive but extended at $540 to $555 | Neutral; correcting into support at $316 to $326 |
+| Sensitivity to the economy | High: long-duration growth stock; 10-year yield above 5% | Mixed: higher rates help income but raise credit risk |
+| Main risk | AI spending that does not earn its return | Credit costs and a capital markets slowdown |
+| Recommendation | Hold | Accumulate on weakness |
+
+*Table 9. Integrated scorecard.*
+
+**Figure 1** (chart in the Word version). Valuation and technical ranges compared with the current share price for each company. The dashed line is the price; thick marks show central or average values.
+
+| Company | Method | Low ($) | High ($) | Central ($) |
+| --- | ---: | ---: | ---: | ---: |
+| Microsoft | DCF scenarios (9.9% discount rate) | 257 | 538 | 406 |
+| Microsoft | Analyst price targets | 440 | 870 | 599 |
+| Microsoft | Technical band | 435 | 554 |  |
+| JPMorgan | P/TBV method | 282 | 360 | 328 |
+| JPMorgan | P/E of 12x to 16x on 2026 EPS | 290 | 386 | 338 |
+| JPMorgan | Morningstar fair value to consensus target | 330 | 372 |  |
+| JPMorgan | Technical band | 316 | 366 |  |
+
+The chart makes the difference plain. Microsoft's price sits at the top of my valuation range and inside a technical band with limited room above it. JPMorgan's price sits in the middle of its ranges, with support below and the record high above.
+
+## 7. Risk Assessment for the Recommendations
+
+Week 4 showed that the risk in a portfolio comes less from any single company than from how much of the portfolio moves together. Microsoft and JPMorgan are different kinds of businesses but both would fall in a broad stock market sell-off, and both have a link to interest rates. The table shows how each would be expected to behave in the three scenarios from Week 5.
+
+| Scenario (Week 5) | Microsoft | JPMorgan | What I would do |
+| --- | --- | --- | --- |
+| Base case (about 50%): range-bound market | Flat to slightly lower; valuation caps gains | Steady; earnings support the price | Follow the staged plan in Table 11 |
+| Soft landing (about 25%): energy falls, Fed stops | Positive; lower yields help a growth stock | Neutral to positive; credit stays benign | Let the plan run; Microsoft may not pull back, so accept a smaller position |
+| Stagflation scare (about 25%): oil and inflation rise | Negative; the most exposed to higher yields | Negative on credit worries, partly offset by interest income | Pause new buying, hold the defensive sleeves of the portfolio |
+
+*Table 10. Behaviour by scenario. These are qualitative judgements.*
+
+Using the Week 4 results as a guide, a concentrated technology portfolio lost about 27% in the 2022 rate-shock scenario against about 16% for the diversified one, and about 32% in my hypothetical AI-unwind scenario against about 16%. That is why neither company should be a large part of the portfolio, however good it looks.
+
+## 8. Recommendations and Action Plan
+
+### 8.1 Rating scale
+
+| Rating | Meaning |
+| --- | --- |
+| Buy / Accumulate | Price is at or below fair value with acceptable risk. Build a position in stages. |
+| Accumulate on weakness | Fair value is close to the price. Add only at stated lower prices or after confirmation. |
+| Hold | Keep existing holdings. Do not add at current prices. |
+| Reduce / Sell | Price is well above fair value or the thesis has broken. |
+
+*Table 11. Rating definitions used in this report.*
+
+### 8.2 Position sizing
+
+I use the Week 4 hypothetical US$100,000 diversified portfolio as the frame. In that portfolio, technology is 15% ($15,000) and US broad equity is 30% ($30,000). A single stock should be capped at about 5% ($5,000). So Microsoft can be at most about $5,000, which is about a third of the technology sleeve, with the rest in a technology index fund. JPMorgan can be up to about $4,000 to $5,000 as part of the equity holdings, noting that the S&P 500 fund already holds some of both companies.
+
+### 8.3 Action plan
+
+| Step | Microsoft | JPMorgan |
+| --- | --- | --- |
+| Today | Hold existing shares. Do not add above about $505. | Buy nothing yet at about $336; wait for the stated zones. |
+| First purchase | About one third of target ($1,500 to $1,700) at $480 to $505 after the 28 October results. | About half of target ($2,000 to $2,500) at $316 to $326. |
+| Second purchase | Another third at $435 to $456. | The other half after a close above $351.55. |
+| Alternative (momentum) | A weekly close above about $555 on heavy volume allows a third of the position, accepting a richer price. | Not needed. |
+| Trim | If the holding exceeds 5% of the portfolio. | If the holding exceeds 5% of the portfolio. |
+| Rethink | Weekly close below $435, or capex rising while Azure growth falls well below recent rates. | Close below $315.70, or credit costs well above $2.7 billion for two quarters. |
+| Next review | After 28 October earnings; then January 2027 results. | After the fourth-quarter results in January 2027 (expected). |
+
+*Table 12. Action plan. Price levels are from the Week 3 and Week 6 analysis.*
+
+### 8.4 Portfolio-wide triggers from the economic analysis
+
+| Trigger | Current | If it happens |
+| --- | --- | --- |
+| 10-year Treasury yield | About 5.24% (9 Oct) | Sustained above about 5.5%: pause new buying and review the technology weight |
+| US CPI inflation | 3.7% (September) | Above 4%: raise inflation-linked bonds and cash within the Week 4 limits |
+| Brent crude | About $105 (9 Oct) | Sustained above about $115: treat the stagflation scenario as the base case |
+| Monthly payrolls | +29,000 (September) | Negative readings: expect the Fed to turn and review defensive holdings |
+| Fed policy | 3.75% to 4.00%; one more hike expected | More hikes than projected: reduce expensive growth exposure |
+
+*Table 13. Review triggers. These thresholds are my own, not market facts.*
+
+### 8.5 Calendar
+
+| Date | Event |
+| --- | --- |
+| 27 and 28 October 2026 | Federal Reserve meeting |
+| 28 October 2026 | Microsoft fiscal first-quarter results |
+| Early November 2026 | US October jobs report; US midterm elections |
+| 10 November 2026 | US CPI for October |
+| December 2026 | Federal Reserve meeting |
+| January 2027 (expected) | JPMorgan and Microsoft results |
+
+*Table 14. Dates to watch.*
+
+### 8.6 Worked examples
+
+| Calculation | Working | Result |
+| --- | --- | --- |
+| Microsoft probability-weighted value | 0.25 x $256.7 + 0.50 x $406.2 + 0.25 x $538.4 | $401.9 |
+| Microsoft weighted value against the price | $401.9 / $529.05 - 1 | -24.0% |
+| JPMorgan fair multiple of tangible book | (20% - 4%) / (9.5% - 4%) | 2.91x |
+| JPMorgan central fair value | $112.64 x 2.91 | $327.7 |
+| JPMorgan price against fair value | $336.00 / $327.7 - 1 | +2.5% |
+| JPMorgan current multiple of tangible book | $336.00 / $112.64 | 2.98x |
+| JPMorgan dividend yield | 4 x $1.65 / $336.00 | 1.96% |
+
+*Table 11a. Valuation calculations.*
+
+| Reference value | Amount | Versus price |
+| --- | ---: | ---: |
+| Microsoft, base DCF (9.9% discount rate) | $406 | -23.2% |
+| Microsoft, weighted DCF at 10.1% | $386 | -27.1% |
+| Microsoft, bull DCF (9.9%) | $538 | +1.8% |
+| Microsoft, average analyst target | $599 | +13.2% |
+| JPMorgan, P/TBV central value | $328 | -2.5% |
+| JPMorgan, 14 times 2026 EPS of $24.13 | $338 | +0.5% |
+| JPMorgan, Morningstar fair value | $330 | -1.8% |
+| JPMorgan, consensus target (pre-earnings) | $372 | +10.8% |
+
+*Table 11b. How far each reference value is from the current price.*
+
+Read together, every one of my own Microsoft values is below the price and only the analyst target is above it, which is why the rating is Hold. For JPMorgan the reference values straddle the price, from about 2% below to about 11% above, which is what a fairly valued stock looks like and why the plan relies on buying lower or after confirmation.
+
+| Staged entry | Working | Average cost |
+| --- | --- | --- |
+| Microsoft, thirds at $495 and $445 (zones from Table 12) | ($495 + $445) / 2 | $470 for two thirds of the position, 11.2% below $529.05 |
+| Microsoft, adding a breakout third at $556 | ($495 + $445 + $556) / 3 | $498.67 for the full position |
+| JPMorgan, halves at $321 and $352 (zone and confirmation level) | ($321 + $352) / 2 | $336.50, almost the same as today's price but with the confirmation of a close above the 50-day average |
+
+*Table 12a. Average cost of staged entries.*
+
+The JPMorgan example shows the real value of the staged plan. The average cost equals today's price, but the second half is only bought once the chart has proved the correction is over, so money is committed with better information. For Microsoft, waiting for the first zone means paying about 6.4% less than the current price ($495 against $529.05) before any other benefit.
+
+## 9. What Would Change My Mind
+
+- **For Microsoft:** free cash flow turning up as capital spending flattens, together with Azure growth holding near 40%, would make the bull case more credible and justify a higher fair value. A fall in yields would do the same. Conversely, a failed breakout above $555 followed by a close below $504 would make me more cautious.
+- **For JPMorgan:** a close above $351.55 would bring the second half of the position forward. A rise in credit costs together with weaker markets revenue would make me reconsider even at lower prices.
+- **For the plan overall:** a sudden energy price spike, a hawkish Fed surprise or a sharp fall in hiring would all move me toward the defensive end of the Week 4 portfolio.
+
+## 10. Limitations and Disclosures
+
+- **Models are assumptions.** The DCF and bank valuation depend heavily on discount rates and growth. Small changes move the results by tens of dollars a share, and the tables show this.
+- **Dated information.** Prices and indicators are from the dates stated. Microsoft reports on 28 October, and the picture could change quickly.
+- **JPMorgan price.** I used about $336, the latest price I could verify (13 October). The consensus earnings estimate of $24.13 and the $372 target were published before the third-quarter results.
+- **Technical levels are judgement.** Support and resistance are zones, not exact lines, and different data providers sometimes give slightly different averages.
+- **Two companies only.** Two stocks cannot show how a whole portfolio behaves. The portfolio-level view comes from Week 4.
+- **No positions held.** I hold no positions in either company.
+- **Not investment advice.** This report is a learning exercise prepared for an internship. It is not a recommendation to buy or sell any security, and readers should do their own research or speak to a licensed adviser.
+
+## 11. Conclusion
+
+The central finding of the six weeks is that a good company and a good investment are two different things, and that the difference is the price. Microsoft has the better business growth and the stronger charts of the past year, but its price already counts on a bright future, and the recent fall in free cash flow shows the cost of building it. JPMorgan is a less exciting business with a fairer price and a chart that is resting at support.
+
+So my plan is patient. Hold Microsoft and add only at lower prices, accumulate JPMorgan in stages near support, keep each name small, and let the Week 4 portfolio rules and the Week 5 triggers say when to be more careful. If the market proves me too cautious on Microsoft, the cost is a smaller position. If it proves me right, the lower prices become the entry point.
+
+## 12. Sources
+
+1. Microsoft Corporation, Form 8-K, Exhibit 99.1, 29 July 2026: https://www.sec.gov/Archives/edgar/data/0000789019/000119312526323632/msft-ex99_1.htm
+2. Yahoo Finance, Microsoft (MSFT) quote, 16 October 2026: https://finance.yahoo.com/quote/MSFT/
+3. JPMorgan Chase & Co., Form 8-K, Exhibit 99.1, third-quarter 2026 earnings release narrative: https://www.sec.gov/Archives/edgar/data/0000019617/000162828026065582/a3q26erfexhibit991narrative.htm
+4. Pulse 2.0, "JPMorgan Chase Reports $15.3 Billion Q3 Profit As Revenue Rises 8%": https://pulse2.com/jpmorgan-chase-q3-2026-results/
+5. MarketBeat, "JPMorgan Chase & Co. Q3 Earnings Call Highlights", 13 October 2026: https://www.marketbeat.com/instant-alerts/transcript-jpmorgan-chase-co-q3-earnings-call-highlights-2026-10-13/
+6. Morningstar, "JPMorgan Earnings: Solid Results Despite Capital Markets Softening": https://www.morningstar.com/stocks/jpmorgan-earnings-solid-results-despite-capital-markets-softening
+7. Beinsure, "JPMorgan Chase stock forecast: earnings miss, 2027 outlook": https://beinsure.com/news/jpmorgan-chase-stock-forecast-earnings-miss/
+8. OANDA, "JPMorgan Q3 Earnings Preview": https://www.oanda.com/sg-en/skills-and-insights/education/trading-asset-classes/shares/jpmorgan-q3-earnings-preview/
+9. AlgovestIQ, MSFT technical analysis: https://www.algovestiq.com/stock/msft/technicals
+10. Associated Press via La Nacion, "How major US stock indexes fared Friday 10/9/2026": https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-1092026-nid09102026/
+11. Investrade, "Daily Market Report, October 7, 2026": https://investrade.com/?p=1601
+12. US Bureau of Labor Statistics, Employment Situation and Consumer Price Index, September 2026: https://www.bls.gov/cpi/
+13. US Bureau of Economic Analysis, GDP (Third Estimate), 2nd Quarter 2026: https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd
+14. Federal Reserve, FOMC statement, 16 September 2026: https://www.federalreserve.gov/monetarypolicy/files/monetary20260916a1.pdf
+15. International Monetary Fund, World Economic Outlook, October 2026: https://mediacenter.imf.org/news/imf---world-economic-outlook-annual-meetings--2026/s/22f94667-d194-473b-87b2-34c692b5a5a3
+16. Weeks 1 to 5 of this internship report series (author's own work).
+
