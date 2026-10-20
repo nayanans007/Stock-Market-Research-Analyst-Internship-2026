@@ -1,368 +1,358 @@
-# Market Analysis and Research Design
+# Week 1 Report: Market Analysis and Research Design
 
-**A Research Plan for Analysing the Information Technology Sector**
+**Sector studied:** Information Technology, US-listed, benchmarked to the S&P 500
 
-Stock Market Research Analyst Internship, Week 1 Deliverable
-
-| Item | Detail |
-|---|---|
-| Prepared by | Nayana Sheelavant |
-| Programme | Stock Market Research Analyst Internship |
-| Chosen sector | Information Technology (GICS), US-listed, benchmarked to the S&P 500 |
-| Document date | 16 October 2026 |
-
-*This document is an academic research plan prepared for a training exercise. It is not investment advice and does not recommend buying or selling any security.*
-
----
+**Prepared by:** Nayana Sheelavant        **Date:** 19th October, 2026
 
 ## 1. Executive Summary
 
-This plan sets out how I will analyse the **Information Technology (IT) sector** of the US equity market, using the S&P 500 as the benchmark. IT was chosen because it is the largest and most influential sector by market value, it is highly sensitive to interest rates and earnings expectations, and it is currently driven by a single dominant theme, the build-out of artificial intelligence (AI) infrastructure. These features make it an ideal subject for learning how research methods are applied to real market questions.
+This report is a research plan for analysing the Information Technology (IT) sector of the US stock market. It explains why I chose the sector, what the first round of public research shows, which indicators I will track, which methods I will use and why, how the work is split across seven days, and what could go wrong.
 
-The plan uses a **hybrid, top-down then bottom-up design**. Macroeconomic and sector indicators set the context, fundamental and valuation analysis tests whether prices are supported by earnings, technical analysis reads trend and momentum, and a scenario framework turns the evidence into a forward-looking view. Eight indicators are specified, of which three (forward P/E, EPS growth and revisions, and the 10-year Treasury yield) form the core set. All data comes from free, verifiable public sources such as SEC EDGAR, FRED, S&P Dow Jones Indices and FactSet Earnings Insight.
+I chose IT because it is where the numbers are most extreme right now. According to FactSet's 16 October 2026 Earnings Insight, IT companies in the S&P 500 are on course for third-quarter earnings growth of 65.1%, compared with 29.0% for the whole index. Revenue growth is 40.6% against 12.6%. Global chip sales passed $1 trillion for the year through August, the first time ever. At the same time, the 10-year Treasury yield is about 5.24%, its highest in more than two decades, and the Federal Reserve raised rates in September. A sector with that much growth and that much rate pressure is a good place to practise research design.
 
-> **Plan at a glance**
->
-> - **Sector:** Information Technology (semiconductors, software and services, hardware).
-> - **Methods:** top-down macro, bottom-up fundamental, technical, quantitative (correlation and regression), sentiment, and scenario analysis.
-> - **Core indicators:** forward P/E, EPS growth and revisions, 10-year Treasury yield, plus five supporting indicators.
-> - **Timeline:** seven working days, 32 hours, eight analytical steps.
-> - **Output:** an indicator scorecard and bull, base and bear scenarios that feed Weeks 2 to 6.
+The plan uses a hybrid design. Macro indicators set the context, fundamental and valuation analysis tests whether prices are supported by earnings, technical analysis reads trend and momentum, and scenarios turn the evidence into a view. I specify eight indicators, three of them core, and I show worked examples of the calculations with real numbers so that every step can be checked.
+
+| Sector at a glance | Reading | Source and date |
+| --- | --- | --- |
+| IT earnings growth, Q3 2026 (year on year) | 65.1% (S&P 500: 29.0%) | FactSet, 16 Oct 2026 |
+| IT revenue growth, Q3 2026 | 40.6% (S&P 500: 12.6%) | FactSet, 16 Oct 2026 |
+| IT net profit margin, Q3 2026 | 32.3% (5-year average 25.9%) | FactSet, 16 Oct 2026 |
+| Global semiconductor sales, August 2026 | $159.7 billion, up 144.3% in a year | SIA, 5 Oct 2026 |
+| S&P 500 forward 12-month P/E | 19.0 (10-year average 19.1) | FactSet, 16 Oct 2026 |
+| 10-year Treasury yield | About 5.24% | Associated Press, 9 Oct 2026 |
+| S&P 500 and Nasdaq Composite, year to date | +14.1% and +17.7% | Associated Press, 9 Oct 2026 |
+| Microsoft capital spending, FY2026 | $115.9 billion, up 79.6% | Microsoft Form 8-K, 29 Jul 2026 |
+
+*Table 1. Sector facts used in this plan.*
 
 ### Requirement checklist
 
 | Task requirement | Where addressed |
-|---|---|
-| Conduct initial research on a chosen sector using public resources | Section 3 (sector overview and current trends); Section 7 (sources) |
-| Identify and list at least three key market indicators | Section 5 (eight indicators, three core) |
+| --- | --- |
+| Conduct initial research on a chosen sector using public resources | Section 3 (sector research with data); Section 7 (sources) |
+| Identify and list at least three key market indicators | Section 5 (eight indicators with current readings; three core) |
 | Clear explanation of research methodologies selected | Section 6 (six methods with rationale and limitations) |
-| Structured plan with analysis methods and timelines | Sections 8 and 9 (eight steps; seven-day schedule) |
+| Structured plan with analysis methods and timelines | Sections 8 and 9 (eight steps with worked examples; day-by-day tasks) |
 | Step-by-step approach to analysing market trends | Section 8 |
-| Potential challenges and proposed solutions | Section 11 |
+| Potential challenges and proposed solutions | Section 11 (each with a real example) |
 
----
+*Table 2. Mapping of requirements to sections.*
 
 ## 2. Research Objectives, Scope and Hypotheses
 
 ### 2.1 Objective
 
-To design a rigorous, repeatable plan for analysing the current condition and likely direction of the IT sector, and to define the methods, data and indicators that will be used to do so.
+To design a repeatable plan for analysing the current condition and likely direction of the IT sector, and to define the methods, data and indicators that will be used.
 
 ### 2.2 Research questions
 
 1. **RQ1 (Trend):** Is the IT sector in an uptrend, downtrend or consolidation relative to the broad market, and how durable is that trend?
-2. **RQ2 (Drivers):** Which macroeconomic and sector-specific factors explain most of the sector's recent price movements?
-3. **RQ3 (Valuation):** Are current valuations supported by earnings growth and the direction of analyst estimates?
-4. **RQ4 (Scenarios):** What developments could change the trend over the next 6 to 12 months, and which indicators would give early warning?
+2. **RQ2 (Drivers):** Which macroeconomic and sector-specific factors explain most of its recent price movements?
+3. **RQ3 (Valuation):** Are valuations supported by earnings growth and the direction of analyst estimates?
+4. **RQ4 (Scenarios):** What could change the trend over the next 6 to 12 months, and which indicators would give early warning?
 
 ### 2.3 Testable hypotheses
 
-Hypotheses give the analysis a clear pass or fail structure. They are propositions to be tested, not conclusions.
+| Hypothesis | How it will be tested | Evidence available already |
+| --- | --- | --- |
+| **H1:** IT sector returns are negatively sensitive to rising long-term real yields. | Rolling 36-month correlation and regression of monthly sector returns on changes in the 10-year real yield (FRED series DFII10). | The 10-year yield rose from about 4.05% in October 2025 to about 5.24% in October 2026, yet the Nasdaq is up 17.7% this year. Sensitivity may be weaker than usual, which is worth testing. |
+| **H2:** Rising earnings estimate revisions precede relative outperformance over 1 to 3 quarters. | Compare net revision breadth with the next 3-month return relative to the S&P 500. | IT growth estimate for Q3 rose from 63.8% on 30 Sep to 65.1% on 16 Oct, with all reporting IT companies beating estimates so far. |
+| **H3:** Growth in hyperscaler capital spending supports semiconductor earnings, and a slowdown is an early warning for them. | Track quarterly capex against semiconductor sales and index performance. | Microsoft capex grew 79.6% in FY2026, and global chip sales are up 144.3% year on year in August. |
 
-| Hypothesis | Test | Data |
-|---|---|---|
-| **H1:** IT sector returns are negatively sensitive to rising long-term real yields. | Rolling 36-month correlation and regression of monthly sector returns on changes in the 10-year real yield. | Sector ETF prices; FRED series DFII10 |
-| **H2:** Rising earnings-estimate revisions precede relative outperformance over the following 1 to 3 quarters. | Compare net revision breadth with subsequent 3-month relative return versus the S&P 500. | FactSet Earnings Insight; price data |
-| **H3:** Growth in hyperscaler capital expenditure supports semiconductor and hardware earnings; a slowdown is an early warning for those industries. | Track quarterly capex guidance against semiconductor index performance and industry sales. | Company filings; SIA/WSTS sales; SOX index |
-
-*Table 1. Hypotheses to be tested.*
+*Table 3. Hypotheses.*
 
 ### 2.4 Scope and exclusions
 
-- **In scope:** US-listed IT sector companies (S&P 500 constituents and the sector ETF XLK as a tradable proxy), a 10-year history for valuation and trend work, and a 6 to 12 month forward view.
-- **Out of scope this week:** recommendations on individual stocks (Week 6), full company valuation models (Week 2), and non-equity assets.
-
----
+- **In scope:** US-listed IT sector companies (S&P 500 constituents, with the XLK sector fund as a tradable proxy), a 10-year history for valuation and trend work, and a 6 to 12 month forward view.
+- **Out of scope this week:** recommendations on individual stocks (Week 6), full company valuation models (Week 2) and non-equity assets (considered in Week 4).
 
 ## 3. Sector Selection and Initial Research
 
 ### 3.1 Why Information Technology
 
-- **Size and influence:** IT is among the largest sectors in the S&P 500, so its movements materially affect index returns and portfolios.
-- **Rich data:** companies report quarterly in detail, with abundant public filings, analyst estimates and industry statistics.
-- **Analytical variety:** the sector blends cyclical areas (semiconductors) with recurring-revenue areas (software), allowing several methods to be compared.
-- **Relevance:** it is central to current market debates on AI spending, valuation and concentration.
+- **It is growing faster than anything else.** Q3 earnings growth of 65.1% is the second-highest of the eleven sectors, behind only Energy (127.6%). Revenue growth of 40.6% is the highest of all sectors.
+- **It is profitable.** The net profit margin of 32.3% compares with 14.9% for the S&P 500 and with an IT five-year average of 25.9%.
+- **Analysts are optimistic.** The bottom-up target price implies upside of 26.8% for IT, the largest of any sector, against 20.3% for the S&P 500. About 69% of ratings on IT stocks are Buy.
+- **It is data rich.** Quarterly filings, estimate trackers, industry sales data and market prices are all freely available.
 
-### 3.2 Sector structure
+### 3.2 Sector structure and growth by industry
 
-Under the Global Industry Classification Standard (GICS), the IT sector has three industry groups. The companies named are illustrative examples only.
+| Industry group | Illustrative companies | Q3 2026 earnings growth | Q3 2026 revenue growth | Main drivers |
+| --- | --- | ---: | ---: | --- |
+| Semiconductors and equipment | Nvidia, Micron, Broadcom, AMD, Applied Materials | 130% | 83% | AI chips and memory demand, inventory cycles, export controls |
+| Technology hardware, storage and peripherals | Apple, Dell | 39% | 36% | Product cycles, AI servers, tariffs |
+| Electronic equipment and components | Jabil | 39% | 24% | Supply chain, data centre build-out |
+| Software | Microsoft, Oracle, Salesforce, ServiceNow | 14% | 18% | Subscriptions, cloud, AI monetisation |
+| IT services | Accenture | 5% | 4% | Enterprise IT budgets |
 
-| Industry group | Illustrative companies | Main earnings drivers |
-|---|---|---|
-| Semiconductors and Semiconductor Equipment | Nvidia, Broadcom, AMD, Micron, Applied Materials, Lam Research | AI accelerator and memory demand, inventory cycles, customer capital spending, export controls, foundry capacity |
-| Software and Services | Microsoft, Oracle, Salesforce, ServiceNow, Adobe, Accenture | Subscription and cloud growth, net revenue retention, enterprise IT budgets, AI product monetisation, pricing power |
-| Technology Hardware and Equipment | Apple, Cisco, Dell, Arista Networks | Product cycles, data-centre networking and servers, supply chain, tariffs, consumer demand |
+*Table 4. IT sector by industry. Source: FactSet Earnings Insight, 16 Oct 2026. Communication equipment (revenue growth 25%) is also part of the sector.*
 
-*Table 2. Structure of the IT sector under GICS.*
+A classification caveat. Popular talk about "tech stocks" spans more than one official sector. Alphabet and Meta Platforms sit in Communication Services and Amazon sits in Consumer Discretionary, while payment networks such as Visa and Mastercard were moved from IT to Financials in the 2023 reclassification. The research will use the official IT sector as its definition and treat those companies as a related group when tracking AI spending.
 
-**A classification caveat.** Popular discussion of "tech stocks" spans more than one GICS sector. Alphabet and Meta Platforms sit in Communication Services and Amazon sits in Consumer Discretionary, while payment networks such as Visa and Mastercard were moved from IT to Financials in the 2023 GICS revision. The research will therefore use the GICS IT sector as its formal definition and treat these companies as a separate "related demand" group, particularly when tracking AI-related capital expenditure.
+### 3.3 What the data says about the sector today
 
-### 3.3 Current market themes
+The first lesson from the numbers is that the sector's growth is narrow. The table separates the headline from the underlying picture.
 
-The themes below reflect a review of publicly available brokerage commentary, financial media and company disclosures in October 2026. Specific index levels, multiples and growth rates are deliberately not fixed in this plan because they change daily; they will be retrieved and time-stamped on the day of analysis (Section 8, Step 1).
+| Measure | Headline | Excluding the biggest drivers | Gap |
+| --- | ---: | --- | --- |
+| S&P 500 Q3 earnings growth | 29.0% | 20.0% without Micron and Nvidia | 9.0 points from two companies |
+| IT sector Q3 earnings growth | 65.1% | 24.4% without semiconductors | 40.7 points from one industry |
+| "Magnificent 7" Q3 earnings growth | 33.2% | 7.5% without Nvidia and Meta | 25.7 points from two companies |
+| Other 493 S&P 500 companies | 27.7% | Not applicable | Close to the index rate |
 
-- **AI as the dominant narrative.** Spending on data centres, accelerators, memory, networking and power has been the main driver of earnings expectations and valuations across semiconductors and hardware, and increasingly software.
-- **Debate over the payoff.** Public commentary is divided. Some institutions describe the long-term outlook as strong and driven by durable AI demand, while others warn of bubble-like conditions or argue that the market now needs proof of AI-driven profit growth.
-- **Concentration and breadth.** A small number of very large companies account for a large share of sector and index performance, so sector averages can mask wide differences between stocks. Market commentary has also discussed rotation toward other sectors.
-- **Interest rates and valuation.** Because much of the sector's value lies in future earnings, expectations for central bank policy and long-term yields remain an important valuation driver.
-- **Policy and geopolitics.** Export controls on advanced chips, tariffs and the concentration of advanced chip manufacturing in Taiwan create event risk for the supply chain.
-- **Physical constraints.** Electricity supply, cooling and availability of high-bandwidth memory can limit the pace of AI infrastructure expansion.
+*Table 5. Concentration of earnings growth. Source: FactSet, 16 Oct 2026. Gap is calculated as headline minus the adjusted figure.*
 
----
+The second lesson is about demand. Global semiconductor sales were $159.7 billion in August 2026, up 8% on July and 144.3% on August 2025 (the SIA reports a three-month moving average). That was the 18th straight month of growth. Sales were $403.3 billion in the second quarter, up 35.1% on the first quarter, and the SIA expects more than $1.6 trillion for 2026, compared with $791.7 billion in 2025. The Americas grew fastest, up 180.9% year on year in August.
+
+The third lesson is about spending. Microsoft spent $115.9 billion on property and equipment in FY2026, against $64.6 billion in FY2025, which is a rise of 79.6% and about 35% of its revenue. That money is the revenue of the chip and server makers above, which is the link H3 tests.
+
+The fourth is about prices and rates. The S&P 500 forward 12-month P/E is 19.0, below its five-year average of 19.8 and its ten-year average of 19.1 by a small margin, but the trailing P/E is 26.0 against a ten-year average of 23.6. The 10-year Treasury yield is about 5.24%. Inflation was 3.7% in September, and Brent crude was about $105 a barrel on 9 October. In early October the Dow was still about 5% below its August record while the Nasdaq made new highs, so leadership is narrow.
 
 ## 4. Key Factors Affecting Stock Market Movements
 
-Stock prices reflect expectations about future cash flows and the rate used to discount them. The factors below are grouped by how they reach IT sector prices. Understanding the transmission mechanism is what allows an analyst to choose the right indicator for each factor.
+Prices reflect expectations about future cash flows and the rate used to discount them. I grouped the factors by how they reach IT prices and added the current evidence, so that each factor has a measurable reading.
 
-| Category | Factor | How it affects IT stocks |
-|---|---|---|
-| Macroeconomic | Interest rates and monetary policy | Higher discount rates reduce the present value of distant earnings, which hits long-duration growth stocks hardest. Policy surprises can move the sector sharply. |
-| Macroeconomic | Inflation and economic growth | Inflation shapes the rate path. Growth influences corporate IT budgets and consumer device demand. |
-| Macroeconomic | US dollar | Many IT firms earn a large share of revenue abroad. A stronger dollar reduces reported foreign revenue. |
-| Sector | AI and cloud capital expenditure | Spending by large cloud providers is revenue for chip, server and networking suppliers. Changes in spending guidance move supplier stocks. |
-| Sector | Semiconductor cycle | Chip demand and inventory swing between shortage and glut, creating earnings volatility. |
-| Sector | Competition and technology shifts | New products or business models can rapidly change market share and pricing power. |
-| Policy and geopolitical | Trade controls, tariffs, regulation | Export limits, tariffs and antitrust or data rules can restrict markets or raise costs. |
-| Company | Earnings, guidance and margins | Results versus expectations, and management outlook, are the most direct short-term price drivers. |
-| Market behaviour | Sentiment, flows and positioning | Crowded positioning and index fund flows can amplify moves in both directions, independent of fundamentals. |
+| Category | Factor | How it affects IT stocks | Current evidence |
+| --- | --- | --- | --- |
+| Macroeconomic | Interest rates and policy | Higher discount rates cut the present value of distant earnings, which hits growth stocks hardest | Fed funds 3.75% to 4.00% after the 16 Sep hike; 10-year about 5.24% |
+| Macroeconomic | Inflation and growth | Inflation shapes the rate path; growth drives IT budgets | CPI 3.7% (Sep); US GDP +2.2% (Q2); ISM PMI 54.5 (Sep) |
+| Sector | AI and cloud capital spending | Spending by cloud providers is revenue for chip, server and network makers | Microsoft capex $115.9 billion, up 79.6% |
+| Sector | Semiconductor cycle | Demand and inventory swing between shortage and glut | Chip sales $159.7 billion in Aug, up 144.3% in a year |
+| Policy | Trade controls, tariffs, regulation | Export limits and tariffs restrict markets or add cost | Export controls and tariffs remain open issues |
+| Company | Earnings, guidance and margins | Results against expectations drive short-term prices | IT surprise +5.5% in aggregate; all reporting IT companies beat so far |
+| Market behaviour | Sentiment and positioning | Crowded positions amplify moves | Narrow leadership; Nasdaq +17.7% year to date against Dow +7.5% |
 
-*Table 3. Factors and transmission mechanisms.*
-
----
+*Table 6. Factors, mechanisms and current evidence.*
 
 ## 5. Key Market Indicators
 
-The task requires at least three indicators. This plan specifies eight, in two tiers. The **core tier** is the minimum set that must be analysed in full. The **supporting tier** adds cross-checks so that no conclusion rests on a single measure.
+The task requires at least three indicators. I specify eight in two tiers. The **core tier** must be analysed in full. The **supporting tier** provides cross-checks. Each has a current reading, so that the plan starts from real data and the later days only need to update and extend it.
 
-| # | Indicator | What it measures | Why it matters for IT | Source and frequency |
-|---|---|---|---|---|
-| 1 (Core) | Forward P/E of the IT sector versus the S&P 500 and its own 10-year average | Price paid per dollar of expected earnings over the next 12 months | Shows whether the sector is expensive or cheap relative to history and the market | FactSet Earnings Insight (weekly); ETF issuer pages |
-| 2 (Core) | EPS growth and estimate revisions (including share of companies beating estimates) | Direction and strength of earnings and of analyst expectations | Earnings and revisions are the main fundamental support for prices | FactSet Earnings Insight (weekly); SEC EDGAR 10-Q and 8-K (quarterly) |
-| 3 (Core) | 10-year US Treasury yield and 10-year real yield | Market-implied cost of long-term money | Higher real yields lower the value of long-dated growth cash flows | FRED series DGS10 and DFII10 (daily) |
-| 4 (Supporting) | Hyperscaler capital expenditure | Spending by the largest cloud and AI customers | Leading indicator for semiconductor, server and networking demand | Company earnings releases and filings (quarterly) |
-| 5 (Supporting) | Semiconductor cycle: PHLX Semiconductor Index (SOX) and global chip sales | Market pricing and actual industry sales of chips | Confirms whether the hardware side of the AI trade is real and broad | Nasdaq (daily); SIA/WSTS sales data (monthly) |
-| 6 (Supporting) | Relative strength (sector ETF divided by S&P 500) and breadth (% of stocks above 200-day average) | Trend leadership and how many stocks participate | Separates a broad advance from one driven by a few large names | TradingView or StockCharts (daily) |
-| 7 (Supporting) | ISM Manufacturing PMI (new orders) | Direction of business activity and demand | Context for the cyclical parts of the sector | ISM (monthly) |
-| 8 (Supporting) | VIX and investor sentiment survey | Expected volatility and investor mood | Highlights fear or complacency that can precede reversals | FRED VIXCLS (daily); AAII survey (weekly) |
+| # | Indicator | Current reading | Source and date | What the reading suggests |
+| --- | --- | --- | --- | --- |
+| 1
+Core | Forward P/E (S&P 500; sector value read from the FactSet sector chart) | 19.0; 5-year average 19.8; 10-year average 19.1. Trailing 26.0 against 23.6 | FactSet, 16 Oct 2026 | Forward valuation is about average, trailing is 10% above average |
+| 2
+Core | EPS growth and revisions | IT Q3 growth 65.1%, up from 63.8% on 30 Sep; CY2026 S&P growth 32.8%; CY2027 16.0% | FactSet, 16 Oct 2026 | Revisions positive. Growth expected to slow sharply in 2027 |
+| 3
+Core | 10-year Treasury yield and real yield | About 5.24%; roughly 1.5% above 3.7% CPI | AP, 9 Oct; BLS, 14 Oct 2026 | Headwind. Highest in over two decades |
+| 4
+Supporting | Hyperscaler capital spending | Microsoft $115.9 billion in FY2026 (FY2025: $64.6 billion) | Microsoft 8-K, 29 Jul 2026 | Strong demand signal for suppliers |
+| 5
+Supporting | Semiconductor sales | $159.7 billion in Aug; +144.3% year on year; 18th monthly rise | SIA, 5 Oct 2026 | Hardware side of the AI trade is broad |
+| 6
+Supporting | Relative strength and breadth | Nasdaq +17.7% against S&P 500 +14.1% year to date; Dow +7.5% | AP, 9 Oct 2026 | Tech leading, but breadth is narrow |
+| 7
+Supporting | ISM Manufacturing PMI | 54.5 (Aug 54.6); new orders 55.3 (year ago 48.7); prices paid 77.9 | ISM, 1 Oct 2026 | Demand good, cost pressure high |
+| 8
+Supporting | VIX and sentiment | VIX 15.84 on 9 Jul (latest verified); 2025 average 18.93; 69% of IT ratings are Buy | FRED; FactSet | Low fear, high optimism. To be refreshed |
 
-*Table 4. Indicator set. Series codes are the identifiers used on the FRED database.*
+*Table 7. Indicator set with readings. The VIX reading is the latest I could verify and will be updated on Day 5.*
 
-### 5.1 Interpretation guide
+### 5.1 Worked examples with these indicators
 
-- **Valuation:** a forward P/E in the top decile of its 10-year range implies less margin for error, but is not a timing signal by itself. It must be read alongside earnings growth.
-- **Earnings:** rising estimates with a high share of positive surprises supports the trend. Falling estimates while prices rise signals a valuation-driven rally that is more fragile.
-- **Rates:** a sustained rise in the real yield is a headwind. A falling real yield is supportive but may reflect weaker growth, so it is checked against the PMI.
-- **Confirmation rule:** a conclusion is only considered robust when at least three of the five scorecard categories (Appendix A) agree.
+| Calculation | Working | Result and meaning |
+| --- | --- | --- |
+| Forward P/E against the 10-year average | 19.0 / 19.1 - 1 | -0.5%: the index is priced at its long-run norm on forward earnings |
+| Trailing P/E against the 10-year average | 26.0 / 23.6 - 1 | +10.2%: on past earnings the index looks expensive, so the case for fair value rests on earnings growth coming through |
+| Real yield (rough) | 5.24% - 3.7% | 1.54%: a positive real return on risk-free money, which is a real change from 2020 to 2021 |
+| Earnings yield against the 10-year yield | 1 / 19.0 = 5.26%, against 5.24% | About zero extra yield for owning stocks over Treasuries. The cushion is thin |
+| Relative strength, Nasdaq against S&P 500, year to date | 1.177 / 1.141 - 1 | +3.2%: the Nasdaq has outperformed the S&P 500 by about 3.2% this year |
+| Growth from capital spending | 115.948 / 64.551 - 1 | +79.6%: Microsoft capex growth, the H3 input |
+| Price-to-earnings-growth, Microsoft, reported EPS | 29.5 / 31.6 growth | 0.93 |
+| Price-to-earnings-growth, Microsoft, excluding OpenAI effect | 30.6 / 22 growth | 1.39: the same stock looks cheaper or dearer depending on which earnings are used |
 
----
+*Table 8. Worked examples.*
+
+### 5.2 Interpretation guide
+
+- **Valuation:** a forward P/E in the top decile of its ten-year range leaves little margin for error, but is not a timing signal by itself.
+- **Earnings:** rising estimates with a high share of positive surprises supports a trend. Falling estimates while prices rise is a more fragile, valuation-driven rally.
+- **Rates:** a sustained rise in the real yield is a headwind. A fall is supportive but may reflect weak growth, so it is checked against the PMI.
+- **Confirmation rule:** a conclusion is robust only when at least three of the five scorecard categories (Appendix A) agree.
 
 ## 6. Research Methodologies and Rationale
 
-No single method answers all four research questions. The plan therefore combines complementary methods and uses each for the question it is best suited to.
+No single method answers all four questions, so the plan combines complementary methods.
 
 | Method | How it will be applied | Why it was selected | Known limitation |
-|---|---|---|---|
-| Top-down macro analysis | Start with growth, inflation, rates, dollar and policy; trace their effect to the sector (Table 3). | Answers RQ2. Sector moves are heavily influenced by macro conditions, especially rates. | Macro relationships change over time and are rarely stable. |
-| Bottom-up fundamental analysis | Review revenue, margins, EPS growth, cash flow and revisions for the sector and its largest companies; compare valuation with history. | Answers RQ3. Earnings are the ultimate source of long-term returns. | Depends on estimates, which can be wrong or revised sharply. |
-| Technical analysis | Moving averages, relative strength, momentum and drawdown to classify the trend state. | Answers RQ1. Captures what investors are actually doing, not just what models imply. | Backward-looking and subjective if patterns are loosely defined. |
-| Quantitative analysis | Rolling correlations and a simple regression of sector returns on market returns and yield changes (H1). | Gives objective, testable evidence for or against hypotheses. | Correlation is not causation; results are sensitive to the sample period. |
-| Sentiment and positioning | Track volatility, investor surveys and breadth. | Detects crowded trades and extremes in optimism or fear. | Short-term signal with many false alarms. |
-| Scenario analysis | Define bull, base and bear cases with triggers linked to the indicators. | Answers RQ4. Handles uncertainty better than a single point forecast. | Scenarios are judgement-based and probabilities are approximate. |
+| --- | --- | --- | --- |
+| Top-down macro analysis | Start with growth, inflation, rates, dollar and policy and trace the effect to the sector (Table 6) | Answers RQ2. Rates matter greatly for the sector | Macro relationships change over time |
+| Bottom-up fundamental analysis | Review revenue, margins, EPS growth and revisions for the sector and key companies; compare valuation with history | Answers RQ3. Earnings drive long-term returns | Depends on estimates, which get revised |
+| Technical analysis | Moving averages, relative strength, momentum and drawdown | Answers RQ1. Shows what investors are actually doing | Backward-looking and partly subjective |
+| Quantitative analysis | Rolling correlations and a regression of sector returns on market returns and yield changes (H1) | Gives objective, testable evidence | Correlation is not causation; sample-sensitive |
+| Sentiment and positioning | VIX, investor surveys, share of Buy ratings, breadth | Detects crowded trades | Noisy over short periods |
+| Scenario analysis | Bull, base and bear cases with triggers linked to indicators | Answers RQ4. Handles uncertainty | Judgement-based probabilities |
 
-*Table 5. Methods, rationale and limitations.*
+*Table 9. Methods and rationale.*
 
-### 6.1 How the methods fit together
-
-The analysis flows as a funnel. **Macro analysis** sets the environment. **Fundamental analysis** tests whether prices are justified. **Technical and sentiment analysis** show how the market is behaving right now. **Quantitative tests** check the relationships assumed above. Finally, **scenario analysis** combines the evidence into a view with explicit triggers. Using several methods reduces the risk of confirmation bias, because a conclusion has to survive evidence from different angles.
-
----
+The analysis works as a funnel: macro sets the environment, fundamentals test whether prices are justified, technical and sentiment evidence shows current behaviour, quantitative tests check assumed relationships, and scenarios combine everything into a view with explicit triggers. Using several methods lowers the chance of confirmation bias, because a conclusion must survive evidence from different angles.
 
 ## 7. Data Sources and Data Quality
 
-| Data needed | Primary source | Secondary or cross-check | Reliability note |
-|---|---|---|---|
-| Company financials and filings | SEC EDGAR (10-K, 10-Q, 8-K); company investor relations pages | Yahoo Finance; Nasdaq company pages | Primary filings are the authoritative record. Aggregators may adjust or restate. |
-| Sector valuation and earnings aggregates | FactSet Earnings Insight (free weekly report) | S&P Dow Jones Indices; ETF issuer fact sheets | Check each source's definition of "forward" and index membership. |
-| Interest rates, inflation, growth | FRED (Federal Reserve Bank of St. Louis) | US Treasury; BLS; BEA; Federal Reserve statements | Official data, but later revised. Record the release date. |
-| Prices and technical indicators | TradingView or StockCharts; Yahoo Finance (adjusted close) | ETF issuer price history | Use dividend-adjusted prices for return calculations. |
-| Semiconductor industry data | Semiconductor Industry Association (SIA) and WSTS monthly sales | Company results; SEMI equipment data | Monthly figures are published with a lag. |
-| Business activity | ISM Manufacturing PMI | S&P Global PMI | Survey-based; treat as directional. |
-| Sentiment | Cboe VIX via FRED; AAII Investor Sentiment Survey | Fund flow summaries from ETF providers | Noisy; use only to confirm other evidence. |
-| Qualitative context | Federal Reserve statements; company earnings call transcripts and presentations | Reputable financial media; brokerage research summaries | Opinions vary. Prefer primary documents and note any conflict of interest. |
+| Data needed | Primary source | Cross-check | Reliability note |
+| --- | --- | --- | --- |
+| Company financials | SEC EDGAR (10-K, 10-Q, 8-K) | Yahoo Finance, Nasdaq | Primary filings are authoritative. Earnings releases are unaudited |
+| Sector valuation and earnings | FactSet Earnings Insight (free weekly report) | S&P Dow Jones Indices, fund fact sheets | Check each source's definition of "forward" |
+| Rates, inflation, growth | FRED, BLS, BEA, Federal Reserve | US Treasury, IMF World Economic Outlook | Official data is later revised; record release dates |
+| Prices and technical indicators | TradingView or StockCharts; Yahoo Finance | Fund issuer price history | Use dividend-adjusted prices for returns |
+| Semiconductor industry | SIA and WSTS monthly sales | Company results | Three-month moving averages; published with a lag |
+| Business activity | ISM Manufacturing PMI | S&P Global PMI | Survey-based; directional |
+| Sentiment | VIX via FRED; AAII survey | FactSet ratings data | Use only to confirm other evidence |
 
-*Table 6. Data sources.*
+*Table 10. Data sources.*
 
-### 7.1 Data quality protocol
-
-- Verify every key figure against at least two independent sources, or against the primary filing.
-- Record the retrieval date, source, metric definition and series code in a data log for every dataset.
-- Use consistent date ranges and dividend-adjusted prices across all calculations.
-- Save a raw snapshot of each dataset before any cleaning so that results can be reproduced.
-- Distinguish clearly between facts, estimates and opinions in the final write-up.
-
----
+- **Verify** every key figure against at least two sources or the primary filing.
+- **Log** the date, source, definition and series code for every number in a data log.
+- **Snapshot** raw data before cleaning so results can be reproduced.
+- **Separate** facts, estimates and opinions in the write-up.
 
 ## 8. Step-by-Step Approach to Analysing Market Trends
 
-The following eight steps will be executed in order. Each step names the method used, the output produced and the research question answered.
+The eight steps below run in order. Each step names the method, a worked example with real numbers, the output and the research question it answers.
 
-### Step 1: Define the universe and capture the baseline
+### Step 1: Define the universe and take a baseline
 
-Define the sector as the S&P 500 IT sector, using the XLK ETF and the SOX index for the semiconductor industry. Record the current index level, sector weight, forward P/E and one-year and five-year returns, each with a date stamp.
+Define the sector as the S&P 500 IT sector, using XLK and the semiconductor index as proxies. Record sector weight, forward P/E, one-year and five-year returns, each with a date. **Worked example:** on 9 October 2026 the S&P 500 stood at 7,811.54, up 966.04 points or 14.1% for the year, and the Nasdaq Composite at 27,366.17, up 17.7%. Those two lines are the baseline the later steps are compared against.
 
-**Output: baseline data table.**
+**Output:** baseline data table.
 
 ### Step 2: Classify the trend (RQ1)
 
-Calculate the price relative to the 50-day and 200-day moving averages, 3-, 6- and 12-month returns, the relative strength ratio (XLK divided by the S&P 500), and the current drawdown from the 52-week high. Classify the sector as uptrend, downtrend or consolidation using stated rules, for example price above both averages with the 50-day above the 200-day.
+Calculate price against the 50-day and 200-day averages, 3-, 6- and 12-month returns, the relative strength ratio and the drawdown from the 52-week high. **Worked example, Microsoft:** the close of $529.05 compares with a 50-day average of $503.91 and a 200-day average of $434.78. Distance from the 50-day is 529.05 / 503.91 - 1 = +5.0%, and from the 200-day is 529.05 / 434.78 - 1 = +21.7%. Because price is above both and the 50-day is above the 200-day, the rule gives "uptrend". The drawdown from the 52-week high of $553.72 is 529.05 / 553.72 - 1 = -4.5%.
 
-**Output: trend classification with supporting chart.**
+**Output:** trend classification with a chart.
 
 ### Step 3: Assess valuation (RQ3)
 
-Compare the sector forward P/E with its own 10-year range (percentile rank) and with the S&P 500 (premium or discount). Add PEG ratio and free cash flow yield as cross-checks, and compare the semiconductors and software industry groups separately.
+Compare the sector's forward P/E with its own ten-year range and with the S&P 500, then add PEG ratio and free cash flow yield. **Worked example:** for the index, forward 19.0 against a ten-year average of 19.1 is -0.5%, while trailing 26.0 against 23.6 is +10.2%. For Microsoft, the free cash flow yield is $67.0 billion divided by a market value of about $3,929 billion, which is 1.7%, well below the 5.24% Treasury yield.
 
-**Output: valuation percentile table.**
+**Output:** valuation table.
 
 ### Step 4: Analyse earnings and fundamentals (RQ3)
 
-Collect revenue growth, operating margin, EPS growth and the direction of estimate revisions. Review the latest quarterly filings of the largest companies and record capital expenditure guidance from the major cloud providers.
+Collect revenue growth, margins, EPS growth and the direction of revisions, and record capex guidance from the largest cloud providers. **Worked example:** IT earnings growth of 65.1% includes 40.7 points from semiconductors. Without that industry the figure is 24.4%. Recording both numbers prevents a single industry from masking the rest of the sector.
 
-**Output: fundamentals summary and capex tracker.**
+**Output:** fundamentals summary and capex tracker.
 
 ### Step 5: Link to the macro environment (RQ2)
 
-Run the H1 test: regress monthly sector returns on market returns and on changes in the 10-year real yield over a rolling 36-month window. Review the ISM PMI and dollar trend. Record whether the sensitivity to rates is stable or changing.
+Run the H1 test: regress monthly sector returns on market returns and changes in the 10-year real yield over rolling 36-month windows; review the ISM PMI and the dollar. **Worked example:** a 1 percentage point rise in the discount rate cuts the present value of $100 due in 10 years from $42.2 (at 9%) to $38.6 (at 10%), which is -8.7%. For $100 due in two years the fall is only -1.8% (from $84.2 to $82.6). That gap is why far-future earnings, and growth stocks, are more sensitive to rates.
 
-**Output: correlation and regression table; macro summary.**
+**Output:** correlation and regression table.
 
 ### Step 6: Measure sentiment and breadth
 
-Record VIX level, AAII survey readings and the share of sector stocks above their 200-day average. Compare the performance of the top five holdings with the rest of the sector to measure concentration.
+Record VIX, survey readings, the share of stocks above their 200-day average and the top-five against rest comparison. **Worked example:** the Nasdaq outperformed the S&P 500 by 3.2% (1.177 / 1.141 - 1) year to date, while the Dow was only up 7.5%, so gains are concentrated.
 
-**Output: sentiment and breadth panel.**
+**Output:** sentiment and breadth panel.
 
 ### Step 7: Build the indicator scorecard
 
-Score each of five categories (valuation, earnings, rates and macro, trend, sentiment) as -1, 0 or +1 using pre-set thresholds, apply the weights in Appendix A and compute a composite reading.
+Score five categories as -1, 0 or +1 against thresholds set in Appendix A before looking at the data, then weight and sum. The worked scoring below uses the readings in Table 7 as a demonstration.
 
-**Output: completed scorecard.**
+| Category | Weight | Evidence | Score | Contribution |
+| --- | ---: | --- | ---: | ---: |
+| Valuation | 20% | Forward P/E at its ten-year average; trailing 10% above | 0 | 0.00 |
+| Earnings | 25% | IT growth 65.1%, revisions rising, all reporters beating | +1 | +0.25 |
+| Rates and macro | 20% | 10-year 5.24%, Fed hiking, CPI 3.7%; PMI 54.5 helps | -1 | -0.20 |
+| Trend and momentum | 20% | Nasdaq +17.7% against S&P +14.1%; Microsoft above averages | +1 | +0.20 |
+| Sentiment | 15% | Low VIX, 69% Buy ratings, narrow breadth | 0 | 0.00 |
+| Composite | 100% |  |  | +0.25 |
+
+*Table 11. Worked scorecard (first pass, October 2026). Composite = sum of weight x score.*
+
+A composite of +0.25 on a scale of -1 to +1 reads as mildly positive. Two categories are positive, one is negative and two are neutral, so the positive evidence outweighs the negative, but the confirmation rule (at least three of five agreeing) is not fully met. The honest label is therefore "mildly positive, not confirmed": a constructive but rate-sensitive view.
+
+**Output:** completed scorecard.
 
 ### Step 8: Develop scenarios and a monitoring plan (RQ4)
 
-Define bull, base and bear scenarios (Section 10) with triggers tied to the indicators. Set a review schedule: weekly for prices, yields and sentiment, monthly for industry sales and PMI, quarterly for earnings and capex.
+Define the bull, base and bear scenarios (Section 10) with triggers tied to indicators, and set a review schedule: weekly for prices, yields and sentiment; monthly for chip sales and the PMI; quarterly for earnings and capex.
 
-**Output: scenario table and monitoring calendar.**
+**Output:** scenario table and monitoring calendar.
 
----
+## 9. Timeline: Daily Tasks
 
-## 9. Timeline and Resource Plan
+The work is organised as seven working days. Each day has defined tasks and a checkpoint output, so that progress can be checked at the end of every day. Days start by reviewing the previous day's data log and end by saving a dated snapshot of any new data.
 
-The work is scheduled over seven days for a total of 32 hours, inside the 30 to 35 hour allocation. A buffer of up to three hours is available for data problems or re-work.
+| Day | Tasks | Checkpoint output |
+| --- | --- | --- |
+| Day 1 | Confirm the sector and benchmark. Write the four research questions and three hypotheses. Set up the data log with columns for metric, value, date, source, definition and series code. Define the scorecard thresholds before seeing any data. | One-page scope note, empty data log, threshold table |
+| Day 2 | Read the latest FactSet Earnings Insight, the SIA monthly release and the IMF outlook. Record the sector structure and the growth rate of each industry group. Record 15 time-stamped sector facts, such as the 65.1%, 40.6% and 32.3% figures. | Sector fact sheet with 15 logged figures |
+| Day 3 | Collect core indicators 1 to 3: forward and trailing P/E, EPS growth and revisions, and the 10-year and real yields from FRED. Calculate premiums to ten-year averages. | Valuation and rates table with calculations shown |
+| Day 4 | Collect supporting indicators 4 to 6: capex from company filings, semiconductor sales from the SIA, and relative strength and breadth from a charting site. Calculate growth rates and the relative strength ratio. | Capex tracker, chip sales table, relative strength chart |
+| Day 5 | Collect indicators 7 and 8 (ISM PMI, VIX) and the latest CPI. Run the H1 correlation and regression in a spreadsheet. Check whether the sensitivity to yields is stable. | Regression table and macro summary |
+| Day 6 | Fill the scorecard and apply the weights. Draft the bull, base and bear scenarios. Write the challenges and solutions table, each with a real example from the data. | Completed scorecard, scenario table, challenges table |
+| Day 7 | Assemble the document. Add figures and tables, cross-check every number against the data log, check each source link, proofread and format. | Final report ready for submission |
 
-| Phase | D1 | D2 | D3 | D4 | D5 | D6 | D7 | Hours |
-|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| 1. Scoping, sector selection, research questions | ■ | | | | | | | 3 |
-| 2. Initial sector research (reports, ETF fact sheets, filings, news) | ■ | ■ | | | | | | 6 |
-| 3. Indicator selection and data collection | | ■ | ■ | | | | | 6 |
-| 4. Data cleaning and analysis (trend, valuation, correlation) | | | ■ | ■ | ■ | | | 7 |
-| 5. Scenario building, challenges and mitigation | | | | | ■ | ■ | | 3 |
-| 6. Drafting, charts, tables, internal review | | | | | | ■ | ■ | 5 |
-| 7. Quality assurance, citation check, final formatting | | | | | | | ■ | 2 |
-| **Total effort** | | | | | | | | **32** |
+*Table 12. Day-by-day task plan.*
 
-*Table 7. Seven-day schedule. D1 to D7 are consecutive working days; ■ marks active days.*
-
-**Tools:** spreadsheet software (Excel or Google Sheets) for data handling and regression; TradingView or StockCharts for charts; a reference manager or simple log for sources; word processor for the final document.
-
----
+The tools are spreadsheet software for the data log and regression, a charting site for price charts, a simple reference list for sources and a word processor for the final report.
 
 ## 10. Scenario Framework
 
-Scenarios turn the analysis into a view of the next 6 to 12 months. The triggers below are the conditions that the monitoring plan will watch. They are a framework for reasoning and not a forecast or a statement of probability.
+Scenarios turn the analysis into a view of the next 6 to 12 months. The triggers are the conditions the monitoring plan will watch. They are a framework for reasoning, not a forecast.
 
-| Scenario | Narrative | Indicator conditions that would support it | What it would imply for the sector |
-|---|---|---|---|
-| Bull | AI spending continues to convert into earnings; rates stable or easing; breadth widens. | Positive and rising EPS revisions; capex guidance maintained or raised; real yields flat or falling; more stocks above 200-day average. | Trend continuation; valuation supported by earnings growth. |
-| Base | Growth continues but at a slower pace; valuation absorbs news without large re-rating. | Revisions flat to mildly positive; capex growth moderating; yields range-bound; leadership narrow. | Choppy, range-bound performance with wide dispersion between stocks. |
-| Bear | AI spending slows or fails to earn adequate returns; rates rise or policy shock occurs. | Falling revisions; cuts in capex guidance; real yields rising; weakening breadth; VIX spike. | Valuation compression and drawdown, most severe in the most expensive and most AI-exposed names. |
+| Scenario | Narrative | Indicator conditions | Implication for the sector |
+| --- | --- | --- | --- |
+| Bull | AI spending keeps converting to earnings, rates stabilise and breadth widens. | IT growth estimate stays above 50%; capex guidance maintained; 10-year yield below 5%; chip sales growth above 100% year on year | Trend continuation, with valuation supported by earnings |
+| Base | Growth continues but slows. Valuation absorbs news without a large re-rating. | Revisions flat to mildly positive; yield between 4.8% and 5.4%; leadership narrow | Range-bound, with wide differences between stocks |
+| Bear | AI spending slows or fails to earn adequate returns, or rates rise further. | Estimates falling; capex guidance cut; yield above 5.5%; VIX above 25; chip sales growth fading quickly | Valuation compression and drawdown, hardest in the most expensive names |
 
-*Table 8. Scenario framework.*
-
----
+*Table 13. Scenarios.*
 
 ## 11. Potential Challenges and Proposed Solutions
 
-| Challenge | Why it matters | Proposed solution |
-|---|---|---|
-| Information overload and conflicting opinions | Large volumes of commentary with opposing views can lead to cherry-picking. | Anchor on primary data. Pre-define indicators and thresholds before reading commentary. Log opposing views and explain why they are accepted or rejected. |
-| Hype and narrative bias | AI is a dominant story, which may bias both sources and the analyst. | Apply the confirmation rule (three of five categories must agree). Explicitly search for evidence that contradicts the working view. |
-| Concentration distorts averages | A few mega-cap stocks can make the sector look stronger or weaker than the typical stock. | Report both cap-weighted and equal-weighted results; track breadth and the top-five versus rest comparison. |
-| Data revisions and publication lags | Economic data is revised and industry data is delayed, so a snapshot can mislead. | Time-stamp all data. Use the release date, not the period date, when relating data to prices. Note when figures are preliminary. |
-| Limits of free data | Free sources may lack estimates history or constituent-level detail. | Use the free FactSet weekly report, ETF issuer data and company filings. Where history is unavailable, state the limitation and use a shorter window. |
-| Unstable statistical relationships | Correlations between rates and tech stocks change across market regimes. | Use rolling windows rather than a single full-sample figure; report ranges and avoid over-precise claims. |
-| Accounting differences across companies | Adjusted earnings and stock-based compensation can make profits look different across firms. | Compare both GAAP and adjusted measures; use free cash flow as a cross-check. |
-| Time constraint | The scope is broad for 32 hours. | Follow the phase budget in Section 9; prioritise the core indicators first; use the three-hour buffer only for the highest-priority gaps. |
-| Unexpected events | Policy or geopolitical shocks can invalidate a view quickly. | Maintain the scenario triggers and monitoring calendar; revise the base case when a trigger is hit. |
+| Challenge | Real example from this research | Proposed solution |
+| --- | --- | --- |
+| Concentrated growth hides the typical stock | IT earnings growth of 65.1% falls to 24.4% without semiconductors; S&P 500 growth falls from 29.0% to 20.0% without Micron and Nvidia | Report headline and adjusted numbers side by side; track breadth |
+| Data revisions | US Q2 GDP was first reported at 1.5% and revised to 2.2% in the third estimate | Time-stamp data; record whether a figure is preliminary |
+| Different vendors, different numbers | Two sites publish an RSI of 71.2 and 62.4 for Microsoft on the same date | Show both; state which source is used and why |
+| One-off gains distort profit | Alphabet booked a $98 billion gain and Amazon a $53.4 billion gain in Q2; Microsoft reported EPS of $17.95 against $17.28 without its OpenAI effect | Compare reported and adjusted measures; use free cash flow as a cross-check |
+| Narrative bias | AI is the dominant story, so sources lean one way | Apply the confirmation rule; look for contradicting evidence |
+| Unstable relationships | The 10-year yield rose about 1.2 points in a year while the Nasdaq rose 17.7%, which weakens the usual link | Use rolling windows and report ranges, not one number |
+| Limits of free data | The sector forward P/E is shown only in a FactSet chart, not as text | Read the chart value manually and log it; cross-check with fund fact sheets |
+| Unexpected events | Brent crude near $105 and a Fed meeting on 28 October could change the picture quickly | Maintain triggers and update the base case when one is hit |
 
-*Table 9. Challenges and mitigation.*
-
----
+*Table 14. Challenges, examples and solutions.*
 
 ## 12. Expected Outputs, Limitations and Ethics
 
-### 12.1 Expected outputs
-
-- A time-stamped baseline of sector data and a trend classification.
-- A valuation and earnings assessment with percentile rankings.
-- Results of the hypothesis tests (H1 to H3).
-- A completed indicator scorecard and three scenarios with triggers.
-- A monitoring calendar that carries forward into Weeks 2 to 6, where a company will be valued (Week 2), charts studied in detail (Week 3), risks and diversification assessed (Week 4), and economic indicators examined at greater depth (Week 5).
-
-### 12.2 Limitations
-
-The plan relies on public data and simple tools, so it cannot match the depth of institutional research. Statistical tests use limited samples, scenario judgements are subjective, and markets can move on information that is not in any indicator. Findings should be read as a structured assessment under uncertainty.
-
-### 12.3 Ethics and disclosure
-
-The work uses only public information. No non-public information is used, sources are credited, and the document does not constitute investment advice. Any positions held by the author in relevant securities would be disclosed.
-
----
+- **Outputs:** a time-stamped baseline, a trend classification, valuation and earnings assessments, hypothesis test results, a completed scorecard, three scenarios and a monitoring calendar that feeds Weeks 2 to 6.
+- **Limitations:** public data and simple tools cannot match institutional research. Samples are small, scenarios are judgemental and a single industry (semiconductors) is driving much of the sector's numbers.
+- **Ethics:** only public information is used, sources are credited, and nothing here is investment advice.
 
 ## 13. Conclusion
 
-The Information Technology sector offers a rich and timely subject for a first research plan. By combining top-down macro analysis, bottom-up fundamentals, technical and sentiment evidence, quantitative testing and scenarios, this plan avoids over-reliance on any single view and gives each research question a defined method, data source and output. Eight indicators, three of them core, provide a measurable basis for judging the sector, and the explicit challenge and mitigation section shows how the main risks to the research itself will be managed. The result is a plan that can be executed within the available time and that forms the foundation for the company-level, technical, risk and macro work in the following weeks.
-
----
+The IT sector is a rich and timely subject. It is growing very fast, it earns high margins, and it is exposed to the highest long-term interest rates in more than twenty years. The plan gives each research question a method, a data source, a dated reading and a day on which it will be handled. The worked examples show that the main numbers can be reproduced by anyone with the sources, and the challenges table shows where the traps are, especially in the way semiconductors dominate the sector's headline growth. The result is a plan that can be carried out on schedule and that sets up the company, technical, risk and macro work in the following weeks.
 
 ## Appendix A: Indicator Scorecard Template
 
-Each category is scored -1 (negative), 0 (neutral) or +1 (positive) against thresholds fixed before the data is examined. The composite is the weighted sum, ranging from -1 to +1. The weights are initial judgements and are shown so that they can be challenged and tested for sensitivity.
+Each category is scored -1, 0 or +1 against thresholds fixed before the data is examined. The composite is the weighted sum between -1 and +1.
 
-| Category | Indicators used | Weight | Example threshold for +1 / -1 | Score |
-|---|---|:-:|---|---|
-| Valuation | Forward P/E percentile; premium to S&P 500 | 20% | +1: below 40th percentile of 10-year range. -1: above 85th percentile. | To be completed |
-| Earnings | EPS growth; revision breadth; capex guidance | 25% | +1: revisions positive and rising. -1: revisions negative. | To be completed |
-| Rates and macro | 10-year real yield trend; PMI; dollar | 20% | +1: real yield falling with PMI above 50. -1: real yield rising sharply. | To be completed |
-| Trend and momentum | Moving averages; relative strength; breadth | 20% | +1: price above 50- and 200-day averages with improving breadth. -1: below both. | To be completed |
-| Sentiment | VIX; AAII survey | 15% | +1: elevated fear with stabilising prices. -1: extreme complacency. | To be completed |
+| Category | Indicators used | Weight | Threshold for +1 and -1 |
+| --- | --- | ---: | --- |
+| Valuation | Forward P/E percentile and premium to S&P 500 | 20% | +1: below 40th percentile of ten-year range. -1: above 85th percentile |
+| Earnings | EPS growth, revision breadth, capex guidance | 25% | +1: revisions positive and rising. -1: revisions negative |
+| Rates and macro | 10-year real yield trend, PMI, dollar | 20% | +1: real yield falling with PMI above 50. -1: real yield rising sharply |
+| Trend and momentum | Moving averages, relative strength, breadth | 20% | +1: price above 50- and 200-day averages with improving breadth. -1: below both |
+| Sentiment | VIX, surveys, share of Buy ratings | 15% | +1: elevated fear with stabilising prices. -1: extreme complacency |
 
 *Table A1. Scorecard template. Weights total 100%.*
 
----
+## Sources
 
-## References and Data Sources
+1. FactSet, Earnings Insight, 16 October 2026: https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_101626.pdf
+2. Semiconductor Industry Association, "Year-to-Date Global Semiconductor Sales Top $1 Trillion Through August", 5 October 2026: https://www.semiconductors.org
+3. ISM, Manufacturing PMI Report, September 2026: https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/september/
+4. Associated Press via La Nacion, "How major US stock indexes fared Friday 10/9/2026": https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-1092026-nid09102026/
+5. US Bureau of Labor Statistics, Consumer Price Index, September 2026: https://www.bls.gov/cpi/
+6. US Bureau of Economic Analysis, GDP third estimate, second quarter 2026: https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd
+7. Microsoft Corporation, Form 8-K, Exhibit 99.1, 29 July 2026: https://www.sec.gov/Archives/edgar/data/0000789019/000119312526323632/msft-ex99_1.htm
+8. Federal Reserve Bank of St. Louis, FRED (VIXCLS, DGS10, DFII10): https://fred.stlouisfed.org
+9. Federal Reserve, FOMC statement, 16 September 2026: https://www.federalreserve.gov/monetarypolicy/files/monetary20260916a1.pdf
+10. Yahoo Finance, Microsoft (MSFT) quote, 16 October 2026: https://finance.yahoo.com/quote/MSFT/
+11. AlgovestIQ, MSFT technical analysis (moving averages and RSI): https://www.algovestiq.com/stock/msft/technicals
+12. Financhill, MSFT technical analysis (RSI): https://financhill.com/stock-price-chart/msft-technical-analysis
 
-1. U.S. Securities and Exchange Commission, EDGAR company filings: https://www.sec.gov/edgar
-2. Federal Reserve Bank of St. Louis, FRED Economic Data: https://fred.stlouisfed.org
-3. FactSet, Earnings Insight (weekly report): https://insight.factset.com
-4. S&P Dow Jones Indices, S&P 500 sector indices: https://www.spglobal.com/spdji
-5. Select Sector SPDR Funds, Technology Select Sector SPDR (XLK): https://www.ssga.com
-6. Semiconductor Industry Association, global sales data: https://www.semiconductors.org
-7. World Semiconductor Trade Statistics (WSTS): https://www.wsts.org
-8. Institute for Supply Management, Manufacturing PMI: https://www.ismworld.org
-9. Cboe Global Markets, VIX index: https://www.cboe.com/tradable_products/vix
-10. AAII Investor Sentiment Survey: https://www.aaii.com/sentimentsurvey
-11. U.S. Bureau of Labor Statistics: https://www.bls.gov; U.S. Bureau of Economic Analysis: https://www.bea.gov
-12. MSCI and S&P Global, Global Industry Classification Standard (GICS) structure and 2023 revision notes
-13. Brokerage market outlooks and financial media coverage of the technology sector, reviewed October 2026 (cited for themes only; no figures are taken from them)
