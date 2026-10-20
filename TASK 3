@@ -1,0 +1,267 @@
+# Week 3 Report: Technical Analysis and Chart Pattern Evaluation
+
+**Stocks studied:** Microsoft (software and cloud) and JPMorgan Chase (banking)
+
+**Prepared by:** Nayana Sheelavant        **Date:** 19th October, 2026
+
+## 1. Introduction
+
+Last week I asked what Microsoft is worth. This week I am asking a different question: what is the price itself doing, and what might that say about what comes next? Technical analysis does not look at earnings or balance sheets. It looks at price and volume history and tries to read the behaviour of buyers and sellers from it.
+
+The task asks for at least two stocks from different industries. I picked Microsoft and JPMorgan Chase. Microsoft is a technology company whose shares tend to be sensitive to interest rates and to expectations about AI spending. JPMorgan is the largest US bank, earning most of its money from lending, trading and investment banking, so its drivers are different. Both are huge and heavily traded, which tends to give cleaner charts than thinly traded shares do.
+
+I should be clear about my method. I used public charting and data sites rather than my own charting software, so the indicator values below are the ones those sites published. Different sites calculate some indicators slightly differently, and I point out where that mattered. The figures I built are level maps made from reported price levels, not raw price charts.
+
+### Data used and its dates
+
+| Item | Value | Source | As of |
+| --- | --- | --- | --- |
+| MSFT close | $529.05 (down 1.9% on the day) | Yahoo Finance | 16 Oct 2026 |
+| MSFT 52-week range | $349.20 to $553.72 | Yahoo Finance | 16 Oct 2026 |
+| MSFT 50-day and 200-day averages, MACD, RSI | See Table 4 | AlgovestIQ and Financhill | 14 Oct 2026 close |
+| JPM price | About $336 | AskTraders, Beinsure | 13 Oct 2026 |
+| JPM all-time high and correction low | $366.50 and $325.87 | OANDA | 13 Aug and 1 Oct 2026 |
+| JPM moving averages | See Table 5 | TradingView-based review (mexc), OANDA | 5 Oct 2026 and earlier |
+| JPM RSI and MACD | 59.9 and +0.62 | Investing.com | 9 Oct 2026 |
+
+*Table 1. Key data points and when they were recorded.*
+
+The dates matter. The Microsoft indicators were recorded two days before the last close, and the JPMorgan ones come from several days around its earnings report. I have not mixed them up, but a reader should not treat every number as a 16 October reading.
+
+## 2. The Indicators I Used
+
+| Indicator | What it measures | How I read it | Weakness |
+| --- | --- | --- | --- |
+| Simple and exponential moving averages (50-day, 200-day) | Average closing price over the period. The exponential version weights recent days more. | Price above a rising 200-day average suggests a long-term uptrend. A 50-day average crossing above the 200-day is called a golden cross, and below it a death cross. | They lag. By the time a cross appears the move has usually happened. |
+| Relative Strength Index, RSI (14) | Speed of recent gains against losses, on a scale of 0 to 100. RSI = 100 - 100 / (1 + average gain / average loss). | Above 70 is often called overbought and below 30 oversold. In strong trends it can stay high for weeks. | A high reading is not a sell signal on its own. |
+| MACD (12, 26, 9) | The 12-day exponential average minus the 26-day, with a 9-day signal line. | MACD above its signal line is bullish momentum, below is bearish. The gap (histogram) shows whether momentum is building or fading. | Gives false signals when prices move sideways. |
+| Support and resistance | Price areas where buying or selling has repeatedly appeared. | A break through resistance on heavy volume is a stronger signal than one on light volume. | Levels are judgement calls, not exact. |
+| Fibonacci retracement | Common pullback depths, such as 38.2%, 50% and 61.8% of a prior move. | Pullbacks that stall near a retracement level are often watched as possible turning points. | Widely followed, but partly self-fulfilling and not scientific. |
+| Volume | Number of shares traded. | Moves on rising volume carry more weight than moves on falling volume. | Needs context. Earnings days spike volume. |
+
+*Table 2. Indicators and how I use them.*
+
+### 2.1 Worked examples of the calculations
+
+| Calculation | Working | Result and meaning |
+| --- | --- | --- |
+| RSI (illustrative inputs) | Average gain 1.10, average loss 0.70 over 14 days. RS = 1.10 / 0.70 = 1.571. RSI = 100 - 100 / (1 + 1.571) | 61.1: firm momentum, not overbought. Microsoft's published readings of 62.4 to 71.2 are in the same area |
+| Distance from the 50-day average, Microsoft | $529.05 / $503.91 - 1 | +5.0%: medium-term trend up |
+| Distance from the 200-day average, Microsoft | $529.05 / $434.78 - 1 | +21.7%: stretched above the long-term base |
+| Distance from the 52-week high, Microsoft | $529.05 / $553.72 - 1 | -4.5%: close to resistance |
+| Recovery from the low, Microsoft | $529.05 / $349.20 - 1 | +51.5%: a sharp V-shaped rebound |
+| Correction from the high, JPMorgan | $325.87 / $366.50 - 1 | -11.1%: a normal correction inside an uptrend |
+| Distance to the 50-day average, JPMorgan | $351.55 / $336.00 - 1 | +4.6% needed to reach the confirmation level |
+
+*Table 3a. Indicator calculations with real prices.*
+
+The next table shows how the pattern targets in Section 3 are calculated. The prices are made up for illustration and are not forecasts.
+
+| Pattern | Illustrative prices | Calculation | Target |
+| --- | --- | --- | ---: |
+| Head and shoulders | Head $110, neckline $90 | Head height = 110 - 90 = $20. Target = neckline - height = 90 - 20 | $70 |
+| Double top | Two peaks at $200, trough at $180 | Height = 200 - 180 = $20. Target = trough - height = 180 - 20 | $160 |
+| Ascending triangle | Resistance $50, first low $44 | Widest height = 50 - 44 = $6. Target = breakout + height = 50 + 6 | $56 |
+| Bull flag | Pole from $60 to $80, flag breakout at $77 | Pole height = $20. Target = breakout + pole = 77 + 20 | $97 |
+
+*Table 3b. Measured-move examples (illustrative prices).*
+
+## 3. Chart Pattern Reference
+
+Patterns are the shapes price tends to draw as buyers and sellers fight. I list the ones I looked for, how each is confirmed and what it usually implies. The "typical target" column is a rule of thumb used by chartists, and I treat it as a rough yardstick, not a prediction. None of these patterns works every time.
+
+| Pattern | Type | What it looks like | Confirmation | Usual implication and rule-of-thumb target |
+| --- | --- | --- | --- | --- |
+| Head and shoulders | Reversal (bearish) | Three peaks, the middle one highest, with a roughly flat "neckline" through the two troughs. | Price closes below the neckline, ideally on higher volume. | Downtrend. Target is the neckline minus the height from head to neckline. |
+| Inverse head and shoulders | Reversal (bullish) | The same shape upside down, after a downtrend. | Close above the neckline on higher volume. | Uptrend. Target is the neckline plus the head depth. |
+| Double top | Reversal (bearish) | Two peaks at about the same level with a trough between them. | Close below the trough (support). | Downtrend. Target is the trough minus the peak-to-trough height. |
+| Double bottom | Reversal (bullish) | Two lows at a similar level with a peak between. | Close above the middle peak. | Uptrend. Target is the peak plus the height of the pattern. |
+| Ascending triangle | Usually continuation (bullish) | Flat resistance with rising lows pressing up against it. | Close above resistance on rising volume. | Further gains. Target is the breakout level plus the triangle's widest height. |
+| Descending triangle | Usually continuation (bearish) | Flat support with falling highs pressing down. | Close below support. | Further losses. Target mirrors the ascending case. |
+| Symmetrical triangle | Neutral | Highs falling and lows rising, converging. | Close outside either trend line. | Move in the direction of the breakout. Target is the widest height projected. |
+| Bull flag or pennant | Continuation (bullish) | A sharp rise (the pole) followed by a small, tight pullback. | Break above the flag, often on a volume pick-up. | Another leg up. Target is the pole height added to the breakout. |
+| Cup and handle | Continuation (bullish) | A rounded bottom followed by a small dip near the highs. | Close above the rim of the cup. | Uptrend resumes. Target is the cup depth added to the rim. |
+| Rising or falling wedge | Reversal or continuation | Converging lines that both slope up (rising) or down (falling). | Break of the lower line (rising) or upper line (falling). | Rising wedges tend to break down, falling wedges up. |
+
+*Table 3. Common chart patterns.*
+
+**Figure 1** (chart in the Word version). Schematic examples of six common patterns. These are teaching illustrations, not real price data.
+
+How do patterns influence prices? The honest answer is that they do not cause anything. They are a record of supply and demand. A head and shoulders matters because it shows buyers failing to make a new high on the third attempt, and traders who watch the same signal then sell in the same area. Patterns work, when they work, partly because many people react to them together. That is also why I look for confirmation, and why I never act on a pattern that has not broken out.
+
+## 4. Stock One: Microsoft (MSFT)
+
+### 4.1 The price story
+
+Microsoft's chart over the last year has two very different halves. The shares set their highs in a $553 to $555 area during 2025. Then they fell about 37% to a 52-week low of $349.20 on 24 June 2026, even though the company's results were strong. A fall like that in a mega-cap is unusual, and Microsoft fell harder than other big technology names did over the same stretch. Coverage at the time pointed to worries about the cost of AI spending and its effect on free cash flow, which matches what I found in Week 2.
+
+From that low the recovery has been sharp. The shares were back near $509 by 30 September, and on 13 October they closed at a record $543.45. On 16 October it fell 1.9% to $529.05. That leaves it 51.5% above the June low and 4.5% below the 52-week high.
+
+### 4.2 Indicators
+
+| Indicator | Reading | What it says |
+| --- | --- | --- |
+| Price versus 50-day simple average ($503.91) | +5.0% above | Medium-term trend is up |
+| Price versus 200-day simple average ($434.78) | +21.7% above | Long-term trend is up, but price is stretched above its base |
+| 50-day exponential average / 200-day exponential average | $496.94 / $455.92 | Price is above both |
+| 50-day versus 200-day simple average | $503.91 against $434.78 | Golden cross configuration (50-day well above 200-day) |
+| MACD (12, 26) | 12.04, signal line 10.54, histogram +1.5 | Bullish, momentum positive but not accelerating sharply |
+| RSI (14) | 71.2 on one site, 62.4 on another | Upper end of neutral to just overbought |
+| Distance from 52-week high | -4.5% | Very close to resistance |
+
+*Table 4. Microsoft indicators. Averages and MACD as of 14 October 2026 close.*
+
+The two RSI figures are worth a comment. They were both published for the same date, yet one says 71.2 and the other 62.4. The gap probably comes from how each vendor smooths the calculation and which price series it uses. I would rather show both than choose the one that fits a story. Either way, momentum was warm but not extreme, and the 1.9% fall on 16 October will have cooled it a little.
+
+### 4.3 Patterns I see
+
+- **A V-shaped recovery.** The stock rose about 51% from $349.20 without building a base first. That is a sharp reversal rather than a classic pattern, and it tells me buyers stepped in hard after the sell-off. Fast recoveries leave little support just beneath the price, which is why the 50-day average matters.
+- **A defined ceiling at $540 to $555.** The 52-week high of $553.72, the old highs near $555 and the record close of $543.45 all sit in this band. Price has now approached it for what looks like the third time. A ceiling that gets tested repeatedly can end in a breakout or a failure. I cannot tell which from the chart alone.
+- **Not a confirmed triple top.** It is tempting to call the repeated highs a triple top, but a double or triple top only counts once price breaks the support between the peaks. Here the trough between the peaks is the $349.20 low, about 34% below the current price. So the pattern is a possibility, not a signal.
+- **Trend structure.** Since June the stock has made higher lows, and it has stayed above a rising 50-day average. That is a healthy uptrend by the usual definition.
+
+### 4.4 Levels
+
+**Figure 2** (chart in the Word version). Microsoft key price levels, built from the reported values in Table 4. This is a level map, not a price chart.
+
+| Level | Price ($) | Role |
+| --- | ---: | ---: |
+| 52-week high | 553.72 | Resistance |
+| Record close, 13 Oct 2026 | 543.45 | Resistance |
+| 50-day simple average | 503.91 | First support |
+| 50-day exponential average | 496.94 | Support |
+| 200-day exponential average | 455.92 | Longer-term support |
+| 200-day simple average | 434.78 | Major support |
+| 52-week low, 24 Jun 2026 | 349.20 | Floor |
+
+Resistance sits at $540 to $555. Support begins at the 50-day average around $504, then near $496 to $497, with the 200-day averages at $434.78 and $455.92 below that. These are the levels I would watch.
+
+### 4.5 Interpretation
+
+The chart is constructive but late-stage in the short term. The long-term trend is up, the medium-term trend is up and momentum is positive. Against that, the price is close to a ceiling that has stopped it before, it sits more than 20% above its 200-day average, and the next catalyst is large. Microsoft reports on 28 October, and the Federal Reserve announces its decision the same day, with the 10-year Treasury yield near a two-decade high. Events like that can push a stock through a technical level in either direction in a single session.
+
+## 5. Stock Two: JPMorgan Chase (JPM)
+
+### 5.1 The price story
+
+JPMorgan has been in an ascending channel since the April 2025 low of $202.16. It reached an all-time high of $366.50 on 13 August 2026, then pulled back about 11.1% to $325.87 on 1 October. That fall stalled almost exactly at two levels chartists watch closely: the 200-day moving average and the 61.8% Fibonacci retracement of the prior advance.
+
+On 13 October the bank reported third-quarter results. Net income rose 6% to $15.3 billion, but diluted earnings per share of $5.57 (or $5.75 excluding a $658 million securities loss) fell short of estimates of roughly $5.9. It was the first miss since the fourth quarter of 2023. Investment banking fees were up 14% from a year earlier but down 8% from the prior quarter. The shares nevertheless held at about $336, helped by a better outlook for net interest income. I also noticed that, going into the report, bank shares generally were lagging: a major bank ETF was about 12% below its mid-August high while the S&P 500 and Nasdaq were at record highs.
+
+### 5.2 Indicators
+
+| Indicator | Reading | What it says |
+| --- | --- | --- |
+| Price versus 200-day simple average ($321.77) | +4.4% above | Long-term trend still intact, but with little cushion |
+| 200-day exponential average | $325.15 | Right at the correction low, a key support cluster |
+| 50-day simple average (OANDA) | $351.55 | Above price, acting as resistance |
+| 50-day exponential average | $345.46 | Above price, short-term trend is down |
+| 10-day and 20-day exponential averages (5 Oct) | $337.71 and $342.84 | Both above price at the time, a short-term downtrend |
+| RSI (14) | 59.9 | Neutral to firm, not overbought |
+| MACD (12, 26) | +0.62 | Slightly positive, a tentative improvement |
+| Pivot support zone | $315.70 to $323.00 | Where buyers would be expected to return if the 200-day fails |
+
+*Table 5. JPMorgan indicators. Averages from a TradingView-based review dated 5 October 2026 and OANDA; RSI and MACD from Investing.com, 9 October 2026.*
+
+A note of caution on one source. Another site listed different moving average values for JPMorgan on the same page, and they did not fit with the other two sources or with the price history. I left those out and relied on the two sources that agreed with each other.
+
+### 5.3 Patterns I see
+
+- **A pullback inside an uptrend.** The structure is a correction from the August high down to the lower edge of a rising channel and the 200-day average. If the channel holds, this is a normal pause in an uptrend. If it breaks, the channel becomes a ceiling instead.
+- **A possible bull flag or a deeper correction.** The decline from $366.50 to $325.87 followed by a small bounce could be a flag, which would point to another move up. It could equally be the start of a larger correction. Price needs to break one way to tell me.
+- **A confirmation level.** A close above the 50-day average near $351.55 would be the first sign that buyers are back in control. Below it, the short-term averages stay in the way.
+
+### 5.4 Levels
+
+**Figure 3** (chart in the Word version). JPMorgan key price levels, built from the reported values in Table 5. This is a level map, not a price chart.
+
+| Level | Price ($) | Role |
+| --- | ---: | ---: |
+| All-time high, 13 Aug 2026 | 366.50 | Resistance |
+| 50-day simple average | 351.55 | Resistance, confirmation level |
+| 50-day exponential average | 345.46 | Resistance |
+| Price near earnings, 13 Oct | 336.00 | Current area |
+| Correction low, 1 Oct 2026 | 325.87 | Support |
+| 200-day simple average | 321.77 | Major support |
+| Lower pivot support | 315.70 | Support |
+
+### 5.5 Interpretation
+
+JPMorgan looks like a strong stock having a pause. The long-term trend is up, and the pullback has landed on the exact area where support would be expected. Momentum is neutral, which is a healthier reading than the overbought look Microsoft has. What it lacks is confirmation. Until price recovers above the 50-day average, the short-term picture is still a correction. The fundamental backdrop is mixed: net interest income looks supportive, while capital markets revenue cooled from an unusually strong first half.
+
+## 6. Comparing the Two
+
+|  | Microsoft (MSFT) | JPMorgan (JPM) |
+| --- | --- | --- |
+| Long-term trend | Up (price 21.7% above 200-day average) | Up (price about 4.4% above 200-day average) |
+| Medium-term trend | Up, 5.0% above 50-day average | Correcting, 50-day average about 4.6% above price |
+| Momentum | Positive MACD, RSI 62 to 71 | Slightly positive MACD, RSI about 60 |
+| Nearest resistance | $540 to $555 | $351.55, then $366.50 |
+| Nearest support | $504, then $435 | $321.77 to $325.87, then $315.70 |
+| Pattern | V-shaped recovery into a tested ceiling | Pullback to channel support and the 200-day average |
+| Main near-term event | Earnings and Fed decision on 28 Oct | Digesting Q3 results; rate path and credit conditions |
+| Technical stance | Constructive, extended near resistance | Neutral and improving, needs confirmation |
+
+*Table 6. Side-by-side technical comparison.*
+
+The contrast is useful. Microsoft has run up into resistance and looks stretched, while JPMorgan has pulled back to support and looks rested. Technical analysis does not say which stock is the better company. It says where each one is in its own cycle.
+
+## 7. Recommendations and Market Signals
+
+These are technical views to be reviewed as prices move, not instructions to buy or sell. For each stock I list what would make the picture better, what would make it worse, and what I would watch.
+
+|  | Bullish signal | Bearish signal | What I would monitor |
+| --- | --- | --- | --- |
+| Microsoft | A daily close above about $555 on heavier-than-usual volume would take it into new high ground and turn the ceiling into support. | A close below the 50-day average near $504, especially on rising volume, would suggest the ceiling has held and open the way toward $455 and $435. | Reaction to the 28 October results and Fed decision; whether RSI falls back below 70 without price breaking down; volume at the $540 to $555 area. |
+| JPMorgan | A close above the 50-day average near $351.55 would show buyers regaining control, with $366.50 as the next test. | A close below the 200-day average near $321 to $325 would break the channel support and point to $315.70 and lower. | Whether the 1 October low of $325.87 holds; bank sector strength against the S&P 500; direction of the 10-year yield. |
+
+*Table 7. Signals to watch.*
+
+### 7.1 Worked example: risk and reward
+
+A level is only useful if the reward for being right is bigger than the loss if wrong. Using the levels from this report, here are the numbers for possible entries.
+
+| Idea | Entry | Stop | Target | Risk per share | Reward per share | Reward to risk |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Microsoft, buy at the 50-day average | $505 | $434 (below 200-day) | $555 | $71 (14.1%) | $50 (9.9%) | 0.7 : 1 |
+| Microsoft, buy at the 200-day exponential average | $456 | $430 | $555 | $26 (5.7%) | $99 (21.7%) | 3.8 : 1 |
+| JPMorgan, buy at support | $322 | $315 | $351.55 | $7 (2.2%) | $29.55 (9.2%) | 4.2 : 1 |
+| JPMorgan, same entry to the record high | $322 | $315 | $366.50 | $7 (2.2%) | $44.50 (13.8%) | 6.4 : 1 |
+
+*Table 8a. Risk and reward at selected levels. Levels are from this report; entries are examples.*
+
+The result is useful. Buying Microsoft at the 50-day average, with a stop below the 200-day average, risks $71 to make $50, which is not attractive. Waiting for the deeper level changes the same trade to about 3.8 to 1. For JPMorgan the stop at the pivot is close, so the ratio is better. Position size is a separate question. If the most one is willing to lose on a trade is 0.5% of a US$100,000 portfolio, which is $500, the stop distance of $7 would allow 71 shares ($22,900). But a limit of 5% per stock ($5,000) allows only about 15 shares, so in this case the position cap, not the stop, sets the size. In practice the smaller of the two limits applies.
+
+My overall view, in plain terms, is that Microsoft deserves patience and JPMorgan deserves a watching brief. For Microsoft, the chart says the trend is healthy but the price is close to a level that has stopped it before. That agrees with my Week 2 conclusion that the shares look fully valued, so the two kinds of analysis are pointing the same way: wait for either a breakout with volume or a pullback toward the 50-day average rather than chasing. For JPMorgan, the chart is waiting for confirmation. That fits the valuation evidence too, since Morningstar rates the shares as fairly valued, and the stock trades at roughly 14 times the 2026 earnings analysts expect.
+
+On risk control, the approach I would use is simple. Decide in advance where the view is wrong. For a longer-term holder that could be a close below the 200-day average, and for a shorter-term view the 50-day average. Then size the position so that being wrong at that level is a loss one can accept.
+
+## 8. Limitations
+
+- **Indicators lag.** Moving averages and MACD describe what has already happened, and a sharp event can change the picture overnight.
+- **Vendors differ.** RSI and moving averages came from different websites and do not always match. I noted where this showed up.
+- **Patterns are subjective.** Two analysts can draw the same chart and see different shapes. I tried to stick to confirmation rules rather than call patterns early.
+- **Snapshot in time.** The readings are from specific dates in October 2026 and will have moved. The JPMorgan price is the latest I could verify, from 13 October.
+- **No back-testing.** I did not test how often these signals worked historically for these stocks, which a more complete study would do.
+- **Event risk.** Earnings, Federal Reserve decisions and geopolitical news can override any technical level.
+- **Not advice.** This is a learning exercise and not a recommendation.
+
+## 9. Conclusion
+
+Using the same tools on two different stocks gave two different pictures. Microsoft is in a clear uptrend that has run quickly into resistance, with a major event next week. JPMorgan is in a long-term uptrend that is correcting and sitting right on support. In both cases the useful output is not a prediction but a set of levels and conditions: what to watch, what would confirm the trend and what would break it. Combined with the valuation work from Week 2, the overall message for Microsoft is to be patient and for JPMorgan to wait for confirmation.
+
+## 10. Sources
+
+1. Yahoo Finance, Microsoft (MSFT) quote, 16 October 2026: https://finance.yahoo.com/quote/MSFT/
+2. AlgovestIQ, MSFT technical analysis (14 October 2026 values): https://www.algovestiq.com/stock/msft/technicals
+3. Financhill, MSFT technical analysis: https://financhill.com/stock-price-chart/msft-technical-analysis
+4. MarketBeat, "Why Microsoft Looks Like the Best Big Tech Trade for H2 2026": https://www.marketbeat.com/articles/why-microsoft-looks-like-the-best-big-tech-trade-for-h2-2026/
+5. OANDA, "JPMorgan Q3 Earnings Preview": https://www.oanda.com/sg-en/skills-and-insights/education/trading-asset-classes/shares/jpmorgan-q3-earnings-preview/
+6. mexc crypto-pulse, "JPMorgan Chase (JPM) Technical Analysis: Key Support and Resistance Levels Ahead of Q3 Earnings" (TradingView data, 5 October 2026): https://www.mexc.com/crypto-pulse/article/jpmorgan-chase-jpm-technical-analysis-165874
+7. Investing.com, JPM technical analysis: https://www.investing.com/equities/jp-morgan-chase-technical
+8. AskTraders, "JPMorgan Shares Gain Despite Surprise Profit Miss": https://www.asktraders.com/?p=256179
+9. Beinsure, "JPMorgan Chase stock forecast: earnings miss, 2027 outlook": https://beinsure.com/news/jpmorgan-chase-stock-forecast-earnings-miss/
+10. Morningstar, "JPMorgan Earnings: Solid Results Despite Capital Markets Softening": https://www.morningstar.com/stocks/jpmorgan-earnings-solid-results-despite-capital-markets-softening
+11. stock3, "JPMorgan-Aktie im Blick" (citing CNBC on bank ETF performance): https://stock3.com/news/jpmorgan-aktie-im-blick-analysten-erwarten-17-prozent-mehr-gewinn-pro-aktie-17327037
+12. CNBC, "10-year Treasury yield climbs back to 5% after Fed hikes rates", 16 September 2026: https://www.cnbc.com/2026/09/16/treasury-yield-bond-market-fed-decision.html
+
