@@ -1,0 +1,278 @@
+# Week 4 Report: Risk Assessment and Portfolio Diversification Strategy
+
+**Focus:** market risk factors, a hypothetical US$100,000 portfolio, and a diversification plan
+
+**Prepared by:** Nayana Sheelavant        **Date:** 19th October, 2026
+
+## 1. Introduction
+
+The first three weeks were about finding and judging opportunities. This week is about the other side: what can go wrong, how badly, and what a sensible investor does about it. I think this is the part most beginners skip, so I wanted to do it carefully.
+
+I started by collecting evidence on the risks present in markets right now, then built a hypothetical portfolio of US$100,000 that looks like what an enthusiastic technology investor might hold after the last few years. I measured its risk in several ways, ran it through four stress scenarios and a simulation of 200,000 possible years, and then designed a more diversified alternative and compared the two. None of this is real money and none of it is investment advice.
+
+## 2. The Market Risk Environment, With Evidence
+
+Before looking at a portfolio, I wanted to know what the market itself is saying. The table collects the main readings I could verify. Several of them point to a more difficult backdrop than the record highs in stock indices might suggest.
+
+| Indicator | Latest reading | Source | Why it matters |
+| --- | --- | --- | --- |
+| Federal Reserve policy rate | 3.75% to 4.00% after a 25 basis point hike on 16 Sep 2026, the first rise since 2023, by unanimous vote | Federal Reserve; Schwab | Higher borrowing costs weigh on company profits and on stock valuations |
+| Fed projections | Median forecast has the rate at 4.1% by year-end, so one more hike is expected | J.P. Morgan Asset Management | Tightening may not be over |
+| 10-year Treasury yield | About 5.0%, near a 19-year high and up roughly 80 basis points this year | CNBC; Schwab | A risk-free 5% competes with stocks and raises the discount rate on future earnings |
+| Inflation | Roughly 3.7% year on year, above the 2% target | Trading Economics | Keeps the Fed cautious and erodes real bond returns |
+| Oil | Brent crude near $104 a barrel on 18 Sep 2026 | Xinhua | An energy shock can feed inflation and slow growth |
+| US stocks | S&P 500 near 7,650 on 18 Sep, up more than 11% for the year as of 14 Sep, with the S&P 500 and Nasdaq at record highs in early October | Xinhua; CNBC (via stock3) | High prices leave less margin for error |
+| Bank stocks | A major bank ETF about 12% below its mid-August high even as indices hit records | CNBC (via stock3) | Shows how unevenly the market is moving |
+| A single-stock example | Microsoft fell about 37% from its 2025 high to a June 2026 low, then rebounded about 51% | MarketBeat; Yahoo Finance | Even an excellent company can have a severe drawdown |
+| Scheduled events | Fed decision and Microsoft earnings on 28 Oct; US midterm elections in early November | Fed calendar; company | Event risk is concentrated in the next few weeks |
+
+*Table 1. Market risk indicators.*
+
+The most important line for me is the combination of a 5% risk-free yield and record-high stock prices. When safe assets pay more, the extra return from taking equity risk looks smaller, and the stock market has less cushion if something goes wrong.
+
+## 3. Risk Factors Identified
+
+| Risk | What it means | Evidence now | Effect on a technology-heavy portfolio |
+| --- | --- | --- | --- |
+| Equity market risk | The whole market falls | Indices at record highs; high valuations | Large, since the portfolio is mostly equities |
+| Interest rate risk | Rising yields lower the value of long-dated cash flows and bonds | Fed hike in September; 10-year near 5% | Technology stocks are long-duration assets. Bond prices also fall when yields rise. |
+| Inflation risk | Prices rise faster than expected | Inflation about 3.7%; oil above $100 | Pushes rates higher and can make stocks and bonds fall together, as in 2022 |
+| Concentration and valuation risk | Too much money in one theme or stock | AI spending dominates the sector; Microsoft traded at about 30 times earnings | The biggest risk in my hypothetical Portfolio A |
+| Single-company risk | A company-specific shock | Microsoft fell 37% in 2026 despite strong results | A single holding can undo a lot of gains |
+| Geopolitical and energy risk | Conflict, trade or supply shocks | Oil price; chip export controls and tariffs | Hits both costs and demand, and chip supply chains in particular |
+| Event risk | Big news arrives at a fixed date | Fed and Microsoft earnings on 28 Oct; elections | Price gaps can happen overnight |
+| Liquidity and behavioural risk | Being forced, or tempted, to sell at the worst time | Not visible in data, but real in every sell-off | A portfolio that falls 35% is much harder to hold than one that falls 15% |
+
+*Table 2. Risk factors and how they apply.*
+
+## 4. The Hypothetical Portfolios
+
+I defined two portfolios of US$100,000 each. **Portfolio A** is a concentrated technology portfolio, the sort someone might end up with after riding the AI trade. **Portfolio B** is the diversified version I would propose instead. I used index-style building blocks so that the analysis is about asset allocation and not about picking individual stocks.
+
+| Asset class | Proxy index | Portfolio A | Portfolio B |
+| --- | --- | ---: | ---: |
+| US technology | Nasdaq-100 | 70%  ($70,000) | 15%  ($15,000) |
+| US broad equity | S&P 500 | 20%  ($20,000) | 30%  ($30,000) |
+| International developed equity | MSCI EAFE | 0%  ($0) | 15%  ($15,000) |
+| US investment-grade bonds | Bloomberg US Aggregate Bond | 0%  ($0) | 25%  ($25,000) |
+| Gold | Spot gold | 0%  ($0) | 10%  ($10,000) |
+| Cash | 3-month Treasury bills | 10%  ($10,000) | 5%  ($5,000) |
+
+*Table 3. Portfolio compositions.*
+
+### 4.1 Planning assumptions
+
+To measure risk I need an expected return, a volatility (the usual size of annual swings) and a correlation for each asset class. I did not take these from a forecast. They are round planning figures based on long-run historical ranges, adjusted loosely for today's yields, and they are my assumptions. Changing them will change the results, which is a limitation I come back to.
+
+| Asset class | Expected return | Volatility |
+| --- | ---: | ---: |
+| US technology | 8.0% | 22.0% |
+| US broad equity | 7.0% | 16.0% |
+| International developed equity | 6.5% | 17.0% |
+| US investment-grade bonds | 5.0% | 6.0% |
+| Gold | 3.5% | 15.0% |
+| Cash | 4.0% | 0.5% |
+
+*Table 4. Expected return and volatility assumptions (annual).*
+
+|  | Tech | Broad | Intl | Bonds | Gold | Cash |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Tech | 1.00 | 0.90 | 0.75 | 0.25 | 0.00 | 0.00 |
+| Broad | 0.90 | 1.00 | 0.85 | 0.25 | 0.05 | 0.00 |
+| Intl | 0.75 | 0.85 | 1.00 | 0.20 | 0.15 | 0.00 |
+| Bonds | 0.25 | 0.25 | 0.20 | 1.00 | 0.30 | 0.00 |
+| Gold | 0.00 | 0.05 | 0.15 | 0.30 | 1.00 | 0.00 |
+| Cash | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 1.00 |
+
+*Table 5. Correlation assumptions. Stock and bond correlation is set positive at 0.25 because stocks and bonds fell together in 2022.*
+
+## 5. Measuring the Risk
+
+### 5.1 What I measured
+
+- **Volatility.** The annual standard deviation of returns for the whole portfolio, calculated from the weights, volatilities and correlations.
+- **Beta.** How much the portfolio moves for a 1% move in the S&P 500.
+- **Value at Risk (VaR), 95%, one year.** The loss that should only be exceeded in about 1 year out of 20. I used the normal-distribution formula: VaR = -(expected return - 1.645 x volatility).
+- **Conditional VaR (CVaR).** The average loss in the worst 5% of years. It tells you how bad the bad years are, not just where they start.
+- **Sharpe ratio.** Return above cash divided by volatility, using 4% as the cash return.
+- **Risk contribution.** Each asset's share of the portfolio's total variance. It shows where the risk really comes from, which can differ a lot from where the money is.
+
+### 5.2 Results
+
+| Measure | Portfolio A (concentrated) | Portfolio B (diversified) |
+| --- | ---: | ---: |
+| Expected annual return | 7.4% | 6.1% |
+| Volatility | 18.3% | 10.8% |
+| Beta against the S&P 500 | 1.07 | 0.65 |
+| VaR, 95%, one year | 22.8%  ($22,758) | 11.8%  ($11,771) |
+| CVaR (average loss in worst 5% of years) | 30.4%  ($30,407) | 16.3%  ($16,298) |
+| Sharpe ratio | 0.19 | 0.19 |
+| Diversification ratio | 1.02 | 1.26 |
+| Share of risk from US technology | 83.8% | 27.8% |
+
+*Table 6. Risk metrics. The diversification ratio is the weighted average of individual volatilities divided by the portfolio volatility; a figure near 1 means almost no diversification benefit.*
+
+The headline is how much the risk fell and how little the expected return did. Moving from A to B cut volatility by 41% (from 18.3% to 10.8%), cut the one-year VaR by 48% and cut the average loss in the worst years by 46%. The price was 1.3 percentage points of expected return. Beta fell from 1.07 to 0.65.
+
+The Sharpe ratio barely moved (0.19 against 0.19). That means diversification did not make the portfolio worse per unit of risk. It simply let it take far less risk. Under my assumptions, technology compensates you only slightly better than the broad market for its extra volatility, so concentrating in it does not pay for itself.
+
+Portfolio A is the clearest example of why risk contribution matters. Technology is 70% of the money but about 84% of the risk. The diversification ratio of 1.02 is close to 1, which tells me the portfolio is almost a single bet. In Portfolio B no sleeve contributes more than about 42% of the risk, and bonds and gold, which are 35% of the money, add only about 9% of the risk, which is exactly their job.
+
+**Figure 1** (chart in the Word version). Share of capital compared with share of total risk, by asset class.
+
+| Asset class | A: capital (%) | A: risk (%) | B: capital (%) | B: risk (%) |
+| --- | ---: | ---: | ---: | ---: |
+| US tech | 70 | 83.8 | 15 | 27.8 |
+| US broad | 20 | 16.2 | 30 | 42.4 |
+| Intl dev | 0 | 0.0 | 15 | 20.9 |
+| US bonds | 0 | 0.0 | 25 | 5.7 |
+| Gold | 0 | 0.0 | 10 | 3.3 |
+| Cash | 10 | 0.0 | 5 | 0.0 |
+
+### 5.3 Worked examples
+
+To show where the numbers in Table 6 come from, here are the calculations for Portfolio A and Portfolio B written out.
+
+| Calculation | Working | Result |
+| --- | --- | --- |
+| Expected return, Portfolio A | 70% x 8.0% + 20% x 7.0% + 10% x 4.0% | 5.60 + 1.40 + 0.40 = 7.40% |
+| Expected return, Portfolio B | 15% x 8.0% + 30% x 7.0% + 15% x 6.5% + 25% x 5.0% + 10% x 3.5% + 5% x 4.0% | 1.20 + 2.10 + 0.98 + 1.25 + 0.35 + 0.20 = 6.08% |
+| Variance of A (technology and broad equity; cash adds almost nothing) | 0.70^2 x 0.22^2 + 0.20^2 x 0.16^2 + 2 x 0.70 x 0.20 x 0.90 x 0.22 x 0.16 | 0.023716 + 0.001024 + 0.008870 = 0.033610 |
+| Volatility of A | Square root of 0.033610 | 18.33% |
+| One-year VaR at 95%, A | -(7.40% - 1.645 x 18.33%) | 22.75%, or $22,750 on $100,000 |
+| Loss in the 2008 scenario, A | 70% x (-42%) + 20% x (-37%) + 10% x (+2%) | -29.40 - 7.40 + 0.20 = -36.6% |
+| Loss in the 2008 scenario, B | 15% x (-42) + 30% x (-37) + 15% x (-43) + 25% x 5 + 10% x 5 + 5% x 2 | -6.30 - 11.10 - 6.45 + 1.25 + 0.50 + 0.10 = -22.0% |
+
+*Table 6a. Risk calculations written out.*
+
+The correlation of 0.90 between technology and broad equity is the reason the cross term (0.008870) is so large. If the two were uncorrelated, the cross term would be zero and the volatility of A would fall to about 15.7%. Because they are highly correlated, mixing them barely reduces risk, which is the central point of the week.
+
+### 5.4 Worked example: rebalancing
+
+| Step | Portfolio B in dollars | Weight of technology |
+| --- | --- | --- |
+| Start | Technology $15,000; everything else $85,000; total $100,000 | 15.0% |
+| Technology rises 40%, others flat | Technology $21,000; total $106,000 | 19.8%, drift of 4.8 points (below the 5-point trigger, no action) |
+| Technology rises 45%, others flat | Technology $21,750; total $106,750 | 20.4%, drift of 5.4 points (trigger reached) |
+| Rebalance | Target 15% x $106,750 = $16,013. Sell $21,750 - $16,013 = $5,737 of technology and spread it across the other asset classes in proportion to their targets | Back to 15.0% |
+
+*Table 6b. How the 5-point rebalancing rule works.*
+
+## 6. Scenario Analysis
+
+### 6.1 Stress tests
+
+Metrics based on assumed volatilities say little about what happens in a real crisis, when correlations jump and assets that normally offset each other fall together. So I applied each portfolio to three past episodes and one hypothetical scenario. The table shows what each asset class did in each scenario, and the resulting loss for the portfolio.
+
+| Scenario | Tech | Broad | Intl | Bonds | Gold | Cash | A | B |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Dot-com bust, 2000 to 2002 (cumulative) | -73% | -38% | -43% | +34% | +19% | +12% | -57.5% | -17.8% |
+| Global financial crisis, 2008 | -42% | -37% | -43% | +5% | +5% | +2% | -36.6% | -22.0% |
+| Inflation and rate shock, 2022 | -33% | -18% | -15% | -13% | 0% | +2% | -26.5% | -15.8% |
+| Hypothetical: AI spending unwind plus higher yields | -40% | -22% | -15% | -6% | +5% | +2% | -32.2% | -15.8% |
+
+*Table 7. Asset class returns in each scenario and resulting portfolio outcome. Historical figures are approximate, rounded, and based on index total returns for the proxies in Table 3.*
+
+A word on the numbers. The three historical rows are rounded calendar-year or cumulative figures that I compiled from index provider data, and they should be read as close approximations. Anyone using them seriously should check them against the index providers' fact sheets. The fourth scenario is my own. It imagines that spending on AI disappoints and yields rise further, with technology down 40%, the broad market down 22%, bonds down 6% and gold up 5%. It is a thought experiment built from the risks in Section 2, not a forecast.
+
+**Figure 2** (chart in the Word version). Portfolio loss in each stress scenario. Portfolio B loses roughly a third to a half as much as Portfolio A in every case.
+
+| Scenario | Portfolio A (%) | Portfolio B (%) |
+| --- | ---: | ---: |
+| Dot-com bust, 2000 to 2002 (cumulative) | -57.5 | -17.8 |
+| Global financial crisis, 2008 | -36.6 | -22.0 |
+| Inflation and rate shock, 2022 | -26.5 | -15.8 |
+| Hypothetical: AI spending unwind plus higher yields | -32.2 | -15.8 |
+
+Portfolio A would have lost about 57% in the dot-com bust and 37% in 2008. Portfolio B would have lost about 18% and 22%. The inflation episode of 2022 is the instructive one. It is the only scenario in which bonds fell alongside stocks, and it looks the most like today. Even there, Portfolio B lost 16% against 27% for A, but a 16% loss is still painful. Bonds are not a perfect hedge when inflation is the cause of the sell-off. I address that in the recommendations.
+
+### 6.2 Monte Carlo simulation
+
+The stress tests show only four paths. To see a wider range I simulated 200,000 possible one-year outcomes for each portfolio. The simulation draws returns from the assumptions in Tables 4 and 5, but it uses a Student-t distribution with 5 degrees of freedom instead of a normal curve, so that extreme years happen more often than a bell curve allows. I set the random seed to 2026 so that the numbers can be reproduced.
+
+| One-year result | Portfolio A | Portfolio B |
+| --- | ---: | ---: |
+| Average return | 7.4% | 6.1% |
+| Return in the 5th percentile (1 year in 20 is worse) | -21.2% | -10.8% |
+| Return in the 1st percentile (1 year in 100 is worse) | -40.0% | -22.1% |
+| Average of the worst 5% of years | -33.4% | -18.1% |
+| Probability of any loss | 31.1% | 25.0% |
+| Probability of losing more than 10% | 13.7% | 5.7% |
+| Probability of losing more than 20% | 5.6% | 1.3% |
+
+*Table 8. Monte Carlo results, 200,000 simulated years each.*
+
+In the simulation, Portfolio A loses more than 10% in about 14 years out of 100, and more than 20% in about 6. Portfolio B loses more than 10% in about 6 years out of 100 and more than 20% in about 1. The probability of simply losing money in a year only falls from about 31% to 25%, which is a useful reminder that diversification does not remove losing years. It shrinks the size of the losses. The one-year VaR from the simulation (21.2% for A and 10.8% for B) is close to the formula-based numbers in Table 6, which gives me some confidence that the two methods are consistent.
+
+## 7. Diversification Strategy and Recommendations
+
+### 7.1 Target allocation
+
+| Asset class | A | B | Change | Change ($) | Role in the portfolio |
+| --- | ---: | ---: | ---: | ---: | --- |
+| US technology | 70% | 15% | -55 pts | -$55,000 | Keeps exposure to the AI and software themes I researched in Weeks 1 to 3 but stops it dominating. Note that the S&P 500 holds a large technology weight too, so the real technology exposure in B is higher than 15%. |
+| US broad equity | 20% | 30% | +10 pts | +$10,000 | The core equity holding. Wide spread across companies and sectors. |
+| International developed equity | 0% | 15% | +15 pts | +$15,000 | Adds exposure to other economies, currencies and sector mixes. It is still equity risk, so it helps less in a global sell-off than other assets do. |
+| US investment-grade bonds | 0% | 25% | +25 pts | +$25,000 | Gives income at current yields and a cushion in growth-driven sell-offs (it worked in 2000 to 2002 and 2008). It did not help in 2022. |
+| Gold | 0% | 10% | +10 pts | +$10,000 | Held for crisis and inflation protection. It rose or held up in all but one scenario here, and had little connection to technology in my assumptions. It pays no income. |
+| Cash | 10% | 5% | -5 pts | -$5,000 | Provides stability, liquidity for rebalancing, and a return of about 4% at current policy rates. |
+
+*Table 9. From Portfolio A to Portfolio B.*
+
+### 7.2 How I would get there
+
+1. **Move in stages.** Selling $55,000 of technology in a single day is a timing decision in itself. I would shift in three to six tranches so that no single day decides the result. If selling triggers tax, that cost should be weighed first.
+2. **Use index funds for the technology sleeve.** This keeps single-company risk, the Microsoft-type drawdown, out of the portfolio.
+3. **Cap individual stocks.** No single stock above about 5% of the portfolio.
+4. **Split the bond sleeve.** Hold a mix of short-to-intermediate Treasuries and inflation-linked bonds, so that a repeat of 2022 hurts less. Avoid very long maturities while yields are still rising.
+5. **Rebalance by rule.** Check at least once a year, and also whenever any asset class drifts more than 5 percentage points from its target. This forces selling what has run up and buying what has lagged, without relying on opinion.
+6. **Keep an emergency fund outside the portfolio.** Three to six months of expenses, so that a bad market never forces selling.
+7. **Avoid leverage.** Borrowing to invest turns a bad year into a forced sale.
+8. **Optional hedging.** For anyone who must hold a large single stock, a protective put or a collar can limit losses, at a cost. I would treat it as an exception, not the standard.
+
+### 7.3 What I would monitor
+
+These are my own review triggers, chosen to prompt a rethink. They are not market signals or forecasts.
+
+| Indicator | Reading now | Review trigger | What I would do |
+| --- | --- | --- | --- |
+| 10-year Treasury yield | About 5.0% | Sustained move above about 5.25% | Review bond maturities and technology weight |
+| Fed policy path | 3.75% to 4.00%, one more hike expected | More hikes than the Fed has signalled | Reassess equity risk and bond duration |
+| Inflation | About 3.7% | Above about 4%, or oil sustained above $110 | Increase inflation-linked bonds and gold within limits |
+| Technology earnings | Microsoft reports 28 Oct | Higher spending with weaker cloud growth | Revisit the technology sleeve |
+| Portfolio drawdown | Not applicable | Down 10% from the peak | Review against plan, rebalance by rule, avoid panic selling |
+
+*Table 10. Monitoring plan.*
+
+To summarise what the plan buys. For a loss of roughly 1.3 percentage points of expected return a year, Portfolio B cuts volatility by about 41%, cuts the one-year VaR by about 48% and cuts the loss in the stress scenarios to roughly a third to a half of Portfolio A's. Whether that trade is worth it depends on the investor. For anyone who could not stomach a loss of a third of their money, I think it clearly is.
+
+## 8. Limitations
+
+- **Assumptions drive the numbers.** Expected returns, volatilities and correlations are planning figures I chose, not forecasts. Different reasonable inputs would give different results.
+- **The past is not a promise.** The historical scenarios are rounded and approximate, and the next crisis will not match any of them exactly.
+- **Correlations change.** Assets that diversify each other in calm periods can fall together in a panic, as stocks and bonds did in 2022.
+- **Simplified distributions.** The VaR formula assumes a bell curve. The simulation allows fatter tails, but neither captures volatility clustering, where bad days bunch together.
+- **Proxies, not products.** Real funds carry fees, tracking error and tax effects that I have left out.
+- **Hypothetical portfolio.** It is not tailored to anyone's real goals, time horizon or tax position.
+- **Not advice.** This is a learning exercise and not a recommendation to buy or sell anything.
+
+## 9. Conclusion
+
+The main thing I learned this week is that risk is not where the money is, it is where the correlation is. A portfolio that looks varied because it owns many technology names is really one bet, and my hypothetical Portfolio A shows it: 70% of the money but about 84% of the risk. Moving to a mix of broad equity, international shares, bonds, gold and a little cash cut the risk by roughly 40% to 50% on every measure and cost about 1.3 points of expected return, with the stress tests and the simulation telling the same story.
+
+The market evidence in Section 2 explains why this matters right now. The Fed has started raising rates again, the 10-year yield is near 5%, inflation is above target and stock indices are at record highs. None of that means a crash is coming. It does mean that the cushion for error is thinner than it was a year ago, and that is exactly when a diversified plan with clear rules is worth having.
+
+## 10. Sources
+
+1. Federal Reserve, FOMC statement, 16 September 2026: https://www.federalreserve.gov/monetarypolicy/files/monetary20260916a1.pdf
+2. CNBC, "10-year Treasury yield climbs back to 5% after Fed hikes rates, Warsh highlights inflation risks", 16 September 2026: https://www.cnbc.com/2026/09/16/treasury-yield-bond-market-fed-decision.html
+3. CNBC, "10-year Treasury yield hits 5% before reversing as traders await Fed meeting", 14 September 2026: https://www.cnbc.com/2026/09/14/10-year-us-treasury-is-closing-in-on-5percent.html
+4. Charles Schwab, "Fed Hikes: What's Next for Treasury Yields?": https://www.schwab.com/learn/story/fed-hikes-whats-next-treasury-yields
+5. J.P. Morgan Asset Management, "FOMC Statement: September 2026": https://am.jpmorgan.com/us/en/asset-management/adv/insights/portfolio-insights/fixed-income/fixed-income-perspectives/fomc-statement-september-2026/
+6. Trading Economics, United States interest rate and inflation: https://tradingeconomics.com/united-states/interest-rate
+7. Xinhua via The Star, "U.S. stocks close mixed as Treasury yields rise again", 19 September 2026: https://www.thestar.com.my/news/world/2026/09/19/us-stocks-close-mixed-as-treasury-yields-rise-again
+8. stock3, "JPMorgan-Aktie im Blick" (citing CNBC on bank ETF performance and index records): https://stock3.com/news/jpmorgan-aktie-im-blick-analysten-erwarten-17-prozent-mehr-gewinn-pro-aktie-17327037
+9. MarketBeat, "Why Microsoft Looks Like the Best Big Tech Trade for H2 2026": https://www.marketbeat.com/articles/why-microsoft-looks-like-the-best-big-tech-trade-for-h2-2026/
+10. Yahoo Finance, Microsoft (MSFT) quote: https://finance.yahoo.com/quote/MSFT/
+11. Index provider fact sheets (S&P Dow Jones Indices, Nasdaq, MSCI, Bloomberg) for historical returns used in the stress tests, rounded: https://www.spglobal.com/spdji
+
