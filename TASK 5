@@ -1,0 +1,279 @@
+# Week 5 Report: Analysis of Economic Indicators and Market Trends
+
+**Indicators studied:** economic growth (GDP), employment, inflation and interest rates
+
+**Prepared by:** Nayana Sheelavant        **Date:** 19th October, 2026
+
+## 1. Executive Summary
+
+This report looks at four economic indicators that matter most to stock markets, what each is saying right now, and how they have related to stock returns in the past. I then use them to build a view of the next six to twelve months.
+
+The picture today is unusual. Stocks are at record highs: the S&P 500 closed at 7,811.54 on 9 October 2026, up 14.1% for the year. Yet the economic data underneath is mixed and, in places, uncomfortable. Growth is steady (US GDP rose 2.2% annualised in the second quarter). Hiring has nearly stalled (only 29,000 jobs were added in September). Inflation is re-accelerating (3.7% in September, driven by a 34% annual jump in gasoline). And the Federal Reserve has started raising interest rates again, which has pushed the 10-year Treasury yield to about 5.2%, a level last seen more than two decades ago.
+
+When I tested how these indicators have lined up with stock returns over 2018 to 2024, the clearest link was with interest rates (a correlation of -0.80 between yearly changes in the Fed funds rate and S&P 500 returns). Growth, inflation and unemployment showed almost no link in annual data, which is itself a lesson: markets look ahead, so they often move before the data does. That result rests on only seven years and is driven largely by 2022, so I treat it as an illustration and not as proof.
+
+My base case is for choppy, range-bound markets with wide gaps between winners and losers, because strong earnings are fighting against the highest yields in years. The main risks to that view are an energy price spike and an inflation surprise on one side, and a sudden labour market crack on the other. Section 8 sets out the scenarios and what would tell me which one is unfolding.
+
+| Indicator | Latest reading | Direction | Pressure on stocks |
+| --- | --- | --- | --- |
+| Economic growth | US GDP +2.2% annualised in Q2 2026; IMF sees 2.3% for 2026 | Steady | Supportive |
+| Employment | +29,000 jobs and 4.2% unemployment in September 2026 | Cooling | Mixed |
+| Inflation | CPI 3.7% year on year in September 2026; core 2.6% | Rising | Negative |
+| Interest rates | Fed funds 3.75% to 4.00%; 10-year Treasury about 5.2% | Rising | Negative |
+
+*Table 1. Summary of the four indicators.*
+
+## 2. Choosing the Indicators and the Sources
+
+The task asks for at least four indicators from globally recognised sources. I picked the four that appear in almost every discussion of what moves markets. Together they cover the economy's output (GDP), the labour market (employment), prices (inflation) and the cost of money (interest rates).
+
+| Indicator | Measure used | Source | Latest release used |
+| --- | --- | --- | --- |
+| Economic growth | Real GDP growth, annualised, by quarter; global forecasts | US Bureau of Economic Analysis (BEA); International Monetary Fund (IMF) World Economic Outlook | BEA third estimate, 30 Sep 2026; IMF outlook, 13 Oct 2026 |
+| Employment | Nonfarm payrolls and the unemployment rate | US Bureau of Labor Statistics (BLS) | Employment Situation, 2 Oct 2026 |
+| Inflation | Consumer Price Index, headline and core | US Bureau of Labor Statistics (BLS) | CPI for September, 14 Oct 2026 |
+| Interest rates | Fed funds target range and the 10-year Treasury yield | Federal Reserve; Treasury market data reported by CNBC, AP and others | FOMC statement, 16 Sep 2026; yields to 9 Oct 2026 |
+
+*Table 2. Indicators and data sources.*
+
+A note on the market data. Index levels come from Associated Press close-of-day reports. Where I quote yield readings from news sources instead of the Treasury itself, I give the date, because yields moved by several tenths of a percentage point in the past month.
+
+## 3. Economic Growth
+
+### 3.1 What the data says
+
+US real GDP grew at an annualised 2.2% in the second quarter of 2026, according to the third estimate published on 30 September. That was revised up sharply from 1.5% in the earlier estimates, mostly because investment, consumer spending and government spending came in stronger than first thought. The first quarter was revised to 2.5%. Gross domestic income, an alternative measure built from incomes, grew 2.6%.
+
+The longer run is bumpy. Growth was negative in the first quarter of 2025 (-0.5%), jumped to 3.8% and 4.4% in the middle of 2025, then dropped to 0.5% at the end of the year before settling near 2.2% to 2.5% in 2026. Quarterly figures swing a lot and get revised, so the trend over several quarters is more useful than any single number.
+
+**Figure 1** (chart in the Word version). US real GDP growth by quarter (BEA, latest estimates) and selected readings of the 10-year Treasury yield, October 2025 to October 2026.
+
+| Quarter | GDP growth (annualised %) |
+| --- | ---: |
+| Q1 2025 | -0.5 |
+| Q2 2025 | 3.8 |
+| Q3 2025 | 4.4 |
+| Q4 2025 | 0.5 |
+| Q1 2026 | 2.5 |
+| Q2 2026 | 2.2 |
+
+The 10-year yield readings on the right panel are individual dates I could verify, so the line shows direction rather than a daily history. The direction is clear: from about 4.05% a year ago to about 5.24% on 9 October 2026.
+
+### 3.2 The global picture
+
+The IMF's October 2026 World Economic Outlook expects world growth to slow from 3.5% in 2025 to 3.1% in 2026, then recover to 3.4% in 2027. For the United States it projects 2.3% growth in both 2026 and 2027, supported by consumer spending, fiscal policy and heavy investment in artificial intelligence. The IMF also flags two things I found important. Growth has become very concentrated, with 32 countries producing about 95% of it, and energy-importing and lower-income economies are struggling with higher fuel and food costs after the Middle East conflict.
+
+### 3.3 How growth affects markets
+
+Growth drives company revenue and profit, so faster growth normally supports share prices. The relationship is not simple, though. Markets price the future, so what matters is growth compared with expectations, and growth that is too strong can hurt if it makes the central bank raise rates. In 2026 this tension is visible: solid growth is part of the reason the Fed was willing to hike.
+
+## 4. Employment
+
+### 4.1 What the data says
+
+The September jobs report, released on 2 October, was weak. Nonfarm payrolls rose by only 29,000 against forecasts of around 85,000 to 90,000, and July and August were revised down by a combined 60,000. The three-month average is now only about 51,000 jobs a month, and for all of 2025 payrolls averaged just 15,000 a month. The unemployment rate rose to 4.2% from 4.1%, though the labour force also grew, with participation at 61.8%. Wage growth was about 3% over the year, now below inflation.
+
+Not everything was soft. The broader unemployment measure, which includes discouraged and part-time workers, fell to 7.6%, its lowest since early 2025. So the labour market is cooling and not breaking. Hiring is slow, but layoffs are not surging.
+
+### 4.2 How employment affects markets
+
+Jobs matter in two ways. Strong employment supports consumer spending, which is most of the US economy, so a weak labour market is a warning for profits. But because the Fed watches jobs closely, weak data can also lower expectations of rate rises and lift stocks in the short term. The market reaction to the September report showed this. The weak number cut the market-implied odds of an October Fed hike from roughly 70% to about 14% within the week. Bad news was briefly treated as good news.
+
+## 5. Inflation
+
+### 5.1 What the data says
+
+The BLS reported on 14 October that consumer prices rose 0.6% in September and 3.7% over the year, up from 3.4% in August and 3.0% a year earlier, and above the 3.6% economists expected. Core inflation, which strips out food and energy, was 2.6% over the year and 0.3% for the month. The headline jump came mostly from gasoline, which rose 9.1% in a single month and 34.2% over the year, with fuel oil up 74% and airline fares up 22%.
+
+One economist pointed out that core inflation ran at a 3.7% annualised pace in September, so the underlying trend is not as calm as the 2.6% annual figure implies. Shelter rose 0.4% in the month. The IMF expects US inflation of 3.6% for 2026, easing to 2.8% in 2027, and global inflation of 4.7% in 2026.
+
+### 5.2 How inflation affects markets
+
+Inflation hurts stocks mainly through the central bank. Higher inflation leads to higher interest rates, which reduce the present value of future profits. It also squeezes company margins and household budgets. A moderate level of inflation can be absorbed, since companies with pricing power pass costs on. The danger is a surprise, and the September number was a surprise on the upside, with markets now pricing a rate rise before the end of the year at better than 96% odds.
+
+## 6. Interest Rates
+
+### 6.1 What the data says
+
+The Federal Reserve raised its target range for the federal funds rate by 0.25 percentage points to 3.75% to 4.00% on 16 September 2026. It was the first increase since July 2023 and the vote was unanimous. The median projection has the rate at 4.1% by the end of 2026, which implies one more hike, with no change in 2027 and cuts only in 2028 and 2029. After the September CPI report, markets moved to price a further increase before year-end with high probability. The next meeting is on 27 and 28 October.
+
+Long-term yields have risen even more than the policy rate. The 10-year Treasury yield was around 4.05% in October 2025 and had reached about 5.24% by 9 October 2026, after touching roughly 5.27% earlier that week, which is about the highest level in more than two decades. With inflation at 3.7%, the 10-year yield sits only about 1.5 percentage points above current inflation, so the so-called real yield is positive and meaningful again.
+
+### 6.2 How interest rates affect markets
+
+Rates are the most direct link between the economy and stock prices. A higher rate lowers the value of all future profits, and growth companies, whose profits lie further in the future, are hit hardest. Higher yields also give investors a competing safe return: a risk-free 5% looks attractive next to an S&P 500 earnings yield that is much lower. For banks, higher rates can help, since they earn more on loans and deposits, but they also raise the risk of borrowers failing to repay.
+
+## 7. Relating the Indicators to Stock Returns
+
+### 7.1 Historical episodes
+
+Before looking at statistics, it helps to see the pattern in a few well-known episodes. The figures below are rounded from standard sources.
+
+| Episode | What the indicators did | What stocks did | Lesson |
+| --- | --- | --- | --- |
+| 2000 to 2002 | The Fed raised rates to 6.5% in 2000. Growth slowed and a recession followed in 2001. | The Nasdaq fell about 78% from its March 2000 peak. The S&P 500 lost about 38% over 2000 to 2002. | High valuations plus rising rates are a dangerous mix. |
+| 2008 | GDP contracted, unemployment rose from about 5% to 10% by late 2009. | The S&P 500 fell 37% in 2008 and about 57% from peak to trough. | A collapse in growth and credit hits all stocks. |
+| 2020 | GDP fell sharply and unemployment spiked to 14.7% in April. The Fed cut rates to near zero. | The S&P 500 fell about 34% in five weeks, then recovered to a new high by August and returned 18% for the year. | Markets look past bad data when policy support arrives. |
+| 2022 | Inflation peaked at 9.1%. The Fed raised rates from near zero to 4.25% to 4.50% in a year. | The S&P 500 fell about 18% in 2022. Bonds fell about 13%. | Rapid rate rises hurt stocks and bonds together. |
+
+*Table 3. Four episodes. Figures rounded.*
+
+Two things stand out. In 2020 the data looked terrible and stocks still rose, because investors expected the recovery and a flood of policy support. In 2022 the economy was not collapsing, yet stocks fell sharply, because rates were rising fast. In both cases the direction of policy mattered more than the level of growth.
+
+### 7.2 A simple statistical check
+
+For a more systematic look, I lined up seven calendar years, 2018 to 2024, and measured how each indicator moved against the S&P 500's total return that year. I stopped at 2024 because it is the last full year for which I could confirm every series. Inputs are rounded from the BEA, BLS, Federal Reserve and S&P Dow Jones Indices.
+
+| Year | S&P 500 total return | Real GDP growth | CPI (Dec to Dec) | Change in unemployment (pts) | Change in Fed funds (pts) | Change in 10-year yield (pts) |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| 2018 | -4.4% | 2.9% | 1.9% | -0.2 | +1.00 | +0.29 |
+| 2019 | 31.5% | 2.3% | 2.3% | -0.3 | -0.75 | -0.77 |
+| 2020 | 18.4% | -2.2% | 1.4% | +3.1 | -1.50 | -0.99 |
+| 2021 | 28.7% | 6.1% | 7.0% | -2.8 | 0.00 | +0.59 |
+| 2022 | -18.1% | 2.5% | 6.5% | -0.4 | +4.25 | +2.36 |
+| 2023 | 26.3% | 2.9% | 3.4% | +0.2 | +1.00 | 0.00 |
+| 2024 | 25.0% | 2.8% | 2.9% | +0.4 | -1.00 | +0.69 |
+
+*Table 4. Annual data used. Source series: S&P Dow Jones Indices, BEA, BLS, Federal Reserve, US Treasury; figures rounded.*
+
+| Indicator compared with S&P 500 return | Correlation | p-value | Rank correlation |
+| --- | ---: | ---: | ---: |
+| Real GDP growth (level) | 0.11 | 0.82 | 0.16 |
+| Inflation, CPI Dec/Dec (level) | -0.21 | 0.64 | 0.18 |
+| Change in unemployment rate (pts) | -0.05 | 0.92 | -0.18 |
+| Change in Fed funds rate (pts) | -0.80 | 0.03 | -0.38 |
+| Change in 10-year yield (pts) | -0.68 | 0.10 | -0.39 |
+
+*Table 5. Correlation with annual S&P 500 returns, 2018 to 2024 (7 observations).*
+
+**Figure 2** (chart in the Word version). Annual S&P 500 total return against the change in the Fed funds rate and against real GDP growth, 2018 to 2024. Dashed lines are straight-line fits.
+
+| Year | S&P 500 return (%) | Change in Fed funds (pts) | GDP growth (%) |
+| --- | ---: | ---: | ---: |
+| 2018 | -4.4 | 1.00 | 2.9 |
+| 2019 | 31.5 | -0.75 | 2.3 |
+| 2020 | 18.4 | -1.50 | -2.2 |
+| 2021 | 28.7 | 0.00 | 6.1 |
+| 2022 | -18.1 | 4.25 | 2.5 |
+| 2023 | 26.3 | 1.00 | 2.9 |
+| 2024 | 25.0 | -1.00 | 2.8 |
+
+What the numbers say, and do not say. The change in the Fed funds rate has a strong negative correlation with stock returns (-0.80), and the change in the 10-year yield is also negative (-0.68). Real GDP growth (0.11), the level of inflation (-0.21) and the change in unemployment (-0.05) show essentially no link at all.
+
+Two warnings keep me honest. First, seven observations is a tiny sample. With so few points, a correlation has to be around 0.75 or more in absolute size to be statistically significant at the usual 5% level, and only the policy rate result clears that bar (p = 0.03). Second, that result leans heavily on one year. Remove 2022, when the Fed raised rates by 4.25 points and stocks fell 18%, and the correlation with the policy rate drops to -0.41, and the one with the 10-year yield to -0.12. The rank correlations in the last column, which are less sensitive to extreme years, are also much weaker (about -0.4). So the safest reading is that rate shocks have hurt stocks when they were large and fast, and that growth, inflation and jobs data on their own do not explain annual returns. This fits the episode table: 2020 had the worst growth number of the period and one of the better stock returns.
+
+There is a practical lesson in this. If the data does not predict returns directly, the useful question is what the data will make the Fed do, and whether that is already priced in.
+
+### 7.3 Worked examples
+
+| Calculation | Working | Result and meaning |
+| --- | --- | --- |
+| Effect of a higher discount rate on a far-away cash flow | $100 due in 10 years: 100 / 1.09^10 = $42.24 and 100 / 1.10^10 = $38.55 | -8.7%. A one point rise cuts the value of distant profits by almost 9% |
+| The same for a near cash flow | $100 due in 2 years: 100 / 1.09^2 = $84.17 and 100 / 1.10^2 = $82.64 | -1.8%. Near-term profits barely care. This is why growth stocks are rate-sensitive |
+| Real yield | 10-year yield 5.24% less CPI inflation 3.7% | About 1.54% |
+| Real wage growth | Wage growth about 3.0% less CPI 3.7% | About -0.7%: pay is losing ground to prices |
+| Forward earnings yield against the 10-year yield | S&P 500 forward P/E 19.0, so 1 / 19.0 = 5.26%. 10-year yield 5.24% | Difference of +0.02 points: stocks offer almost no extra yield over risk-free Treasuries |
+| Trailing earnings yield against the 10-year yield | Trailing P/E 26.0, so 1 / 26.0 = 3.85%. 10-year yield 5.24% | Difference of -1.39 points |
+| Core inflation, annual against recent pace | Annual core 2.6%; three-month annualised pace about 3.7% | Underlying inflation is running faster than the annual figure shows |
+
+*Table 5a. Worked examples (FactSet for P/E, BLS for inflation, AP for yields).*
+
+The earnings yield comparison is the most striking line. When stocks yield about the same as safe government bonds, investors are relying on earnings growth to make up the difference, and FactSet analysts do expect it: 32.8% growth for the S&P 500 in 2026, slowing to 16.0% in 2027. If growth disappoints, there is little yield cushion.
+
+Next, the correlation in Table 5 for the Fed funds rate, calculated by hand. Let x be the yearly change in the policy rate and y the S&P 500 return.
+
+| Year | x: change in Fed funds | y: S&P 500 return % | x minus mean | y minus mean | Product | Square of x deviation | Square of y deviation |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| 2018 | 1.00 | -4.4 | 0.57 | -19.7 | -11.3 | 0.33 | 389.8 |
+| 2019 | -0.75 | 31.5 | -1.18 | 16.2 | -19.0 | 1.39 | 261.1 |
+| 2020 | -1.50 | 18.4 | -1.93 | 3.1 | -5.9 | 3.72 | 9.3 |
+| 2021 | 0.00 | 28.7 | -0.43 | 13.4 | -5.7 | 0.18 | 178.4 |
+| 2022 | 4.25 | -18.1 | 3.82 | -33.4 | -127.8 | 14.60 | 1,118.4 |
+| 2023 | 1.00 | 26.3 | 0.57 | 11.0 | 6.3 | 0.33 | 120.1 |
+| 2024 | -1.00 | 25.0 | -1.43 | 9.7 | -13.8 | 2.04 | 93.3 |
+| Sum |  |  |  |  | -177.3 | 22.59 | 2,170.3 |
+
+*Table 5b. Worked correlation. Means: x = 0.429, y = 15.34.*
+
+Correlation r = sum of products / square root of (sum of squared x deviations x sum of squared y deviations) = -177.3 / square root of (22.59 x 2,170.3) = -0.80. This matches Table 5. The table also shows why 2022 dominates: its x deviation (3.82) and y deviation (-33.4) give a product of -127.8, which is about 72% of the total.
+
+## 8. Outlook for the Next Six to Twelve Months
+
+### 8.1 The starting point
+
+| Item | Where things stand |
+| --- | --- |
+| Stock market | S&P 500 7,811.54 (9 Oct), up 14.1% for the year; Nasdaq Composite 27,366.17, up 17.7%; Russell 2000 up 13.1%. FactSet cites a closing level of 7,744.06 about a week later |
+| Valuation | S&P 500 forward P/E 19.0 against a ten-year average of 19.1; S&P 500 earnings growth expected at 29.0% for Q3, 32.8% for 2026 and 16.0% for 2027 (FactSet, 16 Oct) |
+| Business surveys | ISM Manufacturing PMI 54.5 in September (new orders 55.3, prices paid 77.9), the ninth straight month of expansion |
+| Policy rate | 3.75% to 4.00%; median projection 4.1% at end-2026 and unchanged through 2027 |
+| 10-year yield | About 5.24% on 9 Oct, the highest in more than two decades |
+| Inflation | 3.7% headline, 2.6% core; gasoline up 34% over the year; Brent crude about $105 a barrel on 9 Oct |
+| Labour market | Payroll growth about 51,000 a month over three months; unemployment 4.2% |
+| Growth | US GDP 2.2% in Q2; IMF forecast 2.3% for 2026 and 2027 |
+| Next events | Fed meeting 27 and 28 Oct; Q3 GDP first estimate; October jobs report (early Nov); CPI for October (10 Nov); December Fed meeting |
+
+*Table 6. Starting point as of mid-October 2026.*
+
+### 8.2 Scenarios
+
+| Scenario | What happens | Indicators to watch | Likely market effect |
+| --- | --- | --- | --- |
+| Base case (about 50%) | The Fed makes one more hike and then holds. Inflation stays near 3.5% and eases slowly. Growth near 2%. Payrolls stay weak but unemployment rises only slowly. | Core CPI near 0.3% a month; 10-year yield between 4.8% and 5.4%; unemployment below 4.6% | Range-bound index with wide gaps between sectors. Earnings support prices, but high yields cap valuations. |
+| Soft landing (about 25%) | Energy prices fall as tensions ease. Inflation drops back toward 3%. The Fed stops and yields ease. | Gasoline falls; core CPI under 0.25% a month; 10-year yield falling below 4.8% | Rally in long-duration growth stocks and in small companies. Bond prices rise. |
+| Stagflation scare (about 25%) | Oil spikes further, inflation exceeds 4% and the Fed hikes more than expected while hiring weakens. | Brent sustained above $115; CPI above 4%; payrolls turning negative; 10-year yield above 5.5% | Equity correction of 10% to 20%, hardest on expensive growth stocks. Stocks and bonds fall together. |
+
+*Table 7. Scenarios. Probabilities are my own judgement, not market-derived.*
+
+The probabilities are only my judgement and I would change them as new data arrives. I put the base case at half because the IMF's own projection (growth near 2.3% with inflation easing in 2027) and the Fed's projections both point there, and I split the rest evenly because I cannot tell which of the two risks, a fall in energy prices or a further spike, is more likely.
+
+### 8.3 Implications for investors
+
+| Area | Base case | Soft landing | Stagflation scare |
+| --- | --- | --- | --- |
+| Large technology | Neutral. Strong earnings against high real yields | Positive | Negative |
+| Banks | Positive. Higher rates help net interest income, but credit costs are rising | Neutral | Negative on credit worries |
+| Energy | Positive while oil stays high | Negative | Positive |
+| Defensive sectors (health care, staples, utilities) | Neutral | Neutral | Relatively positive |
+| Short-term bonds and cash | Positive. Yields near 4% to 5% | Positive | Positive |
+| Long-term bonds | Neutral. Fall if yields rise further | Positive | Negative |
+| Gold | Neutral | Neutral | Positive |
+
+*Table 8. Direction of likely effect by scenario. These are qualitative judgements.*
+
+These tables connect directly to the earlier weeks. In Week 2, the DCF for Microsoft was very sensitive to the discount rate, and with the 10-year yield now about 0.2 points higher than the 5.0% I used, the base-case value falls by about 4% (to roughly $390 a share). In Week 3, JPMorgan's chart showed a pullback to support, while its results showed higher net interest income. And in Week 4, the case for a diversified portfolio looked stronger because stocks and bonds fell together in 2022, the scenario that looks most like the stagflation case above.
+
+## 9. Limitations
+
+- **Revisions.** GDP, payrolls and CPI are all revised, and the September GDP figure for the second quarter rose by 0.7 points after the first estimates.
+- **Small sample.** The statistical check uses only seven years. It is an illustration of how to test a relationship, not strong evidence.
+- **Rounded history.** The annual figures in Table 4 are rounded and drawn from standard series. They should be rechecked against the original sources before being relied on.
+- **Dates of market readings.** Yield and index readings are for specific dates and have probably moved since.
+- **Scenario probabilities.** They are my own judgement and are not forecasts.
+- **Geopolitics.** I take the Middle East conflict and the energy price spike as given. A sudden change in either would alter the scenarios.
+- **Not advice.** This is a learning exercise and not a recommendation to buy or sell any security.
+
+## 10. Conclusion
+
+The four indicators tell a story of an economy that is growing steadily while inflation and interest rates push the wrong way, and a stock market that has so far looked past it. History suggests that markets forgive weak data when policy is easing, and struggle when rates rise quickly. The Fed is raising rates now, and the 10-year yield is near its highest in two decades, so the safety margin for stocks is thinner than the record index levels suggest.
+
+My base case is not a crash but a long grind: strong company earnings against high yields, with large differences between sectors. The most useful signals to watch are the energy price, the next two CPI reports and the Fed's decision on 28 October. In that setting, the practical conclusion for investors is the one from Week 4: spread risk, keep some defensive assets and avoid relying on one theme.
+
+## 11. Sources
+
+1. US Bureau of Economic Analysis, "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 2nd Quarter 2026", 30 September 2026: https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd
+2. NerdWallet, "Second Quarter GDP Revised Upward" (quarterly GDP history): https://www.nerdwallet.com/finance/learn/gdp-report
+3. International Monetary Fund, World Economic Outlook, October 2026 (media briefing): https://mediacenter.imf.org/news/imf---world-economic-outlook-annual-meetings--2026/s/22f94667-d194-473b-87b2-34c692b5a5a3
+4. Fortune, "Just 32 countries are driving 95% of global growth as the IMF warns of an increasingly uneven economy", 13 October 2026: https://fortune.com/2026/10/13/imf-global-growth-forecast-2026-ai-economic-divide/
+5. EUROMETAL, "IMF forecasts global economic growth to slow to 3.1 percent in 2026", 15 October 2026: https://eurometal.net/imf-forecasts-global-economic-growth-to-slow-to-3-1-percent-in-2026-amid-energy-price-pressures/
+6. US Bureau of Labor Statistics, Employment Situation, September 2026 (released 2 October 2026): https://www.bls.gov/ces/
+7. CNBC, "Labor market faltered in September as jobs increased by just 29,000", 2 October 2026: https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html
+8. US Bureau of Labor Statistics, Consumer Price Index, September 2026 (released 14 October 2026): https://www.bls.gov/cpi/
+9. CNBC, "Consumer prices rose 3.7% annually in September as gas prices skyrocket", 14 October 2026: https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html
+10. Federal Reserve, FOMC statement, 16 September 2026: https://www.federalreserve.gov/monetarypolicy/files/monetary20260916a1.pdf
+11. J.P. Morgan Asset Management, "FOMC Statement: September 2026": https://am.jpmorgan.com/us/en/asset-management/adv/insights/portfolio-insights/fixed-income/fixed-income-perspectives/fomc-statement-september-2026/
+12. CNBC, "10-year Treasury yield climbs back to 5% after Fed hikes rates", 16 September 2026: https://www.cnbc.com/2026/09/16/treasury-yield-bond-market-fed-decision.html
+13. Associated Press via La Nacion, "How major US stock indexes fared Friday 10/9/2026": https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-1092026-nid09102026/
+14. Charles Schwab, "Fed Hikes: What's Next for Treasury Yields?": https://www.schwab.com/learn/story/fed-hikes-whats-next-treasury-yields
+15. S&P Dow Jones Indices, BEA, BLS, Federal Reserve and US Treasury historical series for Table 4: https://fred.stlouisfed.org
+
