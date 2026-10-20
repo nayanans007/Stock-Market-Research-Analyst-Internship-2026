@@ -1,0 +1,329 @@
+# Week 2 Report: Financial Statement Analysis and Valuation Modeling
+
+**Company studied:** Microsoft Corporation (NASDAQ: MSFT), fiscal years 2024 to 2026
+
+**Prepared by:** Nayana Sheelavant        **Date:** 19th October, 2026
+
+## 1. Introduction and Choice of Company
+
+Week 1 ended with a plan for studying the technology sector, so this week I picked one company from it and went through its numbers properly. I chose Microsoft. It is one of the largest listed companies in the world, it sits in the software and cloud part of the sector I wrote about, and its latest annual results came out only in late July, so the data is fresh. Microsoft's fiscal year runs from 1 July to 30 June, which means FY2026 covers July 2025 to June 2026.
+
+The aim is straightforward. I want to read the income statement, balance sheet and cash flow statement together, decide how healthy the business really is, and then build a basic valuation to see whether a share price of $529.05 (the 16 October 2026 close) looks reasonable. Everything is in US dollars. Where I had to make a judgement call, I say so in the text.
+
+## 2. Sources and How I Handled the Data
+
+| Item | Source | Note |
+| --- | --- | --- |
+| FY2026 and FY2025 statements | Microsoft Q4 FY2026 earnings release, Form 8-K Exhibit 99.1, filed 29 July 2026 (SEC EDGAR) | The statements in the release are marked unaudited, so the final annual report could differ slightly. |
+| FY2024 figures | Microsoft FY2024 Form 10-K, as originally reported | Microsoft has recast some prior-period items for presentation, so tiny differences are possible. |
+| Share price, market value, beta, analyst targets | Yahoo Finance, close of 16 October 2026 | Prices move daily. Microsoft reports again on 28 October 2026. |
+| Forward P/E | Benzinga quote page | Third-party estimate, used only as a cross-check. |
+| Interest rate backdrop | Federal Reserve statement of 16 September 2026; CNBC; Charles Schwab | Used for the risk-free rate and the discount rate. |
+
+*Table 1. Data sources.*
+
+I checked the headline numbers (revenue of $331.8 billion, net income of $133.7 billion, diluted EPS of $17.95) against the filing and several news reports. They agreed.
+
+## 3. Business Snapshot
+
+Microsoft reports three segments. The table shows how each did in FY2026.
+
+| Segment | Revenue ($B) | Growth | Operating income ($B) | Operating margin |
+| --- | ---: | ---: | ---: | ---: |
+| Productivity and Business Processes | 140.0 | +15.9% | 83.9 | 59.9% |
+| Intelligent Cloud | 137.8 | +29.7% | 57.0 | 41.3% |
+| More Personal Computing | 54.1 | -1.1% | 14.4 | 26.6% |
+| Total | 331.8 | +17.8% | 155.2 | 46.8% |
+
+*Table 2. FY2026 segment results. Source: Microsoft Form 8-K, 29 July 2026.*
+
+Intelligent Cloud is where the growth is. Azure and other cloud services passed $100 billion in annual revenue for the first time, up 41% for the year and 43% in the fourth quarter. Commercial remaining performance obligation, which is signed business not yet recognised as revenue, rose 84% to $678 billion, and Microsoft 365 Copilot has more than 30 million paid seats. The weak spot is More Personal Computing: Windows OEM and devices fell 7% and Xbox content and services fell 10% in the fourth quarter.
+
+## 4. Income Statement Analysis
+
+| ($ billion unless stated) | FY2024 | FY2025 | FY2026 |
+| --- | ---: | ---: | ---: |
+| Revenue | 245.1 | 281.7 | 331.8 |
+| Gross margin | 171.0 | 193.9 | 225.5 |
+| Gross margin % | 69.8% | 68.8% | 67.9% |
+| Research and development | 29.5 | 32.5 | 35.6 |
+| R&D as % of revenue | 12.0% | 11.5% | 10.7% |
+| Operating income | 109.4 | 128.5 | 155.2 |
+| Operating margin | 44.6% | 45.6% | 46.8% |
+| Net income | 88.1 | 101.8 | 133.7 |
+| Net margin | 36.0% | 36.1% | 40.3% |
+| Diluted EPS ($) | 11.80 | 13.64 | 17.95 |
+| Revenue growth | +15.7% | +14.9% | +17.8% |
+| Operating income growth | +23.6% | +17.4% | +20.8% |
+| Net income growth | +21.8% | +15.5% | +31.3% |
+| EPS growth | +21.9% | +15.6% | +31.6% |
+
+*Table 3. Income statement summary. Growth for FY2024 uses FY2023 as the base.*
+
+Revenue growth picked up to 17.8% in FY2026 from 14.9% a year earlier. That is a lot for a company already past $300 billion in sales.
+
+The margin story is more interesting than the growth. Gross margin slipped from 69.8% to 67.9% over two years because the cost of running cloud and AI services is rising faster than the revenue they bring in (cost of service and other revenue grew about 27% in FY2026). Even so, operating margin rose to 46.8%, because operating expenses grew only about 7%, and research spending fell from 12.0% to 10.7% of revenue. The fourth quarter also carried costs from a voluntary retirement programme and impairment charges on Xbox, which Microsoft called out itself.
+
+Net income rose 31%, well ahead of the 21% growth in operating income, and I wanted to understand the gap. It comes from "other income", which swung from a loss of $4.9 billion in FY2025 to a gain of $10.7 billion in FY2026, mostly from investments. Microsoft shows the effect of its OpenAI stake separately: stripping it out, net income is $128.8 billion (up 22%) and diluted EPS is $17.28 rather than $17.95. The fourth quarter also included a $3.2 billion gain on an investment in Anthropic. So the operating business grew around 21% to 22%, and the extra growth in reported profit is investment gains that may not repeat.
+
+Two smaller points. The effective tax rate was 19.4% in FY2026, up from 17.6% in FY2025 and 18.2% in FY2024, which took a little off earnings growth. And diluted shares were almost flat (7,453 million against 7,465 million), so EPS growth is coming from real profit, not from buybacks shrinking the share count.
+
+## 5. Balance Sheet Analysis
+
+| ($ billion) | 30 Jun 2025 | 30 Jun 2026 | Change |
+| --- | ---: | ---: | ---: |
+| Cash and short-term investments | 94.6 | 76.8 | -18.7% |
+| Accounts receivable | 69.9 | 80.9 | +15.7% |
+| Property and equipment, net | 205.0 | 313.1 | +52.7% |
+| Equity and other investments | 15.4 | 36.3 | +136.0% |
+| Total assets | 619.0 | 758.4 | +22.5% |
+| Accounts payable | 27.7 | 42.4 | +53.0% |
+| Total debt (current and long-term) | 43.2 | 40.3 | -6.6% |
+| Short-term unearned revenue | 64.6 | 73.0 | +13.0% |
+| Other long-term liabilities | 45.2 | 65.1 | +44.1% |
+| Total liabilities | 275.5 | 316.0 | +14.7% |
+| Stockholders' equity | 343.5 | 442.4 | +28.8% |
+
+*Table 4. Selected balance sheet items. Source: Microsoft Form 8-K, 29 July 2026.*
+
+The headline is property and equipment, up about $108 billion in a single year. That is the data centre build-out showing up on the balance sheet. Equity grew faster than liabilities because Microsoft kept most of its profit (retained earnings rose by about $90.5 billion), and the equity and other investments line more than doubled, which fits the OpenAI and Anthropic positions.
+
+Liquidity is still comfortable, though a bit thinner. The current ratio fell from 1.35 to 1.23, helped down by a jump in accounts payable, which is what you would expect when suppliers are building you data centres. Debt is small. Total debt is $40.3 billion against $76.8 billion of cash and short-term investments, so Microsoft is in a net cash position of about $36.5 billion, and debt to equity is only 0.09.
+
+One thing I want to flag. "Other long-term liabilities" rose by about $20 billion to $65.1 billion. I believe this includes lease obligations for data centres, but the earnings release does not break it out, so I cannot confirm it. If it is right, the real commitments Microsoft has taken on are bigger than the debt line suggests. I come back to this in the limitations.
+
+## 6. Cash Flow Analysis
+
+| ($ billion unless stated) | FY2024 | FY2025 | FY2026 |
+| --- | ---: | ---: | ---: |
+| Net cash from operations | 118.5 | 136.2 | 182.9 |
+| Additions to property and equipment (capex) | 44.5 | 64.6 | 115.9 |
+| Free cash flow (operations less capex) | 74.1 | 71.6 | 67.0 |
+| Free cash flow margin | 30.2% | 25.4% | 20.2% |
+| Capex as % of revenue | 18.1% | 22.9% | 34.9% |
+| Operating cash flow / net income | 1.35 | 1.34 | 1.37 |
+| Free cash flow / net income | 0.84 | 0.70 | 0.50 |
+| Dividends plus buybacks | 39.0 | 42.5 | 48.7 |
+| Dividends plus buybacks as % of free cash flow | 52.7% | 59.3% | 72.7% |
+
+*Table 5. Cash flow summary. Sources: Form 8-K (FY2025, FY2026) and Form 10-K (FY2024).*
+
+Cash generation from the business itself is excellent. Operating cash flow rose 34% to $182.9 billion, which is 1.37 times net income, so the profit is real cash and not accounting. The problem sits one line lower. Capital spending jumped 80% to $115.9 billion, about 35% of revenue compared with 18% two years ago.
+
+The result is that free cash flow fell 6.5% to $67.0 billion in a year when net income grew 31%. Free cash flow as a share of net income has gone from 0.84 to 0.70 to 0.50. If I had to pick one finding from this whole exercise, this is it. Microsoft is more profitable than ever on paper, but each extra dollar of profit now leaves less cash behind because so much is being poured into capacity. It is also still paying out about 73% of free cash flow through dividends and buybacks. That is fine while operating cash flow keeps growing, but it leaves less room if growth slows.
+
+Depreciation is the follow-on effect. It rose from $29.4 billion to $38.5 billion (about 31%) and will keep climbing as the new data centres come into service, which is why I let the margin drift down in the forecast later.
+
+**Figure 1** (chart in the Word version). Revenue, operating income, net income and free cash flow, FY2024 to FY2026 (US$ billion). Free cash flow is the only line that fell.
+
+| Metric ($B) | FY2024 | FY2025 | FY2026 |
+| --- | ---: | ---: | ---: |
+| Revenue | 245 | 282 | 332 |
+| Operating income | 109 | 129 | 155 |
+| Net income | 88 | 102 | 134 |
+| Free cash flow | 74 | 72 | 67 |
+
+## 7. Ratio Summary
+
+| Area | Ratio | FY2024 | FY2025 | FY2026 | My reading |
+| --- | --- | ---: | ---: | ---: | --- |
+| Profitability | Gross margin | 69.8% | 68.8% | 67.9% | Drifting down as AI costs rise |
+|  | Operating margin | 44.6% | 45.6% | 46.8% | Rising, helped by cost control |
+|  | Net margin | 36.0% | 36.1% | 40.3% | Flattered by investment gains |
+|  | Return on equity | n/a | 33.3% | 34.0% | High and stable |
+|  | Return on assets | n/a | 18.0% | 19.4% | High, even with a larger asset base |
+| Efficiency | Asset turnover | n/a | 0.50 | 0.48 | Slipping as assets grow faster than sales |
+| Liquidity | Current ratio | 1.27 | 1.35 | 1.23 | Comfortable but falling |
+| Leverage | Debt to equity | 0.17 | 0.13 | 0.09 | Very low |
+|  | Liabilities to equity | 0.91 | 0.80 | 0.71 | Improving |
+| Cash | Free cash flow margin | 30.2% | 25.4% | 20.2% | The weak spot |
+|  | Free cash flow / net income | 0.84 | 0.70 | 0.50 | Falling every year |
+
+*Table 6. Key ratios. Return ratios use average equity and average assets, so they start in FY2025.*
+
+A quick DuPont check helps explain return on equity. For FY2026, ROE of 34.0% equals a net margin of 40.3%, multiplied by asset turnover of 0.48, multiplied by an equity multiplier of 1.75. Profit margin is doing nearly all the work. Turnover is low and leverage is modest, so the return does not rely on borrowing.
+
+## 8. Valuation Model
+
+### 8.1 Why I used a discounted cash flow
+
+I used a discounted cash flow (DCF) model because it forces me to write down what I believe about growth, margins, spending and risk, and then shows what those beliefs are worth. I did not build a comparable-company table. I could not verify current peer figures to the standard I wanted, and I would rather leave it out than fill it with numbers I cannot stand behind. Instead I cross-check the DCF with Microsoft's own multiples in Section 8.7.
+
+### 8.2 Discount rate
+
+Discount rates are a hard topic this year. The Federal Reserve raised its target range to 3.75% to 4.00% on 16 September 2026, its first increase since 2023, and the 10-year Treasury yield moved to about 5%, the highest in roughly two decades. That pushes up the risk-free rate, and with it the required return on any stock.
+
+| Input | Value | Basis |
+| --- | ---: | --- |
+| Risk-free rate | 5.0% | 10-year Treasury yield, about 5% in mid-September 2026 |
+| Equity beta | 1.10 | Yahoo Finance, 5-year monthly |
+| Equity risk premium | 4.5% | My assumption, within the usual 4% to 6% range |
+| Cost of equity | 9.95% | Risk-free rate + beta x equity risk premium |
+| Pre-tax cost of debt | 5.3% | My assumption, slightly above Treasuries for a top-rated borrower |
+| Tax rate | 19% | Close to the FY2026 effective rate of 19.4% |
+| Weight of debt / equity | 1.0% / 99.0% | Debt of $40.3B against market value of about $3.9 trillion |
+| WACC | 9.9% | Used as the base discount rate |
+
+*Table 7. Discount rate build-up.*
+
+Because debt is about 1% of total capital, the WACC is almost the same as the cost of equity. The number is sensitive to my risk-free rate and equity risk premium, so I show a sensitivity table later rather than pretending there is one right answer.
+
+### 8.3 Forecast assumptions
+
+The forecast runs ten years, FY2027 to FY2036, because a company growing in the mid-teens cannot sensibly be put on a steady growth rate after only five years. Growth fades gradually, then a terminal growth rate takes over. I calculate free cash flow to the firm as operating profit after tax, plus depreciation, minus capital spending. I do not add back stock-based compensation, so it is treated as a real cost. That is more conservative than the free cash flow Microsoft reports.
+
+| Assumption | Base case | Reasoning |
+| --- | --- | --- |
+| Revenue growth | 16% in FY2027, fading to 5% by FY2036 | Microsoft's guidance for the first quarter of FY2027 implies growth of about 16%. The fade reflects the law of large numbers. |
+| Operating margin | 45% throughout | Below the FY2026 level of 46.8% because depreciation will keep rising. |
+| Tax rate | 19% | In line with recent history. |
+| Depreciation and amortisation | 13% of revenue rising to 16%, then 15% | FY2026 was 11.6%. It rises as the new assets are put to use. |
+| Capital spending (all-in) | 38% of revenue in FY2027, falling to 18% by FY2036 | FY2026 was 34.9% on cash capex alone. I set it higher because some data centre capacity is funded through finance leases, which this line does not capture. |
+| Terminal growth | 3.5% | Roughly long-run nominal growth of the economy. |
+| Working capital | No net change | Microsoft collects cash from customers before it delivers service, so working capital is not a drag. I left it out for simplicity. |
+
+*Table 8. Base case assumptions.*
+
+| Fiscal year | Revenue | Operating income | After-tax operating profit | Depreciation | Capex | Free cash flow to firm |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| 2027 | 385 | 173 | 140 | 50 | 146 | 44 |
+| 2028 | 443 | 199 | 161 | 64 | 155 | 71 |
+| 2029 | 505 | 227 | 184 | 78 | 156 | 106 |
+| 2030 | 570 | 257 | 208 | 91 | 154 | 145 |
+| 2031 | 639 | 287 | 233 | 102 | 153 | 182 |
+| 2032 | 706 | 318 | 257 | 113 | 155 | 215 |
+| 2033 | 769 | 346 | 280 | 123 | 158 | 246 |
+| 2034 | 827 | 372 | 301 | 132 | 161 | 272 |
+| 2035 | 877 | 394 | 320 | 136 | 162 | 293 |
+| 2036 | 920 | 414 | 335 | 138 | 166 | 308 |
+
+*Table 9. Base case forecast ($ billion).*
+
+Look at the first forecast year. Free cash flow to the firm is only $44 billion in FY2027, below the $67 billion Microsoft produced in FY2026, because spending rises faster than profit. It then climbs as capital spending flattens against growing revenue. Most of the value in the model comes from the later years.
+
+### 8.4 Results by scenario
+
+Discounting the base case at 9.9% gives an enterprise value of about $2.95 trillion. Adding cash and short-term investments ($76.8 billion) and equity investments ($36.3 billion), and subtracting debt ($40.3 billion), gives an equity value of about $3.02 trillion. Dividing by 7,443 million diluted shares gives **$406 per share**. About 66% of that enterprise value sits in the terminal value, which is typical for a growth company and a reminder to treat the answer as a range.
+
+| Scenario | Revenue growth | Operating margin | Capex % of revenue | Terminal growth | Value per share | Versus $529.05 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Bear | 13% fading to 4.0% | 42% | 40% to 20.0% | 3.0% | $257 | -51% |
+| Base | 16% fading to 5.0% | 45% | 38% to 18.0% | 3.5% | $406 | -23% |
+| Bull | 18% fading to 6.0% | 47% | 36% to 16.5% | 4.0% | $538 | +2% |
+| Weighted (25/50/25) |  |  |  |  | $402 | -24% |
+
+*Table 10. Scenario results at a WACC of 9.9%.*
+
+The bear case assumes growth slows faster, margins fall to 42% and spending stays heavy. The bull case assumes growth holds up longer, margins reach 47% and capital spending comes down sooner. The 25/50/25 weights are my own judgement.
+
+**Figure 2** (chart in the Word version). DCF value per share by scenario compared with the 16 October 2026 share price.
+
+| Case | Value per share ($) |
+| --- | ---: |
+| Bear | 257 |
+| Base | 406 |
+| Bull | 538 |
+| Probability-weighted | 402 |
+| Share price, 16 Oct 2026 | 529.05 |
+
+### 8.5 Sensitivity
+
+| WACC \ Terminal growth | 2.5% | 3.0% | 3.5% | 4.0% | 4.5% |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| 8.5% | $470 | $500 | $536 | $580 | $635 |
+| 9.0% | $429 | $453 | $482 | $517 | $559 |
+| 9.5% | $393 | $414 | $437 | $465 | $498 |
+| 9.9% | $369 | $386 | $406 | $430 | $457 |
+| 10.5% | $337 | $351 | $367 | $385 | $407 |
+| 11.0% | $313 | $325 | $339 | $354 | $372 |
+
+*Table 11. Base case value per share for different discount rates and terminal growth rates.*
+
+Moving the discount rate by one percentage point moves the answer by roughly $60 to $100 per share. That is the honest takeaway: a DCF is a way of organising assumptions, not a measuring instrument.
+
+### 8.6 What the share price implies
+
+I also ran the model backwards. Keeping my base-case operating forecast, the current price of $529.05 is justified only if the discount rate is about 8.6%, which is well below the 9.9% I built from today's yields. Alternatively, keeping the 9.9% discount rate, the price needs revenue to grow about 31% faster than my base case in every year. Put differently, the market is paying for something close to my bull case, or it is using a lower discount rate than I am.
+
+### 8.7 Cross-check with multiples
+
+| Measure | Value at $529.05 | Comment |
+| --- | --- | --- |
+| Market value | $3.93 trillion | 7,427 million shares outstanding |
+| Enterprise value | $3.89 trillion | Market value less cash, plus debt |
+| Price to earnings (reported) | 29.5x | On FY2026 diluted EPS of $17.95 |
+| Price to earnings (excluding OpenAI effect) | 30.6x | On non-GAAP EPS of $17.28 |
+| Forward P/E (third-party estimate) | about 27x | Benzinga |
+| Enterprise value to revenue | 11.7x |  |
+| Enterprise value to operating income | 25.1x |  |
+| Price to free cash flow | 58.7x | Free cash flow yield of 1.7% |
+| Price to book | 8.9x |  |
+| Dividend yield | 0.74% | Annual dividend of $3.92 per share |
+
+*Table 12. Valuation multiples.*
+
+A free cash flow yield of 1.7% is thin next to a 10-year Treasury paying about 5%. Investors are clearly paying for growth, not current cash. For context, analyst price targets on Yahoo Finance average about $599 with a range from $440 to $870, so the street is more optimistic than my base case. The difference comes down to the same two levers: lower discount rates and faster growth.
+
+### 8.8 Worked examples
+
+A valuation can feel like a black box, so here are the key calculations written out, using the numbers from earlier in this section.
+
+| Calculation | Working | Result |
+| --- | --- | --- |
+| Cost of equity | 5.0% + 1.10 x 4.5% | 9.95% |
+| WACC | 99.0% x 9.95% + 1.0% x 5.3% x (1 - 19%) | 9.89% (rounded to 9.9% in the model) |
+| FY2027 revenue | $331.8B x 1.16 | $384.9B |
+| FY2027 operating income | $384.9B x 45% | $173.2B |
+| FY2027 after-tax operating profit | $173.2B x (1 - 19%) | $140.3B |
+| FY2027 depreciation and capex | 13% x $384.9B = $50.0B;  38% x $384.9B = $146.3B | Net spending of $96.2B |
+| FY2027 free cash flow to firm | $140.3B + $50.0B - $146.3B | $44.1B |
+| Present value of FY2027 cash flow | $44.1B / 1.099 | $40.1B |
+| Terminal value (end of FY2036) | $307.9B x 1.035 / (9.9% - 3.5%) | $4,979B |
+| Present value of terminal value | $4,979B / 1.099^10 | $1,937B |
+| Enterprise value | $1,013B (ten years of cash flow) + $1,937B | $2,950B |
+| Equity value per share | ($2,950B + 76.8 + 36.3 - 40.3) / 7.443B shares | $406 |
+
+*Table 13. Valuation worked through step by step (base case).*
+
+| Ratio | Working (FY2026, $ billion) | Result |
+| --- | --- | --- |
+| Current ratio | 207.710 / 168.825 | 1.23 |
+| Return on equity | 133.749 / ((442.387 + 343.479) / 2) | 34.0% |
+| Free cash flow | 182.935 - 115.948 | $67.0B |
+| Free cash flow as share of net income | 67.0 / 133.7 | 0.50 |
+| Price to earnings | $529.05 / $17.95 | 29.5x |
+| Free cash flow yield | 67.0 / 3,929 | 1.7% |
+| Earnings yield against the 10-year Treasury | 1 / 29.5 = 3.4%, against about 5.0% to 5.2% | Earnings yield is well below the risk-free yield |
+
+*Table 14. Ratio calculations written out.*
+
+## 9. Findings and Conclusion
+
+Microsoft is a very high quality business. Revenue is growing at 18%, operating margin is near 47%, cash from operations is larger than profit, debt is small and returns on equity are above 30%. Nothing in the three statements worries me about solvency or earnings quality.
+
+What does concern me is how much of that profit is being converted into cash. Free cash flow fell while earnings jumped, because capital spending is now about a third of revenue. My DCF, which rests on today's higher interest rates, values the shares at about $406 in the base case (a range of $257 to $538) against a price of $529.05. I read that as the stock being fully valued: the price already assumes the bull case, or a lower discount rate than I think is prudent. That is not a call to sell. A strong business can stay expensive for a long time, and Microsoft has surprised on the upside before. It is a reason to be careful about how much to pay.
+
+For the weeks ahead, three things will move the picture. First, the earnings report on 28 October 2026, where capital spending guidance and Azure growth matter most. Second, the Fed meeting the same day. Third, whether capital spending starts to flatten against revenue, which is the single thing my model needs for free cash flow to recover.
+
+## 10. Assumptions and Limitations
+
+- **Unaudited data.** FY2026 figures come from the earnings release, not the final 10-K. The FY2024 column comes from the original 10-K and may differ slightly from recast figures.
+- **Date of the price.** I used the 16 October 2026 close. The valuation gap will change when earnings are released.
+- **Finance leases.** Capital spending in the cash flow statement excludes finance leases. I tried to cover this by setting the capex assumption higher, and by deducting only reported debt, but lease obligations could mean the model slightly overstates value.
+- **Investment gains.** Gains on OpenAI and Anthropic stakes are not part of the operating forecast. I include the investments in equity value at their book value, which may be more or less than market value.
+- **Discount rate.** The risk-free rate is at a roughly 19-year high. If yields fall, value per share rises quickly (see Table 11).
+- **Simplifications.** Constant margin, no working capital change and a constant share count. None of these are exactly right.
+- **Peer comparison.** I did not include a comparable-company analysis, as explained in Section 8.1.
+- **Not advice.** This is a learning exercise. It is not a recommendation to buy or sell any security.
+
+## 11. Sources
+
+1. Microsoft Corporation, Form 8-K, Exhibit 99.1 (earnings release for the quarter and year ended 30 June 2026), 29 July 2026: https://www.sec.gov/Archives/edgar/data/0000789019/000119312526323632/msft-ex99_1.htm
+2. Microsoft Corporation, Form 10-K for fiscal year 2024 (SEC EDGAR): https://www.sec.gov/edgar
+3. Yahoo Finance, Microsoft (MSFT) quote, close of 16 October 2026: https://finance.yahoo.com/quote/MSFT/
+4. Benzinga, Microsoft (MSFT) quote and key statistics: https://www.benzinga.com/quote/MSFT
+5. Federal Reserve, FOMC statement of 16 September 2026: https://www.federalreserve.gov/monetarypolicy/files/monetary20260916a1.pdf
+6. CNBC, "10-year Treasury yield climbs back to 5% after Fed hikes rates", 16 September 2026: https://www.cnbc.com/2026/09/16/treasury-yield-bond-market-fed-decision.html
+7. Charles Schwab, "Fed Hikes: What's Next for Treasury Yields?": https://www.schwab.com/learn/story/fed-hikes-whats-next-treasury-yields
+8. Redmondmag, "Microsoft Tops $90B Quarterly Revenue as Azure Hits $100B Annual Milestone", 30 July 2026: https://redmondmag.com/articles/2026/07/30/microsoft-tops-90b-quarterly-revenue.aspx
+
